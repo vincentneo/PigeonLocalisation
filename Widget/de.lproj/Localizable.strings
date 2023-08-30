@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings (Widget)
+  Pigeon v1.2
+  Revision 2
+
+  Created by Dennis, last updated on 18 August 2023.
+  
+  Widget and Complication can mean the same thing in this context; Basically, its the clickable app shortcuts that can be accessed from the Watch Face.
+*/
+
+"WIDGET_COMMON_DESC" = "Komplizierte Verknüpfungen für einfachen Zugriff auf die App.";
+
+
+// describes the widget which has a rounded square frame, representing a chat bubble, surrounding the pigeon icon.
+"WIDGET_NAME_Chat_Bubble_Shortcut" = "Pigeon in einem 💬";
+
+// describes the widget which has the pigeon's icon, focused on the face only, without any frame.
+"WIDGET_NAME_Face_Shortcut" = "Pigeon Face";
+
+
+/* VoiceOver labels */
+
+// this is read out when user focuses on any of Pigeon's watch face complications.
+"VO_Label" = "Pigeon App Kurzbefehl.";
+
+// this is read out when user focuses on any of Pigeon's watch face complications, when the complication fails to load, for whatever reasons.
+"VO_Error_Label" = "Die Pigeon-Komplikation konnte nicht geladen werden.";

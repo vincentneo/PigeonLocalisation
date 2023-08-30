@@ -1,0 +1,455 @@
+/* 
+  Localizable.strings
+  Pigeon v1.2
+  Revision 3
+
+  Created by Xavier Juan, last updated on 21 August 2023.
+ 
+  Replace the Created by name, if you would like to be credited in the app.
+  
+  %@ typically refers to an external value, but may also refer to an icon in certain cases.
+  "KEY" = "VALUE"; VALUE is what that will be displayed in the app.
+ 
+  Keys prefixed with 'VO' are definitely for VoiceOver readouts.
+*/
+
+// Next page button that is shown in Pigeon's main page.
+// Pressing this button will show next 10 chats in folder. Not used in watchOS 10 and later.
+"WOS9_NextPage_Button_Label" = "Següent";
+
+/* Pre-login loading */
+"Logging out..." = "Desconnectant...";
+"Unknown" = "Desconegut";
+"Please wait." = "Espera si us plau.";
+"Loading..." = "Carregant...";
+
+"Auth_Error_Title" = "Ha succeït un error.";
+"An unexpected authentication state of \"%@\" has been reached. Please relay this to the developer, thank you." = "S'ha arribat a un estat d'autenticació inesperat \"%@\". Si us plau, comunica-ho al desenvolupador. Gràcies.";
+
+"An error occurred while processing the QR code" = "S'ha produït un error al processar el codi QR";
+
+
+/* Login Instructions */
+"Login Instructions" = "Instrucciones d'inici de sessió";
+
+// Shown when QR code is not ready yet.
+"Processing QR Code..." = "Processant codi QR...";
+
+"In the Telegram app," = "A l'aplicació de Telegram,";
+"Go to the Settings tab" = "Anar a la pestanya de Configuració";
+"Tap on \"Devices\"" = "Toca a \"Dispositius\"";
+"Tap on \"Link Desktop Device\"" = "Toca a \"Vincular dispositiu d'escriptori\"";
+"Scan the QR Code %@" = "Escaneja el codi QR %@";
+"After_Scanning_Instructions" = "Després d'escanejar, pot trigar una estona a processar-ho, fins i tot si l'aplicació continua mostrant el codi QR. Tingues paciència si us plau!";
+
+"QR Code" = "Codi QR";
+"Phone Number login" = "Inici de sessió amb número de telèfon"; // unused.
+
+
+
+
+/* 2FA */
+"Login" = "Iniciar sessió";
+"Try again" = "Intentar-ho de nou";
+"Error" = "Error";
+
+"Enter Password" = "Introdueix la contrasenya";
+"You have Two-Step Verification enabled for your account, hence we need your password to continue." = "Tens la verificació en dos passos habilitada per al teu compte, així que necessitem la teva contrasenya per continuar.";
+
+// What's shown on the password field, before the user keys any password in, a hint to the user to what is expected in the text field.
+"2FA_Password_Field_Hint" = "Contrasenya";
+
+// Password hint label. May not be shown if user did not set a Two Step Verification hint.
+"Hint: %@" = "Pista: %@";
+
+"The password that you've entered is incorrect." = "La contrasenya que has introduït és incorrecte.";
+"An unknown error has occurred. Please let the developer know!" = "S'ha produït un error desconegut. Si us plau, comunica-ho al desenvolupador!";
+
+
+/* Toolbar buttons of main page. */
+
+"Toolbar_WhatsNew" = "Què hi ha de nou?";
+"Toolbar_UnlockFeatures" = "Desbloquejar totes les característiques!";
+"Toolbar_Folders" = "Carpetes";
+// Toolbar settings's key is "Configuració";
+
+// label of the folder that represents all chats.
+"All_Chats_Label" = "Tots";
+"Chats" = "Chats";
+
+
+
+/* Messaging page */
+
+// Delete button label, shown in red, when user long-presses on a message. %@ is an icon of trash bin.
+"%@ Delete" = "%@ El·liminar";
+
+// Reply button label, shown when user long-presses on a message. %@ is an icon.
+"%@ Reply" = "%@ Respondre";
+
+// Forwarded tag shown on top of message. %@ is an icon.
+"%@ Forwarded" = "%@ Reenviar";
+
+"Add a reaction" = "Afegir reacció";
+"Message sent at:" = "Missatge enviat el:";
+"Media" = "Mitjans";
+
+/* DEFAULT messaging bar (all displayed with image on the left) */
+
+// Send message button that brings keyboard/input method when user taps on it. Prefer to keep this naming short.
+"Default_Bar_Send_Button" = "Enviar";
+
+"Default_Bar_Send_Audio_Button" = "Àudio";
+"Default_Bar_Send_GIF_Button" = "GIF";
+"Default_Bar_Send_Stickers_Button" = "Stickers";
+
+/* CONDENSED messaging bar */
+"Condensed_Bar_Message_Title" = "Missatge";
+
+// Turquiose button on left of message field, when VoiceOver reads it.
+"VO_Condensed_More_Options_Button" = "Més opcions";
+
+// Used in GIF selection page. %@ is a magnifying glass icon.
+"%@ Search" = "%@ Cerca";
+
+// Button on top of all messages.
+"Load earlier messages" = "Carrega missatges anteriors";
+
+// VoiceOver action to switch the focus to the newest message available.
+"VO_Jump_To_Newest" = "Vés al missatges més nou";
+
+// VoiceOver read out of which chat is loading, as it loads. %@ is the chat's name.
+"Chat %@" = "Chat %@";
+
+
+
+
+/* Message failed to send page */
+
+"Fail_Send_Title" = "Error en l'enviament.";
+
+// %@ refers to the message type. (e.g. A voice message...)
+"A %@ message has failed to send." = "El missatge de %@ no s'ha pogut enviar.";
+
+"Fail_Send_Try_Again_Button" = "Intenta-ho de nou";
+"Fail_Send_Discard_Button" = "Descarta el missatge";
+
+
+
+
+
+
+/* VoiceOver only */
+
+// When the user of sent message is yourself, this is used; (e.g. (You) said: Pigeon is an awesome app!)
+"VO_User_You" = "Tu";
+// When the sent message is a channel, this is used; (e.g. (Channel) said: Pigeon has a new update.)
+"VO_User_Channel" = "Canal";
+// (Rare) When system failed to identify either if message is sent by known user, you or channel, this is used; (e.g. (Someone) said: You won't know who am I.)
+"VO_User_Unknown" = "Algú";
+
+// Reads out when user highlights on individual folder buttons, shown on toolbar of home page. (Example: News folder, All folder, Unread folder)
+"%@ folder" = "Carpeta %@";
+
+// Reads out when user highlights on a text message. (Example: "Vincent said: Happy Birthday!")
+"%@ said: " = "%@ va dir: ";
+
+// Reads out when user highlights on a GIF message. (Example: "Vincent said: Happy Birthday!")
+"%@ sent a GIF." = "%@ va enviar un GIF.";
+
+// Reads out when user highlights on audio message. (Example: "Vincent sent an audio message, of duration, 2 minutes, 30 seconds"). Duration is formatted depending on locale.
+"%@ sent an audio message, of duration, %@" = "%@ va enviar un missatge d'àudio, de %@ de durada";
+
+// Reads out when user highlights on voice message. (Example: "Vincent sent an voice message, of duration, 1 minute, 8 seconds"). Duration is formatted depending on locale.
+"%@ sent a voice message, of duration, %@" = "%@ va enviar un missatge de veu, de %@ de durada";
+
+// Subject to change; Reads out when user highlights on sticker message. %@ refers to emoji which the sticker is associated with.
+"%@ sticker" = "sticker %@";
+
+// Reads out when chat has a verified badge.
+"VO_Verified_Badge" = "Insignia Verificada";
+
+// Reads out when chat is pinned.
+"VO_Pinned_Chat_Icon" = "Chat fixat";
+
+// Actions
+// Reads out when user highlights on text field of condensed message bar or send button of message bar.
+"VO_Compose_Text_Message" = "Escriu un nou missatge";
+"VO_Action_Audio" = "Enregistra un missatge de veu";
+"VO_Action_GIF" = "Envía un GIF";
+"VO_Action_Sticker" = "Envía un sticker";
+
+// Reads out the chat unread amount. Preferred to be in CAPS. %lld is a number.
+"%lld UNREAD" = "%lld SENSE LLEGIR";
+
+// VoiceOver label for contact messages.
+"Contact Name" = "Nom del contacte";
+
+
+
+
+
+
+/* Settings page */
+"Settings" = "Ajustos";
+"Acknowledgments" = "Agraïments";
+"Settings_Menu_General_Label" = "General";
+"Settings_Menu_Messages_Label" = "Missatges";
+"Settings_Menu_Messages_Display_Label" = "Apariència";
+"Settings_Menu_Messages_Behaviours_Label" = "Comportament";
+"Settings_Menu_Notifications" = "Notificacions";
+"Settings_Menu_General_Connection_Title" = "Connexió";
+
+/* Logout */
+"Logout" = "Desconnecta";
+"Logout_Confirmation" = "Vols deconnectar?";
+"Cancel" = "Cancel·la";
+
+/* Settings -> Support page */
+
+"Support" = "Suport";
+"Need help?" = "Necessites ajuda?";
+
+"Contact_Label_Email" = "📧 Envía'm un email!";
+"Contact_Label_Twitter" = "🐦 Twitter"; // Keep the bird theme.
+"Contact_Label_Mastodon" = "🦣 Mastodon";
+"Contact_Footer_Instructions" = "Toca qualsevol opció de dalt per mostrar el codi QR corresponent.";
+
+/* Subscription page */
+"Subscriptions" = "Subscripcions";
+
+"Subscription_Title" = "Desbloqueja totes les característiques";
+"Subscription_Subtitle" = "Subscriu-te avuí i aconsegueix una prova gratuïta!";
+// %@ is the period (e.g. 1 week) When it can't be loaded for whatever reasons, Subscription_Subtitle will be used instead.
+"Subscription_Subtitle2" = "Subscriu-te avuí i aconsegueix una prova gratuïta de %@";
+
+"Subscription_Free_Trial_Requirement" = "(per a noves subscripcions)";
+"Subscription_Free_Trial_Not_Charged" = "Si cancel·les durant el període de prova, no es farà cap càrrec.";
+
+"Subscription_Period_Month" = "/ mes";
+"Subscription_Period_Year" = "/ any";
+
+/* unused periods - RevenueCat supports these identifiers so here there are. */
+"Subscription_Period_Err" = "/ Err.";
+"Subscription_Period_Lifetime" = ", de per vida!";
+"Subscription_Period_6Months" = "/ 6 mesos";
+"Subscription_Period_3Months" = "/ 3 mesos";
+"Subscription_Period_2Months" = "/ 2 mesos";
+"Subscription_Period_Week" = "/ setmana";
+
+"Subscription_Year_Savings" = "estalvi de ~40%!";
+"Subscription_Restore_Button" = "Restaurar Compres";
+"Subscription_Restore_Completed" = "Restauració completa";
+"Subscription_Restore_Failed" = "Restauració fallida";
+
+"Subscription_Reason" = "Una subscripció et permet respondre als altres, veure xats anteriors i més, a més a més, també dónes suport al desenvolupador!";
+
+"Subscription_EULA_Button" = "Térmes d'Ús (EULA)";
+"Subscription_Privacy_Policy_Button" = "Política de Privacitat";
+
+"Purchase failed" = "Compra fallida";
+"Purchase has failed due to %@" = "La compra ha fallat degut a %@";
+"Purchase failed due to unknown error." = "La compra ha fallat degut a un error desconegut";
+"Restore purchases has failed due to %@" = "La restauració de compra ha fallat degut a %@";
+
+"Done" = "Fet";
+
+// TBH, forgot how this would be shown, from code seems to be with error display?
+"dismiss" = "descartar";
+
+"Period_Year" = "any";
+"Period_Month" = "mes";
+"Period_Week" = "setmana";
+"Period_Day" = "dia";
+"Period_Unknown" = "error";
+
+
+/* General Category */
+"General" = "General";
+
+// subcategory title
+"Connection" = "Connexió";
+
+// toggle title
+"Show status" = "Mostrar estat";
+
+"INFO_Connection_Status" = "Si està habilitat, l'estat de la connexió es mostra a la part inferior del teu rellotge per informar-te quan hi hagi pèrdues o millores en la connexió entre Pigeon i els servidors de Telegram.";
+
+
+
+
+
+
+/* Messages Category */
+"Display" = "Apariència";
+"Behaviours" = "Comportament";
+
+/* Display Category */
+
+// subcategory title
+"Bottom bar" = "Barra inferior";
+"Condensed_Mode_Toggle_Title" = "Condensada";
+"INFO_Condensed_Mode" = "El mode condensat amagarà totes les opcions excepte l'enviament de missatges darrere d'un botó, similar a l'aplicació Missatges d'Apple.";
+
+// subcategory title
+"Base font size" = "Mida de la font base";
+"Base_Font_Sample_Title" = "Mostra";
+
+// Sample text for user to gauge if text sizing is good for them.
+"Base_Font_Size_Sample_Text" = "The quick brown fox jumps over the lazy dog";
+
+"Base_Font_Size_Setting_ContentSize_Title" = "Mida del contingut";
+"Base_Font_Size_Setting_DateSize_Title" = "Mida de la data";
+
+"INFO_Base_Font_Size" = "Això estableix la mida base de la font per als missatges. Com que Pigeon admet el tipus de lletra dinàmic, una mida base de font més gran també significarà una lletra encara més gran si la mida de la font de tot el sistema és més gran que la predeterminada. Passa el mateix amb les lletres més petites a nivell de sistema.";
+
+"INFO_Base_Font_Size_Bold" = "Per assegurar-te, comporva la Mostra.";
+
+/* Behaviours Category */
+
+// subcategory title
+"Sounds & Haptics" = "Sons i resposta Hàpitca";
+"Sounds_Toggle_Switch_Title" = "Missatge enviat";
+"INFO_SoundHaptics" = "Si està habilitat, s'utilitzaran sons i resposta hàptica per informar-te subtilment si un missatge s'ha enviat amb èxit o no.";
+"INFO_Sample_Title" = "Prova:";
+"INFO_Play_Tone_Success" = "To d'èxit";
+"INFO_Play_Tone_Failure" = "To d'error";
+
+// subcategory title
+"Audio Playback" = "Reproductor d'Àudio";
+"Playback_Toggle_Switch_Title" = "Reproductor del sistema";
+"INFO_Playback" = "Si està habilitat, els missatges de notes de veu utilitzaran el reproductor predeterminat del sistema per a la reproducció en lloc del reproductor integrat de Pigeon.";
+
+// subcategory title
+"Message loads" = "Càrrega de missatges";
+"INFO_Message_Loads" = "Es refereix a la quantitat de missatges anteriors per a carregar en un chat (±2).";
+"INFO_Message_Loads2" = "Tingues en compte que, a causa de les limitacions de memòria, a mesura que es carreguen més missatges, el rendiment de la pantalla de xat es veurà reduït.";
+
+
+
+
+
+
+/* Notifications Category */
+
+// Notification grouping subcategory title
+"Notification Grouping" = "Agrupació de notificacions";
+"NotificationGrp_Option_Conversation" = "Per conversa";
+"NotificationGrp_Option_App" = "Per App";
+"NotificationGrp_Option_None" = "No agrupar";
+
+"INFO_NotificationGrp_Summary" = "S'aplica a com les notificacions es mostren al Centre de Notificacions.";
+
+"INFO_NotificationGrp_Option_Conversation" = "Agrupar por Conversa";
+"INFO_NotificationGrp_Option_Conversation_Summary" = "Les notificacions s'agrupen per a cada xat, grup o canal. Quan es selecciona, només es pot veure l'última notificació de la pila de grup.";
+
+"INFO_NotificationGrp_Option_App" = "Agrupar per App";
+"INFO_NotificationGrp_Option_App_Summary" = "Totes les notificacions de Pigeon s'agrupen juntes en una pila, independentment del xat, grup o canal. Quan es selecciona, totes les notificacions es poden veure de manera individual. Les visualitzacions de perfil no es mostraran a causa de limitacions del sistema.";
+
+"INFO_NotificationGrp_Option_None" = "No Agrupar";
+"INFO_NotificationGrp_Option_None_Summary" = "Totes les notificacions de Pigeon apareixeran discretament al Centre de Notificacions. (predeterminat)";
+
+// Profile pictures subcategory title
+"Profile Pictures Cache" = "Memòria Cau de Fotos de Perfil";
+
+// shown in bold red; tapping it will delete all profile pictures that have already been cached.
+"Profile_Cache_Reset_Button" = "Neteja";
+
+"INFO_Profile_Cache1" = "Les imatges de perfil dels teus xats i grups es guarden en memòria cau cada vegada que inicies Pigeon. S'utilitzen per mostrar-les juntament amb les notificacions.";
+"INFO_Profile_Cache2" = "En casos rars, on Pigeon podria estar utilitzant massa emmagatzamatge o imatges de perfil desactualitzades, pots utilitzar el botó per netejar la memòria cau.";
+"INFO_Profile_Cache3" = "Es recomana reiniciar Pigeon després de netejar-la.";
+
+"Clear on launch" = "Netejar en obrir";
+
+"INFO_Auto_Clear" = "Esborra automàticament totes les notificacions de Pigeon al Centre de Notificacions cada vegada que inicies l'aplicació.";
+"Auto_Clear_Toggle_Title" = "Esborra automàticament";
+
+
+
+
+/* Connection States */
+
+"Connection_State_Waiting_For_Network" = "Esperant connexió...";
+"VO_Connection_State_Waiting_For_Network" = "Esperant a que la xarxa es trobi disponible.";
+
+// likely unused as Pigeon doesn't have proxy option.
+"Connection_State_Connecting_To_Proxy" = "Connectant...";
+"VO_Connection_State_Connecting_To_Proxy" = "Connectat al servidor proxy";
+
+"Connection_State_Connecting" = "Connectant...";
+"VO_Connection_State_Connecting" = "Connectant amb els servidors de Telegram";
+
+"Connection_State_Updating" = "Actualitzant...";
+"VO_Connection_State_Updating" = "Actualitzant les dades rebudes";
+
+"Connection_State_Connected" = "Connectat";
+"VO_Connection_State_Connected" = "Connectat";
+
+
+
+
+
+/* Status Messages */
+// Messages that simply tells you when something happened in a chat.
+
+"Status_Message_Pin" = "S'ha fixat un missatge.";
+"Status_Contact_Registered" = "Un usuari s'ha unit Telegram.";
+"Status_Change_Photo" = "Foto de Chat actualitzada";
+
+// %@ is the group's name
+"Status_Basic_Group_Created" = "S'ha creat el grup \"%@\"";
+"Status_Deleted_Member" = "S'ha eliminat un membre.";
+"Status_Add_Member" = "S'han afegit nous membres.";
+"Status_Unsupported_Known_Type" = "Tipus no suportat: %@";
+"Status_Unsupported_Unknown" = "Tipus no suportat";
+
+
+/* Message Previews */
+// Shown in chat list, as the last sent message.
+
+"Preview_Contact_Message" = "Contacte de %@";
+"Preview_Poll_Message" = "Enquesta - %@";
+"Preview_Sticker_Message" = "Sticker %@"; // %@ = emoji
+"Preview_Audio_Message" = "Àudio - %@";
+
+
+
+/* Sticker Selection */
+"Installed Stickers" = "Stickers Instal·lats";
+"WebM_Unupported_Text" = "No es poden previsualitzar tots els stickers de vídeo.";
+
+// Send sticker button, shown when user in animated sticker selection mode. %@ is an icon of a paperplane.
+"%@ Send" = "%@ Envía";
+
+/* Voice Recording failed */
+
+"Rec_Err_Title" = "Ha succeït un error en enregistrar.";
+"Rec_Err_Take_Screenshot_Instructions" = "Si us plau fes una captura i envía-li el missatge de dalt a %@";
+"Rec_Err_Unknown" = "S'ha produït un error inesperat.";
+
+/* Telegram Channel Sponsored Posts */
+"Sponsored" = "Patrocinat";
+
+
+/* Poll message */
+"Poll_Type_Quiz" = "Quiz";
+"Poll_Type_Poll" = "Enquesta";
+"Poll_Anonymous" = "Anònim";
+
+
+/* watchOS 8.x Watch Face Complications */
+// watchOS 8.x uses an older system to display watch face complications, of which, this section provides the localised texts for it. Not used in watchOS 9.x and later.
+
+"WOS8_Complications_Display_Name" = "Pigeon";
+"VO_WOS8_Label" = "Accès directe a Pigeon.";
+
+/* <= watchOS 9.x photo view cancellation */
+"WOS9_Done_Button" = "Fet";
+"WOS9_Grid_Button" = "Quadricula";
+"Done" = "Fet";
+
+"Saved Messages" = "Missatges Guardats";
+
+/* Translation section */
+"Translations" = "Traduccions";
+"Special thanks to:" = "Agraïments especials a:";

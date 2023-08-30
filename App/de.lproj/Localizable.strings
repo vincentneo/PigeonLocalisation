@@ -1,0 +1,455 @@
+/* 
+  Localizable.strings
+  Pigeon v1.2
+  Revision 3
+
+  Created by Dennis, last updated on 18 August 2023.
+ 
+  Replace the Created by name, if you would like to be credited in the app.
+  
+  %@ typically refers to an external value, but may also refer to an icon in certain cases.
+  "KEY" = "VALUE"; VALUE is what that will be displayed in the app.
+ 
+  Keys prefixed with 'VO' are definitely for VoiceOver readouts.
+*/
+
+// Next page button that is shown in Pigeon's main page.
+// Pressing this button will show next 10 chats in folder. Not used in watchOS 10 and later.
+"WOS9_NextPage_Button_Label" = "Next";
+
+/* Pre-login loading */
+"Logging out..." = "Ausloggen...";
+"Unknown" = "Ungenau";
+"Please wait." = "Bitte warten.";
+"Loading..." = "Lade...";
+
+"Auth_Error_Title" = "Ein Fehler ist aufgetreten.";
+"An unexpected authentication state of \"%@\" has been reached. Please relay this to the developer, thank you." = "Der unerwartete Authentifizierungsstatus \"%@\" wurde erreicht. Bitte leiten Sie dies an den Entwickler weiter, vielen Dank.";
+
+"An error occurred while processing the QR code" = "Bei der Verarbeitung des QR-Codes ist ein Fehler aufgetreten";
+
+
+/* Login Instructions */
+"Login Instructions" = "Anmeldeanweisungen";
+
+// Shown when QR code is not ready yet.
+"Processing QR Code..." = "Verarbeite QR Code...";
+
+"In the Telegram app," = "In der Telegram app,";
+"Go to the Settings tab" = "Gehen Sie zur Registerkarte Einstellungen";
+"Tap on \"Devices\"" = "Klicke auf \"Devices\"";
+"Tap on \"Link Desktop Device\"" = "Klicke auf \"Desktopgerät verknüpfen\"";
+"Scan the QR Code %@" = "QR-Code scannen %@";
+"After_Scanning_Instructions" = "Nach dem Scannen kann die Verarbeitung eine Weile dauern, auch wenn die App den QR-Code weiterhin anzeigt. Bitte haben Sie Geduld!";
+
+"QR Code" = "QR -ode";
+"Phone Number login" = "Phone Number login"; // unused.
+
+
+
+
+/* 2FA */
+"Login" = "Login";
+"Try again" = "Erneut versuchen";
+"Error" = "Error";
+
+"Enter Password" = "Passwort eingeben";
+"You have Two-Step Verification enabled for your account, hence we need your password to continue." = "Sie haben die zweistufige Verifizierung für Ihr Konto aktiviert, daher benötigen wir Ihr Passwort, um fortzufahren.";
+
+// What's shown on the password field, before the user keys any password in, a hint to the user to what is expected in the text field.
+"2FA_Password_Field_Hint" = "Passwort";
+
+// Password hint label. May not be shown if user did not set a Two Step Verification hint.
+"Hint: %@" = "Hinweis: %@";
+
+"The password that you've entered is incorrect." = "Das von Ihnen eingegebene Passwort ist falsch.";
+"An unknown error has occurred. Please let the developer know!" = "Ein unbekannter Fehler ist aufgetreten. Bitte informieren Sie den Entwickler!";
+
+
+/* Toolbar buttons of main page. */
+
+"Toolbar_WhatsNew" = "Was ist neu?";
+"Toolbar_UnlockFeatures" = "Alle Funtionen freischalten!";
+"Toolbar_Folders" = "Ordner";
+// Toolbar settings's key is "Settings";
+
+// label of the folder that represents all chats.
+"All_Chats_Label" = "Alle";
+"Chats" = "Chats";
+
+
+
+/* Messaging page */
+
+// Delete button label, shown in red, when user long-presses on a message. %@ is an icon of trash bin.
+"%@ Delete" = "%@ Löschen";
+
+// Reply button label, shown when user long-presses on a message. %@ is an icon.
+"%@ Reply" = "%@ Antworten";
+
+// Forwarded tag shown on top of message. %@ is an icon.
+"%@ Forwarded" = "%@ Weiterleiten";
+
+"Add a reaction" = "Reaktion hinzufügen";
+"Message sent at:" = "Gesendet an:";
+"Media" = "Media";
+
+/* DEFAULT messaging bar (all displayed with image on the left) */
+
+// Send message button that brings keyboard/input method when user taps on it. Prefer to keep this naming short.
+"Default_Bar_Send_Button" = "Senden";
+
+"Default_Bar_Send_Audio_Button" = "Audio";
+"Default_Bar_Send_GIF_Button" = "GIF";
+"Default_Bar_Send_Stickers_Button" = "Stickers";
+
+/* CONDENSED messaging bar */
+"Condensed_Bar_Message_Title" = "Nachricht";
+
+// Turquiose button on left of message field, when VoiceOver reads it.
+"VO_Condensed_More_Options_Button" = "Mehr Optionen";
+
+// Used in GIF selection page. %@ is a magnifying glass icon.
+"%@ Search" = "%@ Suchen";
+
+// Button on top of all messages.
+"Load earlier messages" = "Frühere Nachrichten laden";
+
+// VoiceOver action to switch the focus to the newest message available.
+"VO_Jump_To_Newest" = "Springe zur neusten Nachricht";
+
+// VoiceOver read out of which chat is loading, as it loads. %@ is the chat's name.
+"Chat %@" = "Chat %@";
+
+
+
+
+/* Message failed to send page */
+
+"Fail_Send_Title" = "Fehlgeschlagen.";
+
+// %@ refers to the message type. (e.g. A voice message...)
+"A %@ message has failed to send." = "A %@ Die Nachricht konnte nicht gesendet werden.";
+
+"Fail_Send_Try_Again_Button" = "Erneut versuchen";
+"Fail_Send_Discard_Button" = "Nachricht verwerfen";
+
+
+
+
+
+
+/* VoiceOver only */
+
+// When the user of sent message is yourself, this is used; (e.g. (You) said: Pigeon is an awesome app!)
+"VO_User_You" = "Du";
+// When the sent message is a channel, this is used; (e.g. (Channel) said: Pigeon has a new update.)
+"VO_User_Channel" = "Kanal";
+// (Rare) When system failed to identify either if message is sent by known user, you or channel, this is used; (e.g. (Someone) said: You won't know who am I.)
+"VO_User_Unknown" = "Jemand";
+
+// Reads out when user highlights on individual folder buttons, shown on toolbar of home page. (Example: News folder, All folder, Unread folder)
+"%@ folder" = "%@ Ordner";
+
+// Reads out when user highlights on a text message. (Example: "Vincent said: Happy Birthday!")
+"%@ said: " = "%@ sagte: ";
+
+// Reads out when user highlights on a GIF message. (Example: "Vincent said: Happy Birthday!")
+"%@ sent a GIF." = "%@ schickte ein GIF.";
+
+// Reads out when user highlights on audio message. (Example: "Vincent sent an audio message, of duration, 2 minutes, 30 seconds"). Duration is formatted depending on locale.
+"%@ sent an audio message, of duration, %@" = "%@ sickt eine Audio Nachricht, mit der Dauer von, %@";
+
+// Reads out when user highlights on voice message. (Example: "Vincent sent an voice message, of duration, 1 minute, 8 seconds"). Duration is formatted depending on locale.
+"%@ sent a voice message, of duration, %@" = "%@ schickt eine Audio Nachricht, mit der Dauer von, %@";
+
+// Subject to change; Reads out when user highlights on sticker message. %@ refers to emoji which the sticker is associated with.
+"%@ sticker" = "%@ Sticker";
+
+// Reads out when chat has a verified badge.
+"VO_Verified_Badge" = "Verifiziertes Abzeichen";
+
+// Reads out when chat is pinned.
+"VO_Pinned_Chat_Icon" = "Angepinnter Chat";
+
+// Actions
+// Reads out when user highlights on text field of condensed message bar or send button of message bar.
+"VO_Compose_Text_Message" = "Verfassen Sie eine Textnachricht";
+"VO_Action_Audio" = "Audio Nachricht aufnehmen";
+"VO_Action_GIF" = "Sende ein GIF";
+"VO_Action_Sticker" = "Sende einen Sticker";
+
+// Reads out the chat unread amount. Preferred to be in CAPS. %lld is a number.
+"%lld UNREAD" = "%lld UNGELESEN";
+
+// VoiceOver label for contact messages.
+"Contact Name" = "Kontakt Name";
+
+
+
+
+
+
+/* Settings page */
+"Settings" = "Einstellungen";
+"Acknowledgments" = "Danksagungen";
+"Settings_Menu_General_Label" = "Allgemein";
+"Settings_Menu_Messages_Label" = "Nachrichten";
+"Settings_Menu_Messages_Display_Label" = "Anzeige";
+"Settings_Menu_Messages_Behaviours_Label" = "Verhalten";
+"Settings_Menu_Notifications" = "Benachrichtigungen";
+"Settings_Menu_General_Connection_Title" = "Verbindung";
+
+/* Logout */
+"Logout" = "Ausloggen";
+"Logout_Confirmation" = "Bist du sicher?";
+"Cancel" = "Abbruch";
+
+/* Settings -> Support page */
+
+"Support" = "Support";
+"Need help?" = "Hilfe ?";
+
+"Contact_Label_Email" = "📧 Email mir!";
+"Contact_Label_Twitter" = "🐦 Twitter"; // Keep the bird theme.
+"Contact_Label_Mastodon" = "🦣 Mastodon";
+"Contact_Footer_Instructions" = "Tippen Sie oben auf eine der Optionen für den QR-Code.";
+
+/* Subscription page */
+"Subscriptions" = "Abonnements";
+
+"Subscription_Title" = "Alle Optionen freischalten";
+"Subscription_Subtitle" = "Abonnieren Sie noch heute und erhalten Sie eine kostenlose Testversion!";
+// %@ is the period (e.g. 1 week) When it can't be loaded for whatever reasons, Subscription_Subtitle will be used instead.
+"Subscription_Subtitle2" = "Abonnieren Sie noch heute und erhalten Sie eine kostenlose Testversion für %@";
+
+"Subscription_Free_Trial_Requirement" = "(for new subscribers)";
+"Subscription_Free_Trial_Not_Charged" = "Wenn Sie während des kostenlosen Testzeitraums kündigen, fallen keine Kosten an.";
+
+"Subscription_Period_Month" = "/ Monat";
+"Subscription_Period_Year" = "/ Jahr";
+
+/* unused periods - RevenueCat supports these identifiers so here there are. */
+"Subscription_Period_Err" = "/ Fehlgeschlagen.";
+"Subscription_Period_Lifetime" = ", Lebenslang!";
+"Subscription_Period_6Months" = "/ 6 Monate";
+"Subscription_Period_3Months" = "/ 3 Monate";
+"Subscription_Period_2Months" = "/ 2 Monate";
+"Subscription_Period_Week" = "/ Woche";
+
+"Subscription_Year_Savings" = "~40% sichern!";
+"Subscription_Restore_Button" = "Kauf Wiederherstellen";
+"Subscription_Restore_Completed" = "Wiederherstellung abgeschlossen";
+"Subscription_Restore_Failed" = "Wiederherstellung fehlgeschlagen";
+
+"Subscription_Reason" = "Mit einem Abonnement können Sie anderen antworten, ältere Chats ansehen und mehr und gleichzeitig den Entwickler unterstützen!";
+
+"Subscription_EULA_Button" = "Nutzungsbedingungen (EULA)";
+"Subscription_Privacy_Policy_Button" = "Datenschutzrichtlinie";
+
+"Purchase failed" = "Kauf fehlgeschlagen";
+"Purchase has failed due to %@" = "Der Kauf ist aufgrund von fehlgeschlagen %@";
+"Purchase failed due to unknown error." = "Der Kauf ist aufgrund eines unbekannten Fehlers fehlgeschlagen.";
+"Restore purchases has failed due to %@" = "Die Wiederherstellung von Einkäufen ist aufgrund von %@ fehlgeschlagen";
+
+"Done" = "Fertig";
+
+// TBH, forgot how this would be shown, from code seems to be with error display?
+"dismiss" = "Verwerfen";
+
+"Period_Year" = "Jahr";
+"Period_Month" = "Monat";
+"Period_Week" = "Woche";
+"Period_Day" = "Tag";
+"Period_Unknown" = "Error";
+
+
+/* General Category */
+"General" = "Allgemein";
+
+// subcategory title
+"Connection" = "Verbindung";
+
+// toggle title
+"Show status" = "Zeige Status";
+
+"INFO_Connection_Status" = "Wenn diese Option aktiviert ist, kann der Verbindungsstatus unten auf Ihrer Uhr angezeigt werden, um Sie zu informieren, wenn es Verbindungsverluste oder -gewinne zwischen Pigeon- und Telegram-Servern gibt.";
+
+
+
+
+
+
+/* Messages Category */
+"Display" = "Anzeige";
+"Behaviours" = "Verhaltensweisen";
+
+/* Display Category */
+
+// subcategory title
+"Bottom bar" = "Untere Leiste";
+"Condensed_Mode_Toggle_Title" = "Komprimiert";
+"INFO_Condensed_Mode" = "Im komprimierten Modus werden alle Optionen außer SMS hinter einer Schaltfläche ausgeblendet, ähnlich wie bei der Nachrichten-App von Apple.";
+
+// subcategory title
+"Base font size" = "Basisschriftgröße";
+"Base_Font_Sample_Title" = "Beispiel";
+
+// Sample text for user to gauge if text sizing is good for them.
+"Base_Font_Size_Sample_Text" = "Der schnelle Braunfuchs springt über den faulen Hund";
+
+"Base_Font_Size_Setting_ContentSize_Title" = "Inhaltsgröße";
+"Base_Font_Size_Setting_DateSize_Title" = "Datumsgröße";
+
+"INFO_Base_Font_Size" = "Dadurch wird die Grundschriftgröße für Nachrichten festgelegt. Da Pigeon Dynamic Type unterstützt, würde eine größere Basisschriftart auch eine noch größere Schriftart bedeuten, wenn Ihre systemweite Schriftgröße größer als die Standardschrift ist. Ebenso für kleinere systemweite Schriftarten.";
+
+"INFO_Base_Font_Size_Bold" = "Wenn Sie sich nicht sicher sind, sehen Sie sich einfach das Beispiel an.";
+
+/* Behaviours Category */
+
+// subcategory title
+"Sounds & Haptics" = "Klänge & Haptik";
+"Sounds_Toggle_Switch_Title" = "Nachricht gesendet";
+"INFO_SoundHaptics" = "Wenn diese Option aktiviert ist, werden Töne und Haptik verwendet, um Sie subtil darüber zu informieren, ob eine Nachricht erfolgreich versendet wurde oder nicht.";
+"INFO_Sample_Title" = "Beispiel:";
+"INFO_Play_Tone_Success" = "Erfolgston abspielen";
+"INFO_Play_Tone_Failure" = "Fehlerton abspielen";
+
+// subcategory title
+"Audio Playback" = "Audiowiedergabe";
+"Playback_Toggle_Switch_Title" = "Systemplayer";
+"INFO_Playback" = "Wenn diese Option aktiviert ist, verwenden Sprachnotiznachrichten für die Wiedergabe den Standardplayer des Systems und nicht den Inline-Player von Pigeon.";
+
+// subcategory title
+"Message loads" = "Nachricht wird geladen";
+"INFO_Message_Loads" = "Bezieht sich auf die Anzahl früherer Nachrichten, die in einem Chat geladen werden sollen (±2).";
+"INFO_Message_Loads2" = "Beachten Sie, dass aufgrund von Speicherbeschränkungen die Leistung des Chat-Bildschirms abnimmt, wenn mehr Nachrichten geladen werden.";
+
+
+
+
+
+
+/* Notifications Category */
+
+// Notification grouping subcategory title
+"Notification Grouping" = "Benachrichtigungsgruppierung";
+"NotificationGrp_Option_Conversation" = "Nach Konversation";
+"NotificationGrp_Option_App" = "Nach App";
+"NotificationGrp_Option_None" = "Keine Gruppierung";
+
+"INFO_NotificationGrp_Summary" = "Gilt für die Art und Weise, wie Benachrichtigungen im Benachrichtigungscenter angezeigt werden.";
+
+"INFO_NotificationGrp_Option_Conversation" = "Nach Konversation gruppieren";
+"INFO_NotificationGrp_Option_Conversation_Summary" = "Benachrichtigungen werden nach Chat, Gruppe oder Kanal gruppiert. Wenn diese Option ausgewählt ist, kann nur die neueste Benachrichtigung des Gruppenstapels angezeigt werden.";
+
+"INFO_NotificationGrp_Option_App" = "Gruppierung nach App";
+"INFO_NotificationGrp_Option_App_Summary" = "Alle Pigeon-Benachrichtigungen werden als Stapel gruppiert, unabhängig von Chat, Gruppe oder Kanal. Bei Auswahl können alle Benachrichtigungen einzeln angezeigt werden. Profilanzeigen werden aufgrund von Systemeinschränkungen nicht angezeigt.";
+
+"INFO_NotificationGrp_Option_None" = "Keine Gruppierung";
+"INFO_NotificationGrp_Option_None_Summary" = "Alle Pigeon-Benachrichtigungen werden diskret im Benachrichtigungscenter angezeigt. (Standard)";
+
+// Profile pictures subcategory title
+"Profile Pictures Cache" = "Profilbild-Cache";
+
+// shown in bold red; tapping it will delete all profile pictures that have already been cached.
+"Profile_Cache_Reset_Button" = "Zurücksetzen";
+
+"INFO_Profile_Cache1" = "Profilbilder Ihrer Chats und Gruppen werden jedes Mal zwischengespeichert, wenn Sie Pigeon starten. Es wird zur Anzeige neben den Benachrichtigungen verwendet.";
+"INFO_Profile_Cache2" = "In seltenen Fällen, in denen Pigeon zu viel oder veraltete Profilbilder speichert, können Sie die Caches mit der Reset-Taste löschen.";
+"INFO_Profile_Cache3" = "Es wird empfohlen, Pigeon nach dem Drücken neu zu starten.";
+
+"Clear on launch" = "Beim starten aufräumen";
+
+"INFO_Auto_Clear" = "Löschen Sie automatisch alle Pigeon-Benachrichtigungen im Benachrichtigungscenter, wenn Sie die App starten.";
+"Auto_Clear_Toggle_Title" = "Automatisch löschen";
+
+
+
+
+/* Connection States */
+
+"Connection_State_Waiting_For_Network" = "Warte auf Netzwerk...";
+"VO_Connection_State_Waiting_For_Network" = "Warten darauf, dass das Netzwerk verfügbar wird.";
+
+// likely unused as Pigeon doesn't have proxy option.
+"Connection_State_Connecting_To_Proxy" = "Verbinde...";
+"VO_Connection_State_Connecting_To_Proxy" = "Verbindung zum Proxyserver herstellen";
+
+"Connection_State_Connecting" = "Verbinde...";
+"VO_Connection_State_Connecting" = "Verbindung zum Telegram Server";
+
+"Connection_State_Updating" = "Aktualisierung...";
+"VO_Connection_State_Updating" = "Empfangene Daten aktualisieren";
+
+"Connection_State_Connected" = "Verbunden";
+"VO_Connection_State_Connected" = "Verbunden";
+
+
+
+
+
+/* Status Messages */
+// Messages that simply tells you when something happened in a chat.
+
+"Status_Message_Pin" = "Eine Nachricht wurde angeheftet.";
+"Status_Contact_Registered" = "Der Benutzer ist Telegram beigetreten.";
+"Status_Change_Photo" = "Chat-Foto aktualisiert";
+
+// %@ is the group's name
+"Status_Basic_Group_Created" = "Gruppe \"%@\" wurde erstellt";
+"Status_Deleted_Member" = "Ein Mitglied wurde entfernt.";
+"Status_Add_Member" = "Neue(s) Mitglied(er) wurden hinzugefügt.";
+"Status_Unsupported_Known_Type" = "Nicht unterstützter Typ: %@";
+"Status_Unsupported_Unknown" = "Typ wird nicht unterstützt";
+
+
+/* Message Previews */
+// Shown in chat list, as the last sent message.
+
+"Preview_Contact_Message" = "Kontakt von %@";
+"Preview_Poll_Message" = "Umfrage - %@";
+"Preview_Sticker_Message" = "%@ Sticker"; // %@ = emoji
+"Preview_Audio_Message" = "Audio - %@";
+
+
+
+/* Sticker Selection */
+"Installed Stickers" = "Installierte Sticker";
+"WebM_Unupported_Text" = "Nicht alle Sticker können in der Vorschau angezeigt werden.";
+
+// Send sticker button, shown when user in animated sticker selection mode. %@ is an icon of a paperplane.
+"%@ Send" = "%@ Senden";
+
+/* Voice Recording failed */
+
+"Rec_Err_Title" = "Beim Aufzeichnen ist ein Fehler aufgetreten.";
+"Rec_Err_Take_Screenshot_Instructions" = "Bitte machen Sie einen Screenshot der obigen Nachricht und senden Sie ihn an %@";
+"Rec_Err_Unknown" = "Unbekannter Fehler ist aufgetreten.";
+
+/* Telegram Channel Sponsored Posts */
+"Sponsored" = "Gesponsort";
+
+
+/* Poll message */
+"Poll_Type_Quiz" = "Quiz";
+"Poll_Type_Poll" = "Umfrage";
+"Poll_Anonymous" = "Anonym";
+
+
+/* watchOS 8.x Watch Face Complications */
+// watchOS 8.x uses an older system to display watch face complications, of which, this section provides the localised texts for it. Not used in watchOS 9.x and later.
+
+"WOS8_Complications_Display_Name" = "Pigeon";
+"VO_WOS8_Label" = "Pigeon App verknüpfung.";
+
+/* <= watchOS 9.x photo view cancellation */
+"WOS9_Done_Button" = "Fertig";
+"WOS9_Grid_Button" = "Gitter";
+"Done" = "Fertig";
+
+"Saved Messages" = "Saved Messages";
+
+/* Translation section */
+"Translations" = "Übersetzungen";
+"Special thanks to:" = "Besonderer Dank an:";
