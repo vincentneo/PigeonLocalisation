@@ -26,11 +26,11 @@
 "Auth_Error_Title" = "Ha succeït un error.";
 "An unexpected authentication state of \"%@\" has been reached. Please relay this to the developer, thank you." = "S'ha arribat a un estat d'autenticació inesperat \"%@\". Si us plau, comunica-ho al desenvolupador. Gràcies.";
 
-"An error occurred while processing the QR code" = "S'ha produït un error al processar el codi QR";
+"An error occurred while processing the QR code" = "S'ha produït un error en processar el codi QR";
 
 
 /* Login Instructions */
-"Login Instructions" = "Instrucciones d'inici de sessió";
+"Login Instructions" = "Instruccions d'inici de sessió";
 
 // Shown when QR code is not ready yet.
 "Processing QR Code..." = "Processant codi QR...";
@@ -75,14 +75,14 @@
 
 // label of the folder that represents all chats.
 "All_Chats_Label" = "Tots";
-"Chats" = "Chats";
+"Chats" = "Xats";
 
 
 
 /* Messaging page */
 
 // Delete button label, shown in red, when user long-presses on a message. %@ is an icon of trash bin.
-"%@ Delete" = "%@ El·liminar";
+"%@ Delete" = "%@ Eliminar";
 
 // Reply button label, shown when user long-presses on a message. %@ is an icon.
 "%@ Reply" = "%@ Respondre";
@@ -116,10 +116,10 @@
 "Load earlier messages" = "Carrega missatges anteriors";
 
 // VoiceOver action to switch the focus to the newest message available.
-"VO_Jump_To_Newest" = "Vés al missatges més nou";
+"VO_Jump_To_Newest" = "Ves al missatge més nou";
 
 // VoiceOver read out of which chat is loading, as it loads. %@ is the chat's name.
-"Chat %@" = "Chat %@";
+"Chat %@" = "Xat %@";
 
 
 
@@ -167,17 +167,17 @@
 "%@ sticker" = "sticker %@";
 
 // Reads out when chat has a verified badge.
-"VO_Verified_Badge" = "Insignia Verificada";
+"VO_Verified_Badge" = "Insígnia Verificada";
 
 // Reads out when chat is pinned.
-"VO_Pinned_Chat_Icon" = "Chat fixat";
+"VO_Pinned_Chat_Icon" = "Xat fixat";
 
 // Actions
 // Reads out when user highlights on text field of condensed message bar or send button of message bar.
 "VO_Compose_Text_Message" = "Escriu un nou missatge";
 "VO_Action_Audio" = "Enregistra un missatge de veu";
-"VO_Action_GIF" = "Envía un GIF";
-"VO_Action_Sticker" = "Envía un sticker";
+"VO_Action_GIF" = "Envia un GIF";
+"VO_Action_Sticker" = "Envia un sticker";
 
 // Reads out the chat unread amount. Preferred to be in CAPS. %lld is a number.
 "%lld UNREAD" = "%lld SENSE LLEGIR";
@@ -195,14 +195,14 @@
 "Acknowledgments" = "Agraïments";
 "Settings_Menu_General_Label" = "General";
 "Settings_Menu_Messages_Label" = "Missatges";
-"Settings_Menu_Messages_Display_Label" = "Apariència";
+"Settings_Menu_Messages_Display_Label" = "Aparença";
 "Settings_Menu_Messages_Behaviours_Label" = "Comportament";
 "Settings_Menu_Notifications" = "Notificacions";
 "Settings_Menu_General_Connection_Title" = "Connexió";
 
 /* Logout */
 "Logout" = "Desconnecta";
-"Logout_Confirmation" = "Vols deconnectar?";
+"Logout_Confirmation" = "Vols desconnectar?";
 "Cancel" = "Cancel·la";
 
 /* Settings -> Support page */
@@ -210,7 +210,7 @@
 "Support" = "Suport";
 "Need help?" = "Necessites ajuda?";
 
-"Contact_Label_Email" = "📧 Envía'm un email!";
+"Contact_Label_Email" = "📧 Envia'm un email!";
 "Contact_Label_Twitter" = "🐦 Twitter"; // Keep the bird theme.
 "Contact_Label_Mastodon" = "🦣 Mastodon";
 "Contact_Footer_Instructions" = "Toca qualsevol opció de dalt per mostrar el codi QR corresponent.";
@@ -219,9 +219,9 @@
 "Subscriptions" = "Subscripcions";
 
 "Subscription_Title" = "Desbloqueja totes les característiques";
-"Subscription_Subtitle" = "Subscriu-te avuí i aconsegueix una prova gratuïta!";
+"Subscription_Subtitle" = "Subscriu-te avui i aconsegueix una prova gratuïta!";
 // %@ is the period (e.g. 1 week) When it can't be loaded for whatever reasons, Subscription_Subtitle will be used instead.
-"Subscription_Subtitle2" = "Subscriu-te avuí i aconsegueix una prova gratuïta de %@";
+"Subscription_Subtitle2" = "Subscriu-te avui i aconsegueix una prova gratuïta de %@";
 
 "Subscription_Free_Trial_Requirement" = "(per a noves subscripcions)";
 "Subscription_Free_Trial_Not_Charged" = "Si cancel·les durant el període de prova, no es farà cap càrrec.";
@@ -242,15 +242,15 @@
 "Subscription_Restore_Completed" = "Restauració completa";
 "Subscription_Restore_Failed" = "Restauració fallida";
 
-"Subscription_Reason" = "Una subscripció et permet respondre als altres, veure xats anteriors i més, a més a més, també dónes suport al desenvolupador!";
+"Subscription_Reason" = "Una subscripció et permet respondre als altres, veure xats anteriors i més, a més a més, també dones suport al desenvolupador!";
 
-"Subscription_EULA_Button" = "Térmes d'Ús (EULA)";
+"Subscription_EULA_Button" = "Termes d'Ús (EULA)";
 "Subscription_Privacy_Policy_Button" = "Política de Privacitat";
 
 "Purchase failed" = "Compra fallida";
-"Purchase has failed due to %@" = "La compra ha fallat degut a %@";
-"Purchase failed due to unknown error." = "La compra ha fallat degut a un error desconegut";
-"Restore purchases has failed due to %@" = "La restauració de compra ha fallat degut a %@";
+"Purchase has failed due to %@" = "La compra ha fallat a causa de %@";
+"Purchase failed due to unknown error." = "La compra ha fallat a causa de un error desconegut";
+"Restore purchases has failed due to %@" = "La restauració de compra ha fallat a causa de %@";
 
 "Done" = "Fet";
 
@@ -281,7 +281,7 @@
 
 
 /* Messages Category */
-"Display" = "Apariència";
+"Display" = "Aparença";
 "Behaviours" = "Comportament";
 
 /* Display Category */
@@ -303,14 +303,14 @@
 
 "INFO_Base_Font_Size" = "Això estableix la mida base de la font per als missatges. Com que Pigeon admet el tipus de lletra dinàmic, una mida base de font més gran també significarà una lletra encara més gran si la mida de la font de tot el sistema és més gran que la predeterminada. Passa el mateix amb les lletres més petites a nivell de sistema.";
 
-"INFO_Base_Font_Size_Bold" = "Per assegurar-te, comporva la Mostra.";
+"INFO_Base_Font_Size_Bold" = "Per assegurar-te, comprova la Mostra.";
 
 /* Behaviours Category */
 
 // subcategory title
-"Sounds & Haptics" = "Sons i resposta Hàpitca";
+"Sounds & Haptics" = "Sons i resposta Hàptica";
 "Sounds_Toggle_Switch_Title" = "Missatge enviat";
-"INFO_SoundHaptics" = "Si està habilitat, s'utilitzaran sons i resposta hàptica per informar-te subtilment si un missatge s'ha enviat amb èxit o no.";
+"INFO_SoundHaptics" = "Si està habilitat, es faran servir sons i resposta hàptica per informar-te subtilment si un missatge s'ha enviat amb èxit o no.";
 "INFO_Sample_Title" = "Prova:";
 "INFO_Play_Tone_Success" = "To d'èxit";
 "INFO_Play_Tone_Failure" = "To d'error";
@@ -318,11 +318,11 @@
 // subcategory title
 "Audio Playback" = "Reproductor d'Àudio";
 "Playback_Toggle_Switch_Title" = "Reproductor del sistema";
-"INFO_Playback" = "Si està habilitat, els missatges de notes de veu utilitzaran el reproductor predeterminat del sistema per a la reproducció en lloc del reproductor integrat de Pigeon.";
+"INFO_Playback" = "Si està habilitat, els missatges de notes de veu faran servir el reproductor predeterminat del sistema per a la reproducció en lloc del reproductor integrat de Pigeon.";
 
 // subcategory title
 "Message loads" = "Càrrega de missatges";
-"INFO_Message_Loads" = "Es refereix a la quantitat de missatges anteriors per a carregar en un chat (±2).";
+"INFO_Message_Loads" = "Es refereix a la quantitat de missatges anteriors per a carregar en un xat (±2).";
 "INFO_Message_Loads2" = "Tingues en compte que, a causa de les limitacions de memòria, a mesura que es carreguen més missatges, el rendiment de la pantalla de xat es veurà reduït.";
 
 
@@ -340,11 +340,11 @@
 
 "INFO_NotificationGrp_Summary" = "S'aplica a com les notificacions es mostren al Centre de Notificacions.";
 
-"INFO_NotificationGrp_Option_Conversation" = "Agrupar por Conversa";
-"INFO_NotificationGrp_Option_Conversation_Summary" = "Les notificacions s'agrupen per a cada xat, grup o canal. Quan es selecciona, només es pot veure l'última notificació de la pila de grup.";
+"INFO_NotificationGrp_Option_Conversation" = "Agrupar per Conversa";
+"INFO_NotificationGrp_Option_Conversation_Summary" = "Les notificacions s'agrupen per a cada xat, grup o canal. Quan se selecciona, només es pot veure l'última notificació de la pila de grup.";
 
 "INFO_NotificationGrp_Option_App" = "Agrupar per App";
-"INFO_NotificationGrp_Option_App_Summary" = "Totes les notificacions de Pigeon s'agrupen juntes en una pila, independentment del xat, grup o canal. Quan es selecciona, totes les notificacions es poden veure de manera individual. Les visualitzacions de perfil no es mostraran a causa de limitacions del sistema.";
+"INFO_NotificationGrp_Option_App_Summary" = "Totes les notificacions de Pigeon s'agrupen juntes en una pila, independentment del xat, grup o canal. Quan se selecciona, totes les notificacions es poden veure de manera individual. Les visualitzacions de perfil no es mostraran a causa de limitacions del sistema.";
 
 "INFO_NotificationGrp_Option_None" = "No Agrupar";
 "INFO_NotificationGrp_Option_None_Summary" = "Totes les notificacions de Pigeon apareixeran discretament al Centre de Notificacions. (predeterminat)";
@@ -355,8 +355,8 @@
 // shown in bold red; tapping it will delete all profile pictures that have already been cached.
 "Profile_Cache_Reset_Button" = "Neteja";
 
-"INFO_Profile_Cache1" = "Les imatges de perfil dels teus xats i grups es guarden en memòria cau cada vegada que inicies Pigeon. S'utilitzen per mostrar-les juntament amb les notificacions.";
-"INFO_Profile_Cache2" = "En casos rars, on Pigeon podria estar utilitzant massa emmagatzamatge o imatges de perfil desactualitzades, pots utilitzar el botó per netejar la memòria cau.";
+"INFO_Profile_Cache1" = "Les imatges de perfil dels teus xats i grups es guarden en memòria cau cada vegada que inicies Pigeon. Es fan servir per mostrar-les juntament amb les notificacions.";
+"INFO_Profile_Cache2" = "En casos rars, on Pigeon podria estar fent servir massa emmagatzematge o imatges de perfil desactualitzades, pots fer servir el botó per netejar la memòria cau.";
 "INFO_Profile_Cache3" = "Es recomana reiniciar Pigeon després de netejar-la.";
 
 "Clear on launch" = "Netejar en obrir";
@@ -370,7 +370,7 @@
 /* Connection States */
 
 "Connection_State_Waiting_For_Network" = "Esperant connexió...";
-"VO_Connection_State_Waiting_For_Network" = "Esperant a que la xarxa es trobi disponible.";
+"VO_Connection_State_Waiting_For_Network" = "Esperant que la xarxa es trobi disponible.";
 
 // likely unused as Pigeon doesn't have proxy option.
 "Connection_State_Connecting_To_Proxy" = "Connectant...";
@@ -394,7 +394,7 @@
 
 "Status_Message_Pin" = "S'ha fixat un missatge.";
 "Status_Contact_Registered" = "Un usuari s'ha unit Telegram.";
-"Status_Change_Photo" = "Foto de Chat actualitzada";
+"Status_Change_Photo" = "Foto de xat actualitzada";
 
 // %@ is the group's name
 "Status_Basic_Group_Created" = "S'ha creat el grup \"%@\"";
@@ -419,12 +419,12 @@
 "WebM_Unupported_Text" = "No es poden previsualitzar tots els stickers de vídeo.";
 
 // Send sticker button, shown when user in animated sticker selection mode. %@ is an icon of a paperplane.
-"%@ Send" = "%@ Envía";
+"%@ Send" = "%@ Envia";
 
 /* Voice Recording failed */
 
 "Rec_Err_Title" = "Ha succeït un error en enregistrar.";
-"Rec_Err_Take_Screenshot_Instructions" = "Si us plau fes una captura i envía-li el missatge de dalt a %@";
+"Rec_Err_Take_Screenshot_Instructions" = "Si us plau, fes una captura i envia-li el missatge de dalt a %@";
 "Rec_Err_Unknown" = "S'ha produït un error inesperat.";
 
 /* Telegram Channel Sponsored Posts */
@@ -445,7 +445,7 @@
 
 /* <= watchOS 9.x photo view cancellation */
 "WOS9_Done_Button" = "Fet";
-"WOS9_Grid_Button" = "Quadricula";
+"WOS9_Grid_Button" = "Quadrícula";
 "Done" = "Fet";
 
 "Saved Messages" = "Missatges Guardats";
