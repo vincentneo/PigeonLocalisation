@@ -13,11 +13,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>no photos</string>
+			<string>нет фото</string>
 			<key>one</key>
-			<string>%d photo</string>
+			<string>%d фото</string>
 			<key>other</key>
-			<string>%d photos</string>
+			<string>%d фото</string>
 		</dict>
 	</dict>
 	<key>%d video(s)</key>
@@ -31,11 +31,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>no videos</string>
+			<string>нет видео</string>
 			<key>one</key>
-			<string>%d video</string>
+			<string>%d видео</string>
 			<key>other</key>
-			<string>%d videos</string>
+			<string>%d видео</string>
 		</dict>
 	</dict>
 	<key>%d item(s)</key>
@@ -49,11 +49,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>no items</string>
+			<string>нет элементов</string>
 			<key>one</key>
-			<string>%d item</string>
+			<string>%d элемент</string>
 			<key>other</key>
-			<string>%d items</string>
+			<string>%d элементы</string>
 		</dict>
 	</dict>
 </dict>
