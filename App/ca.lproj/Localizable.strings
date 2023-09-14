@@ -1,7 +1,7 @@
 /* 
   Localizable.strings
   Pigeon v1.2
-  Revision 3
+  Revision 4
 
   Created by Xavier Juan, last updated on 21 August 2023.
  
@@ -453,3 +453,14 @@
 /* Translation section */
 "Translations" = "Traduccions";
 "Special thanks to:" = "Agraïments especials a:";
+
+"This message failed to parse." = "This message failed to parse.";
+"View" = "View";
+// VO
+"Thumbnail" = "Thumbnail";
+
+// VO
+"Downloading video... Progress %@ percent." = "Downloading video... Progress %@ percent.";
+
+"Status_Super_Group_Created" = "\"%@\" was created";
+"Join Pigeon's Channel!" = "Join Pigeon's Channel!";
