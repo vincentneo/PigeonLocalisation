@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  Pigeon v1.2
+  Revision 4
+
+  Created by Shatokhin Oleksandr, last updated on 4 September 2023.
+  
+*/
+
+// Provides the reason of why the app is asking for microphone access.
+"NSMicrophoneUsageDescription" = "Это нужно для записи голосовых сообщений.";

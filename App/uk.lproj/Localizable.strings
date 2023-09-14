@@ -1,0 +1,466 @@
+/* 
+  Localizable.strings
+  Pigeon v1.2
+  Revision 4
+
+  Created by Shatokhin Oleksandr, last updated on 4 September 2023.
+ 
+  Replace the Created by name, if you would like to be credited in the app.
+  
+  %@ typically refers to an external value, but may also refer to an icon in certain cases.
+  "KEY" = "VALUE"; VALUE is what that will be displayed in the app.
+ 
+  Keys prefixed with 'VO' are definitely for VoiceOver readouts.
+*/
+
+// Next page button that is shown in Pigeon's main page.
+// Pressing this button will show next 10 chats in folder. Not used in watchOS 10 and later.
+"WOS9_NextPage_Button_Label" = "Далі";
+
+/* Pre-login loading */
+"Logging out..." = "Вихід...";
+"Unknown" = "Невідомо";
+"Please wait." = "Будь ласка зачекайте.";
+"Loading..." = "Завантаження...";
+
+"Auth_Error_Title" = "Виникла помилка.";
+"An unexpected authentication state of \"%@\" has been reached. Please relay this to the developer, thank you." = "Відбулася несподівана помилка авторизації з кодом \"%@\". Будь ласка, повідомте про це розробнику, дякую.";
+
+"An error occurred while processing the QR code" = "При обробці QR-коду сталася помилка";
+
+
+/* Login Instructions */
+"Login Instructions" = "Інструкції для входу в систему";
+
+// Shown when QR code is not ready yet.
+"Processing QR Code..." = "Обробка QR-коду...";
+
+"In the Telegram app," = "У додатку Telegram,";
+"Go to the Settings tab" = "Перейдіть до вкладки Налаштування";
+"Tap on \"Devices\"" = "Натисніть на \"Пристрої\"";
+"Tap on \"Link Desktop Device\"" = "Натисніть на \"Підключити пристрій\"";
+"Scan the QR Code %@" = "Проскануйте QR-код %@";
+"After_Scanning_Instructions" = "Після сканування обробка може зайняти деякий час, навіть якщо програма, як і раніше, відображає QR-код. Будь ласка зачекайте!";
+
+"QR Code" = "QR-код";
+"Phone Number login" = "Вхід за номером телефону"; // unused.
+
+
+
+
+/* 2FA */
+"Login" = "Вхід";
+"Try again" = "Спробуйте знову";
+"Error" = "Помилка";
+
+"Enter Password" = "Введіть пароль";
+"You have Two-Step Verification enabled for your account, hence we need your password to continue." = "У Вас увімкнена двоетапна автентифікація вашого облікового запису, введіть пароль для продовження.";
+
+// What's shown on the password field, before the user keys any password in, a hint to the user to what is expected in the text field.
+"2FA_Password_Field_Hint" = "Пароль";
+
+// Password hint label. May not be shown if user did not set a Two Step Verification hint.
+"Hint: %@" = "Підказка: %@";
+
+"The password that you've entered is incorrect." = "Введений пароль невірний.";
+"An unknown error has occurred. Please let the developer know!" = "Сталася невідома помилка. Повідомте розробнику!";
+
+
+/* Toolbar buttons of main page. */
+
+"Toolbar_WhatsNew" = "Що нового?";
+"Toolbar_UnlockFeatures" = "Відкрийте всі функції!";
+"Toolbar_Folders" = "Папки";
+// Toolbar settings's key is "Settings";
+
+// label of the folder that represents all chats.
+"All_Chats_Label" = "Всі";
+"Chats" = "Чати";
+
+
+
+/* Messaging page */
+
+// Delete button label, shown in red, when user long-presses on a message. %@ is an icon of trash bin.
+"%@ Delete" = "%@ Видалити";
+
+// Reply button label, shown when user long-presses on a message. %@ is an icon.
+"%@ Reply" = "%@ Відповісти";
+
+// Forwarded tag shown on top of message. %@ is an icon.
+"%@ Forwarded" = "%@ Переслано";
+
+"Add a reaction" = "Додати реакцію";
+"Message sent at:" = "Повідомлення надіслано о:";
+"Media" = "Медіа";
+
+/* DEFAULT messaging bar (all displayed with image on the left) */
+
+// Send message button that brings keyboard/input method when user taps on it. Prefer to keep this naming short.
+"Default_Bar_Send_Button" = "Відправити";
+
+"Default_Bar_Send_Audio_Button" = "Аудіо";
+"Default_Bar_Send_GIF_Button" = "GIF";
+"Default_Bar_Send_Stickers_Button" = "Стікери";
+
+/* CONDENSED messaging bar */
+"Condensed_Bar_Message_Title" = "Повідомлення";
+
+// Turquiose button on left of message field, when VoiceOver reads it.
+"VO_Condensed_More_Options_Button" = "Більше опцій";
+
+// Used in GIF selection page. %@ is a magnifying glass icon.
+"%@ Search" = "%@ Пошук";
+
+// Button on top of all messages.
+"Load earlier messages" = "Завантажити попередні повідомлення";
+
+// VoiceOver action to switch the focus to the newest message available.
+"VO_Jump_To_Newest" = "Перейти до останнього повідомлення";
+
+// VoiceOver read out of which chat is loading, as it loads. %@ is the chat's name.
+"Chat %@" = "Чат %@";
+
+
+
+
+/* Message failed to send page */
+
+"Fail_Send_Title" = "Помилка відправлення.";
+
+// %@ refers to the message type. (e.g. A voice message...)
+"A %@ message has failed to send." = "Повідомлення %@ не вдалося відправити.";
+
+"Fail_Send_Try_Again_Button" = "Спробувати знову";
+"Fail_Send_Discard_Button" = "Скасувати відправлення";
+
+
+
+
+
+
+/* VoiceOver only */
+
+// When the user of sent message is yourself, this is used; (e.g. (You) said: Pigeon is an awesome app!)
+"VO_User_You" = "Ви";
+// When the sent message is a channel, this is used; (e.g. (Channel) said: Pigeon has a new update.)
+"VO_User_Channel" = "Канал";
+// (Rare) When system failed to identify either if message is sent by known user, you or channel, this is used; (e.g. (Someone) said: You won't know who am I.)
+"VO_User_Unknown" = "Хтось";
+
+// Reads out when user highlights on individual folder buttons, shown on toolbar of home page. (Example: News folder, All folder, Unread folder)
+"%@ folder" = "%@ папка";
+
+// Reads out when user highlights on a text message. (Example: "Vincent said: Happy Birthday!")
+"%@ said: " = "%@ сказав: ";
+
+// Reads out when user highlights on a GIF message. (Example: "Vincent said: Happy Birthday!")
+"%@ sent a GIF." = "%@ відправив GIF.";
+
+// Reads out when user highlights on audio message. (Example: "Vincent sent an audio message, of duration, 2 minutes, 30 seconds"). Duration is formatted depending on locale.
+"%@ sent an audio message, of duration, %@" = "%@ відправив голосове повідомлення тривалістю, %@";
+
+// Reads out when user highlights on voice message. (Example: "Vincent sent an voice message, of duration, 1 minute, 8 seconds"). Duration is formatted depending on locale.
+"%@ sent a voice message, of duration, %@" = "%@ відправив голосове повідомлення тривалістю, %@";
+
+// Subject to change; Reads out when user highlights on sticker message. %@ refers to emoji which the sticker is associated with.
+"%@ sticker" = "%@ стікер";
+
+// Reads out when chat has a verified badge.
+"VO_Verified_Badge" = "Верифікований акаунт";
+
+// Reads out when chat is pinned.
+"VO_Pinned_Chat_Icon" = "Закріплений чат";
+
+// Actions
+// Reads out when user highlights on text field of condensed message bar or send button of message bar.
+"VO_Compose_Text_Message" = "Написати повідомлення";
+"VO_Action_Audio" = "Записати голосове повідомлення";
+"VO_Action_GIF" = "Відправити GIF";
+"VO_Action_Sticker" = "Надіслати стікер";
+
+// Reads out the chat unread amount. Preferred to be in CAPS. %lld is a number.
+"%lld UNREAD" = "%lld НЕПРОЧИТАНИХ";
+
+// VoiceOver label for contact messages.
+"Contact Name" = "Ім'я контакту";
+
+
+
+
+
+
+/* Settings page */
+"Settings" = "Налаштування";
+"Acknowledgments" = "Подяки";
+"Settings_Menu_General_Label" = "Основні";
+"Settings_Menu_Messages_Label" = "Повідомлення";
+"Settings_Menu_Messages_Display_Label" = "Відображення";
+"Settings_Menu_Messages_Behaviours_Label" = "Поведінка";
+"Settings_Menu_Notifications" = "Сповіщення";
+"Settings_Menu_General_Connection_Title" = "З'єднання";
+
+/* Logout */
+"Logout" = "Вихід";
+"Logout_Confirmation" = "Ви впевнені?";
+"Cancel" = "Скасувати";
+
+/* Settings -> Support page */
+
+"Support" = "Підтримка";
+"Need help?" = "Потрібна допомога?";
+
+"Contact_Label_Email" = "📧 Напишіть мені!";
+"Contact_Label_Twitter" = "🐦 Twitter"; // Keep the bird theme.
+"Contact_Label_Mastodon" = "🦣 Mastodon";
+"Contact_Footer_Instructions" = "Виберіть будь-який з наведених вище варіантів для отримання QR-коду.";
+
+/* Subscription page */
+"Subscriptions" = "Підписки";
+
+"Subscription_Title" = "Відкрийте всі функції";
+"Subscription_Subtitle" = "Підпишіться сьогодні та отримайте безкоштовну пробну версію!";
+// %@ is the period (e.g. 1 week) When it can't be loaded for whatever reasons, Subscription_Subtitle will be used instead.
+"Subscription_Subtitle2" = "Підпишіться сьогодні та отримайте безкоштовну пробну версію на %@";
+
+"Subscription_Free_Trial_Requirement" = "(для нових підписок)";
+"Subscription_Free_Trial_Not_Charged" = "Якщо ви скасуєте підписку протягом безкоштовного пробного періоду, плата не буде знята.";
+
+"Subscription_Period_Month" = "/ місяць";
+"Subscription_Period_Year" = "/ рік";
+
+/* unused periods - RevenueCat supports these identifiers so here there are. */
+"Subscription_Period_Err" = "/ Помилка.";
+"Subscription_Period_Lifetime" = ", Назавжди!";
+"Subscription_Period_6Months" = "/ 6 місяців";
+"Subscription_Period_3Months" = "/ 3 місяців";
+"Subscription_Period_2Months" = "/ 2 місяців";
+"Subscription_Period_Week" = "/ тиждень";
+
+"Subscription_Year_Savings" = "~40% економія!";
+"Subscription_Restore_Button" = "Відновити покупки";
+"Subscription_Restore_Completed" = "Відновлення успішно";
+"Subscription_Restore_Failed" = "Помилка відновлення";
+
+"Subscription_Reason" = "Підписка дозволяє відповідати іншим користувачам, переглядати минулі чати та багато іншого, а також підтримати розробника!";
+
+"Subscription_EULA_Button" = "Умови використання (EULA)";
+"Subscription_Privacy_Policy_Button" = "Політика конфіденційності";
+
+"Purchase failed" = "Помилка покупки";
+"Purchase has failed due to %@" = "Покупка не вдалася через %@";
+"Purchase failed due to unknown error." = "Покупка не вдалася через невідому помилку.";
+"Restore purchases has failed due to %@" = "Відновити покупки не вдалося через %@";
+
+"Done" = "Готово";
+
+// TBH, forgot how this would be shown, from code seems to be with error display?
+"dismiss" = "відхилити";
+
+"Period_Year" = "рік";
+"Period_Month" = "місяць";
+"Period_Week" = "тиждень";
+"Period_Day" = "день";
+"Period_Unknown" = "помилка";
+
+
+/* General Category */
+"General" = "Основні";
+
+// subcategory title
+"Connection" = "З'єднання";
+
+// toggle title
+"Show status" = "Показати статус";
+
+"INFO_Connection_Status" = "Якщо увімкнено, статус з'єднання може відображатися в нижній частині вашого годинника, щоб інформувати вас про втрати або відновлення з'єднання між серверами Pigeon і Telegram.";
+
+
+
+
+
+
+/* Messages Category */
+"Display" = "Відображення";
+"Behaviours" = "Поведінка";
+
+/* Display Category */
+
+// subcategory title
+"Bottom bar" = "Нижня панель";
+"Condensed_Mode_Toggle_Title" = "Спрощена";
+"INFO_Condensed_Mode" = "Спрощений режим приховає всі параметри, окрім текстового поля біля кнопки відправити, аналогічно до програми Повідомлення від Apple.";
+
+// subcategory title
+"Base font size" = "Розмір шрифту";
+"Base_Font_Sample_Title" = "Приклад";
+
+// Sample text for user to gauge if text sizing is good for them.
+"Base_Font_Size_Sample_Text" = "Під осіннім лісом пастушки розпалили багаття, погрілися коло нього й пішли додому, женучи поперед себе корів";
+
+"Base_Font_Size_Setting_ContentSize_Title" = "Розмір медіа";
+"Base_Font_Size_Setting_DateSize_Title" = "Розмір дати";
+
+"INFO_Base_Font_Size" = "Це визначає базовий розмір шрифту для повідомлень. Оскільки Pigeon підтримує динамічне введення, більший базовий шрифт також означатиме ще більший шрифт, якщо розмір вашого системного шрифту більше, ніж за замовчуванням. Аналогічно для невеликих системних шрифтів.";
+
+"INFO_Base_Font_Size_Bold" = "Якщо ви не впевнені, просто подивіться на зразок.";
+
+/* Behaviours Category */
+
+// subcategory title
+"Sounds & Haptics" = "Звуки та вібрація";
+"Sounds_Toggle_Switch_Title" = "Повідомлення відправлено";
+"INFO_SoundHaptics" = "Якщо увімкнено, звуки та вібрація будуть використовуватися для інформування вас про те, було повідомлення успішно відправлено чи ні.";
+"INFO_Sample_Title" = "Приклад:";
+"INFO_Play_Tone_Success" = "Успішне відправлення";
+"INFO_Play_Tone_Failure" = "Помилка відправлення";
+
+// subcategory title
+"Audio Playback" = "Програвання аудіо";
+"Playback_Toggle_Switch_Title" = "Системний програвач";
+"INFO_Playback" = "Якщо увімкнено, для відтворення голосових нотаток буде використовуватися системний програвач за замовчуванням, а не вбудований програвач Pigeon.";
+
+// subcategory title
+"Message loads" = "Кількість повідомлень";
+"INFO_Message_Loads" = "Кількість раніше завантажених повідомлень у чаті (±2).";
+"INFO_Message_Loads2" = "Зверніть увагу, що через брак пам'яті в міру завантаження більшої кількості повідомлень продуктивність вашого годинника буде знижуватися.";
+
+
+
+
+
+
+/* Notifications Category */
+
+// Notification grouping subcategory title
+"Notification Grouping" = "Угруповання сповіщень";
+"NotificationGrp_Option_Conversation" = "За діалогами";
+"NotificationGrp_Option_App" = "За додатком";
+"NotificationGrp_Option_None" = "Не групувати";
+
+"INFO_NotificationGrp_Summary" = "Відноситься до того, як сповіщення відображаються в центрі сповіщень.";
+
+"INFO_NotificationGrp_Option_Conversation" = "Групувати за діалогами";
+"INFO_NotificationGrp_Option_Conversation_Summary" = "Сповіщення групуються по кожному чату, групі або каналу. Якщо цей прапорець встановлений, можна переглянути лише останнє сповіщення зі стопки.";
+
+"INFO_NotificationGrp_Option_App" = "Групувати за додатком";
+"INFO_NotificationGrp_Option_App_Summary" = "Всі сповіщення Pigeon згруповані в стопку незалежно від чату, групи або каналу. Якщо цей прапорець встановлений, усі сповіщення можна переглядати індивідуально. Відображення профілю не буде через системні обмеження.";
+
+"INFO_NotificationGrp_Option_None" = "Не групувати";
+"INFO_NotificationGrp_Option_None_Summary" = "Всі сповіщення Pigeon будуть відображатися окремо в центрі сповіщень. (за замовчуванням)";
+
+// Profile pictures subcategory title
+"Profile Pictures Cache" = "Кеш аватарів профілів";
+
+// shown in bold red; tapping it will delete all profile pictures that have already been cached.
+"Profile_Cache_Reset_Button" = "Скинути";
+
+"INFO_Profile_Cache1" = "Зображення профілів чатів та груп кешуються при кожному запуску Pigeon. Вони відображаються поряд із повідомленнями.";
+"INFO_Profile_Cache2" = "В окремих випадках, коли Pigeon може зберігати занадто багато файлів або застарілі зображення профілю, ви можете використовувати кнопку скидання, щоб очистити кеші.";
+"INFO_Profile_Cache3" = "Рекомендується перезапустити Pigeon після натискання кнопки скидання.";
+
+"Clear on launch" = "Очистити під час запуску";
+
+"INFO_Auto_Clear" = "Автоматично видаляти всі повідомлення Pigeon в Центрі повідомлень при кожному запуску програми.";
+"Auto_Clear_Toggle_Title" = "Автоматичне очищення";
+
+
+
+
+/* Connection States */
+
+"Connection_State_Waiting_For_Network" = "Очікування мережі...";
+"VO_Connection_State_Waiting_For_Network" = "Очікування доступності мережі.";
+
+// likely unused as Pigeon doesn't have proxy option.
+"Connection_State_Connecting_To_Proxy" = "Підключення...";
+"VO_Connection_State_Connecting_To_Proxy" = "Підключення до проксі-сервера.";
+
+"Connection_State_Connecting" = "Підключення...";
+"VO_Connection_State_Connecting" = "Підключення до серверів Telegram";
+
+"Connection_State_Updating" = "Оновлення...";
+"VO_Connection_State_Updating" = "Оновлення отриманих даних";
+
+"Connection_State_Connected" = "Підключено";
+"VO_Connection_State_Connected" = "Підключено";
+
+
+
+
+
+/* Status Messages */
+// Messages that simply tells you when something happened in a chat.
+
+"Status_Message_Pin" = "Закріплено повідомлення.";
+"Status_Contact_Registered" = "Користувач приєднався до Telegram.";
+"Status_Change_Photo" = "Фото чату оновлено";
+
+// %@ is the group's name
+"Status_Basic_Group_Created" = "Група \"%@\" створена";
+"Status_Deleted_Member" = "Користувача було видалено.";
+"Status_Add_Member" = "Новий користувач був доданий.";
+"Status_Unsupported_Known_Type" = "Непідтримуване повідомлення: %@";
+"Status_Unsupported_Unknown" = "Повідомлення не підтримується";
+
+
+/* Message Previews */
+// Shown in chat list, as the last sent message.
+
+"Preview_Contact_Message" = "Користувач %@";
+"Preview_Poll_Message" = "Опитування - %@";
+"Preview_Sticker_Message" = "%@ Стікер"; // %@ = емодзі
+"Preview_Audio_Message" = "Аудіо - %@";
+
+
+
+/* Sticker Selection */
+"Installed Stickers" = "Завантажені стікери";
+"WebM_Unupported_Text" = "Не всі анімовані стікери можна переглянути.";
+
+// Send sticker button, shown when user in animated sticker selection mode. %@ is an icon of a paperplane.
+"%@ Send" = "%@ Відправити";
+
+/* Voice Recording failed */
+
+"Rec_Err_Title" = "Виникла помилка під час запису.";
+"Rec_Err_Take_Screenshot_Instructions" = "Будь ласка, зробіть скріншот повідомлення вище та надішліть його %@";
+"Rec_Err_Unknown" = "Сталася невідома помилка.";
+
+/* Telegram Channel Sponsored Posts */
+"Sponsored" = "Спонсор";
+
+
+/* Poll message */
+"Poll_Type_Quiz" = "Вікторина";
+"Poll_Type_Poll" = "Опитування";
+"Poll_Anonymous" = "Анонімно";
+
+
+/* watchOS 8.x Watch Face Complications */
+// watchOS 8.x uses an older system to display watch face complications, of which, this section provides the localised texts for it. Not used in watchOS 9.x and later.
+
+"WOS8_Complications_Display_Name" = "Pigeon";
+"VO_WOS8_Label" = "Ярлик програми Pigeon.";
+
+/* <= watchOS 9.x photo view cancellation */
+"WOS9_Done_Button" = "Готово";
+"WOS9_Grid_Button" = "Сітка";
+"Done" = "Готово";
+
+"Saved Messages" = "Збережені повідомлення";
+
+/* Translation section */
+"Translations" = "Переклади";
+"Special thanks to:" = "Особлива подяка:";
+
+"This message failed to parse." = "Це повідомлення не вдалося отримати.";
+"View" = "Вигляд";
+// VO
+"Thumbnail" = "Мініатюра";
+
+// VO
+"Downloading video... Progress %@ percent." = "Завантаження відео... Прогрес %@ відсотків.";
+
+"Status_Super_Group_Created" = "\"%@\" створена!";
+"Join Pigeon's Channel!" = "Приєднуйтесь до каналу Pigeon!";

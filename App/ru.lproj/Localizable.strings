@@ -1,0 +1,466 @@
+/* 
+  Localizable.strings
+  Pigeon v1.2
+  Revision 4
+
+  Created by Shatokhin Oleksandr, last updated on 4 September 2023.
+ 
+  Replace the Created by name, if you would like to be credited in the app.
+  
+  %@ typically refers to an external value, but may also refer to an icon in certain cases.
+  "KEY" = "VALUE"; VALUE is what that will be displayed in the app.
+ 
+  Keys prefixed with 'VO' are definitely for VoiceOver readouts.
+*/
+
+// Next page button that is shown in Pigeon's main page.
+// Pressing this button will show next 10 chats in folder. Not used in watchOS 10 and later.
+"WOS9_NextPage_Button_Label" = "Далее";
+
+/* Pre-login loading */
+"Logging out..." = "Выход...";
+"Unknown" = "Неизвестно";
+"Please wait." = "Пожалуйста подождите.";
+"Loading..." = "Загрузка...";
+
+"Auth_Error_Title" = "Произошла ошибка.";
+"An unexpected authentication state of \"%@\" has been reached. Please relay this to the developer, thank you." = "Произошла неожиданная ошибка авторизации с кодом \"%@\". Пожалуйста сообщите об этом разработчику, спасибо.";
+
+"An error occurred while processing the QR code" = "При обработке QR-кода произошла ошибка";
+
+
+/* Login Instructions */
+"Login Instructions" = "Инструкции для входа в систему";
+
+// Shown when QR code is not ready yet.
+"Processing QR Code..." = "Обработка QR-кода...";
+
+"In the Telegram app," = "В приложении Telegram,";
+"Go to the Settings tab" = "Перейдите на вкладку Настройки";
+"Tap on \"Devices\"" = "Нажмите на \"Устройства\"";
+"Tap on \"Link Desktop Device\"" = "Нажмите на \"Подключить устройство\"";
+"Scan the QR Code %@" = "Просканируйте QR-код %@";
+"After_Scanning_Instructions" = "После сканирования обработка может занять некоторое время, даже если приложение по-прежнему отображает QR-код. Пожалуйста, подождите!";
+
+"QR Code" = "QR-код";
+"Phone Number login" = "Вход по номеру телефона"; // unused.
+
+
+
+
+/* 2FA */
+"Login" = "Вход";
+"Try again" = "Попробуйте снова";
+"Error" = "Ошибка";
+
+"Enter Password" = "Введите пароль";
+"You have Two-Step Verification enabled for your account, hence we need your password to continue." = "У Вас включена двухэтапная аутентификация вашей учетной записи, введите ваш пароль для продолжения.";
+
+// What's shown on the password field, before the user keys any password in, a hint to the user to what is expected in the text field.
+"2FA_Password_Field_Hint" = "Пароль";
+
+// Password hint label. May not be shown if user did not set a Two Step Verification hint.
+"Hint: %@" = "Подсказка: %@";
+
+"The password that you've entered is incorrect." = "Введенный пароль неверный.";
+"An unknown error has occurred. Please let the developer know!" = "Произошла неизвестная ошибка. Сообщите разработчику!";
+
+
+/* Toolbar buttons of main page. */
+
+"Toolbar_WhatsNew" = "Что нового?";
+"Toolbar_UnlockFeatures" = "Откройте все функции!";
+"Toolbar_Folders" = "Папки";
+// Toolbar settings's key is "Settings";
+
+// label of the folder that represents all chats.
+"All_Chats_Label" = "Все";
+"Chats" = "Чаты";
+
+
+
+/* Messaging page */
+
+// Delete button label, shown in red, when user long-presses on a message. %@ is an icon of trash bin.
+"%@ Delete" = "%@ Удалить";
+
+// Reply button label, shown when user long-presses on a message. %@ is an icon.
+"%@ Reply" = "%@ Ответить";
+
+// Forwarded tag shown on top of message. %@ is an icon.
+"%@ Forwarded" = "%@ Переслано";
+
+"Add a reaction" = "Добавить реакцию";
+"Message sent at:" = "Сообщение отправлено в:";
+"Media" = "Медиа";
+
+/* DEFAULT messaging bar (all displayed with image on the left) */
+
+// Send message button that brings keyboard/input method when user taps on it. Prefer to keep this naming short.
+"Default_Bar_Send_Button" = "Отправить";
+
+"Default_Bar_Send_Audio_Button" = "Аудио";
+"Default_Bar_Send_GIF_Button" = "GIF";
+"Default_Bar_Send_Stickers_Button" = "Стикеры";
+
+/* CONDENSED messaging bar */
+"Condensed_Bar_Message_Title" = "Сообщение";
+
+// Turquiose button on left of message field, when VoiceOver reads it.
+"VO_Condensed_More_Options_Button" = "Больше опций";
+
+// Used in GIF selection page. %@ is a magnifying glass icon.
+"%@ Search" = "%@ Поиск";
+
+// Button on top of all messages.
+"Load earlier messages" = "Загрузить прошлые сообщения";
+
+// VoiceOver action to switch the focus to the newest message available.
+"VO_Jump_To_Newest" = "Перейти к последнему сообщению";
+
+// VoiceOver read out of which chat is loading, as it loads. %@ is the chat's name.
+"Chat %@" = "Чат %@";
+
+
+
+
+/* Message failed to send page */
+
+"Fail_Send_Title" = "Ошибка отправки.";
+
+// %@ refers to the message type. (e.g. A voice message...)
+"A %@ message has failed to send." = "Сообщение %@ не удалось отправить.";
+
+"Fail_Send_Try_Again_Button" = "Попробовать снова";
+"Fail_Send_Discard_Button" = "Отменить отправку";
+
+
+
+
+
+
+/* VoiceOver only */
+
+// When the user of sent message is yourself, this is used; (e.g. (You) said: Pigeon is an awesome app!)
+"VO_User_You" = "Вы";
+// When the sent message is a channel, this is used; (e.g. (Channel) said: Pigeon has a new update.)
+"VO_User_Channel" = "Канал";
+// (Rare) When system failed to identify either if message is sent by known user, you or channel, this is used; (e.g. (Someone) said: You won't know who am I.)
+"VO_User_Unknown" = "Кто-то";
+
+// Reads out when user highlights on individual folder buttons, shown on toolbar of home page. (Example: News folder, All folder, Unread folder)
+"%@ folder" = "%@ папка";
+
+// Reads out when user highlights on a text message. (Example: "Vincent said: Happy Birthday!")
+"%@ said: " = "%@ сказал: ";
+
+// Reads out when user highlights on a GIF message. (Example: "Vincent said: Happy Birthday!")
+"%@ sent a GIF." = "%@ отправил GIF.";
+
+// Reads out when user highlights on audio message. (Example: "Vincent sent an audio message, of duration, 2 minutes, 30 seconds"). Duration is formatted depending on locale.
+"%@ sent an audio message, of duration, %@" = "%@ отправил голосовое сообщение длительностью, %@";
+
+// Reads out when user highlights on voice message. (Example: "Vincent sent an voice message, of duration, 1 minute, 8 seconds"). Duration is formatted depending on locale.
+"%@ sent a voice message, of duration, %@" = "%@ отправил голосовое сообщение длительностью, %@";
+
+// Subject to change; Reads out when user highlights on sticker message. %@ refers to emoji which the sticker is associated with.
+"%@ sticker" = "%@ стикер";
+
+// Reads out when chat has a verified badge.
+"VO_Verified_Badge" = "Верифицированный аккаунт";
+
+// Reads out when chat is pinned.
+"VO_Pinned_Chat_Icon" = "Закрепленный чат";
+
+// Actions
+// Reads out when user highlights on text field of condensed message bar or send button of message bar.
+"VO_Compose_Text_Message" = "Написать сообщение";
+"VO_Action_Audio" = "Записать голосовое сообщение";
+"VO_Action_GIF" = "Отправить GIF";
+"VO_Action_Sticker" = "Отправить стикер";
+
+// Reads out the chat unread amount. Preferred to be in CAPS. %lld is a number.
+"%lld UNREAD" = "%lld НЕПРОЧИТАННЫХ";
+
+// VoiceOver label for contact messages.
+"Contact Name" = "Имя контакта";
+
+
+
+
+
+
+/* Settings page */
+"Settings" = "Настройки";
+"Acknowledgments" = "Благодарности";
+"Settings_Menu_General_Label" = "Основные";
+"Settings_Menu_Messages_Label" = "Сообщения";
+"Settings_Menu_Messages_Display_Label" = "Отображение";
+"Settings_Menu_Messages_Behaviours_Label" = "Поведение";
+"Settings_Menu_Notifications" = "Уведомления";
+"Settings_Menu_General_Connection_Title" = "Соединение";
+
+/* Logout */
+"Logout" = "Выход";
+"Logout_Confirmation" = "Вы уверены?";
+"Cancel" = "Отменить";
+
+/* Settings -> Support page */
+
+"Support" = "Поддержка";
+"Need help?" = "Нужна помощь?";
+
+"Contact_Label_Email" = "📧 Напишите мне!";
+"Contact_Label_Twitter" = "🐦 Twitter"; // Keep the bird theme.
+"Contact_Label_Mastodon" = "🦣 Mastodon";
+"Contact_Footer_Instructions" = "Нажмите на любой из приведенных выше вариантов для получения QR-кода.";
+
+/* Subscription page */
+"Subscriptions" = "Подписки";
+
+"Subscription_Title" = "Откройте все функции";
+"Subscription_Subtitle" = "Подпишитесь сегодня и получите бесплатную пробную версию!";
+// %@ is the period (e.g. 1 week) When it can't be loaded for whatever reasons, Subscription_Subtitle will be used instead.
+"Subscription_Subtitle2" = "Подпишитесь сегодня и получите бесплатную пробную версию на %@";
+
+"Subscription_Free_Trial_Requirement" = "(для новых подписок)";
+"Subscription_Free_Trial_Not_Charged" = "Если вы отмените подписку в течение бесплатного пробного периода, плата не будет снята.";
+
+"Subscription_Period_Month" = "/ месяц";
+"Subscription_Period_Year" = "/ год";
+
+/* unused periods - RevenueCat supports these identifiers so here there are. */
+"Subscription_Period_Err" = "/ Ошибка.";
+"Subscription_Period_Lifetime" = ", Навсегда!";
+"Subscription_Period_6Months" = "/ 6 месяцев";
+"Subscription_Period_3Months" = "/ 3 месяцев";
+"Subscription_Period_2Months" = "/ 2 месяцев";
+"Subscription_Period_Week" = "/ неделя";
+
+"Subscription_Year_Savings" = "~40% экономия!";
+"Subscription_Restore_Button" = "Восстановить покупки";
+"Subscription_Restore_Completed" = "Восстановление успешно";
+"Subscription_Restore_Failed" = "Ошибка восстановления";
+
+"Subscription_Reason" = "Подписка позволяет отвечать другим пользователям, просматривать старые чаты и многое другое, а также поддержать разработчика!";
+
+"Subscription_EULA_Button" = "Условия использования (EULA)";
+"Subscription_Privacy_Policy_Button" = "Политика конфиденциальности";
+
+"Purchase failed" = "Ошибка покупки";
+"Purchase has failed due to %@" = "Покупка не удалась из-за %@";
+"Purchase failed due to unknown error." = "Покупка не удалась из-за неизвестной ошибки.";
+"Restore purchases has failed due to %@" = "Восстановить покупки не удалось из-за %@";
+
+"Done" = "Готово";
+
+// TBH, forgot how this would be shown, from code seems to be with error display?
+"dismiss" = "отклонить";
+
+"Period_Year" = "год";
+"Period_Month" = "месяц";
+"Period_Week" = "неделя";
+"Period_Day" = "день";
+"Period_Unknown" = "ошибка";
+
+
+/* General Category */
+"General" = "Основные";
+
+// subcategory title
+"Connection" = "Соединение";
+
+// toggle title
+"Show status" = "Показать статус";
+
+"INFO_Connection_Status" = "Если включено, статус соединения может отображаться в нижней части ваших часов, чтобы информировать вас о потерях или восстановлении соединения между серверами Pigeon и Telegram.";
+
+
+
+
+
+
+/* Messages Category */
+"Display" = "Отображение";
+"Behaviours" = "Поведение";
+
+/* Display Category */
+
+// subcategory title
+"Bottom bar" = "Нижняя панель";
+"Condensed_Mode_Toggle_Title" = "Упрощенная";
+"INFO_Condensed_Mode" = "Упрощенный режим скроет все параметры, кроме текстового поля возле кнопки отправить, аналогично приложению Сообщения от Apple.";
+
+// subcategory title
+"Base font size" = "Размер шрифта";
+"Base_Font_Sample_Title" = "Пример";
+
+// Sample text for user to gauge if text sizing is good for them.
+"Base_Font_Size_Sample_Text" = "Умельцы бобры приносят куски дерева по реке к своим хаткам";
+
+"Base_Font_Size_Setting_ContentSize_Title" = "Размер медиа";
+"Base_Font_Size_Setting_DateSize_Title" = "Размер даты";
+
+"INFO_Base_Font_Size" = "Это задает базовый размер шрифта для сообщений. Поскольку Pigeon поддерживает динамический ввод, более крупный базовый шрифт также будет означать еще более крупный шрифт, если размер вашего системного шрифта больше, чем по умолчанию. Аналогично для небольших системных шрифтов.";
+
+"INFO_Base_Font_Size_Bold" = "Если вы не уверены, просто посмотрите на образец.";
+
+/* Behaviours Category */
+
+// subcategory title
+"Sounds & Haptics" = "Звуки и вибрация";
+"Sounds_Toggle_Switch_Title" = "Сообщение отправлено";
+"INFO_SoundHaptics" = "Если включено, звуки и вибрация будут использоваться для информирования вас о том, было ли сообщение успешно отправлено или нет.";
+"INFO_Sample_Title" = "Пример:";
+"INFO_Play_Tone_Success" = "Успешная отправка";
+"INFO_Play_Tone_Failure" = "Ошибка отправки";
+
+// subcategory title
+"Audio Playback" = "Проигрывание аудио";
+"Playback_Toggle_Switch_Title" = "Системный проигрыватель";
+"INFO_Playback" = "Если включено, для воспроизведения голосовых заметок будет использоваться системный проигрыватель по умолчанию, а не встроенный проигрыватель Pigeon.";
+
+// subcategory title
+"Message loads" = "Количество сообщений";
+"INFO_Message_Loads" = "Количество ранее загруженных сообщений в чате (±2).";
+"INFO_Message_Loads2" = "Обратите внимание, что из-за нехватки памяти по мере загрузки большего количества сообщений производительность ваших часов будет снижаться.";
+
+
+
+
+
+
+/* Notifications Category */
+
+// Notification grouping subcategory title
+"Notification Grouping" = "Группировка уведомлений";
+"NotificationGrp_Option_Conversation" = "По диалогам";
+"NotificationGrp_Option_App" = "По приложению";
+"NotificationGrp_Option_None" = "Не группировать";
+
+"INFO_NotificationGrp_Summary" = "Относится к тому, как уведомления отображаются в центре уведомлений.";
+
+"INFO_NotificationGrp_Option_Conversation" = "Группировать по диалогам";
+"INFO_NotificationGrp_Option_Conversation_Summary" = "Уведомления группируются по каждому чату, группе или каналу. Если этот флажок установлен, можно просмотреть только последнее уведомление из стопки.";
+
+"INFO_NotificationGrp_Option_App" = "Группировать по приложению";
+"INFO_NotificationGrp_Option_App_Summary" = "Все уведомления Pigeon сгруппированы в стопку независимо от чата, группы или канала. Если этот флажок установлен, все уведомления можно просматривать индивидуально. Отображение профиля не будет из-за системных ограничений.";
+
+"INFO_NotificationGrp_Option_None" = "Не группировать";
+"INFO_NotificationGrp_Option_None_Summary" = "Все уведомления Pigeon будут отображаться отдельно в центре уведомлений. (по умолчанию)";
+
+// Profile pictures subcategory title
+"Profile Pictures Cache" = "Кэш аватаров профилей";
+
+// shown in bold red; tapping it will delete all profile pictures that have already been cached.
+"Profile_Cache_Reset_Button" = "Сбросить";
+
+"INFO_Profile_Cache1" = "Изображения профилей ваших чатов и групп кэшируются при каждом запуске Pigeon. Они отображаются рядом с уведомлениями.";
+"INFO_Profile_Cache2" = "В редких случаях, когда Pigeon может хранить слишком много файлов или устаревшие изображения профиля, вы можете использовать кнопку сброса, чтобы очистить кеши.";
+"INFO_Profile_Cache3" = "Рекомендуется перезапустить Pigeon после нажатия кнопки сброса.";
+
+"Clear on launch" = "Очистить при запуске";
+
+"INFO_Auto_Clear" = "Автоматически удалять все уведомления Pigeon в Центре уведомлений при каждом запуске приложения.";
+"Auto_Clear_Toggle_Title" = "Автоматическая очистка";
+
+
+
+
+/* Connection States */
+
+"Connection_State_Waiting_For_Network" = "Ожидание сети...";
+"VO_Connection_State_Waiting_For_Network" = "Ожидание доступности сети.";
+
+// likely unused as Pigeon doesn't have proxy option.
+"Connection_State_Connecting_To_Proxy" = "Подключение...";
+"VO_Connection_State_Connecting_To_Proxy" = "Подключение к прокси серверу.";
+
+"Connection_State_Connecting" = "Подключение...";
+"VO_Connection_State_Connecting" = "Подключение к серверам Telegram";
+
+"Connection_State_Updating" = "Обновление...";
+"VO_Connection_State_Updating" = "Обновление полученных данных";
+
+"Connection_State_Connected" = "Подключено";
+"VO_Connection_State_Connected" = "Подключено";
+
+
+
+
+
+/* Status Messages */
+// Messages that simply tells you when something happened in a chat.
+
+"Status_Message_Pin" = "Закреплено сообщение.";
+"Status_Contact_Registered" = "Пользователь присоединился к Telegram.";
+"Status_Change_Photo" = "Фото чата обновлено";
+
+// %@ is the group's name
+"Status_Basic_Group_Created" = "Группа \"%@\" создана";
+"Status_Deleted_Member" = "Пользователь был удален.";
+"Status_Add_Member" = "Новый пользователь(ли) был добавлен.";
+"Status_Unsupported_Known_Type" = "Неподдерживаемое сообщение: %@";
+"Status_Unsupported_Unknown" = "Сообщение не поддерживается";
+
+
+/* Message Previews */
+// Shown in chat list, as the last sent message.
+
+"Preview_Contact_Message" = "Пользователь %@";
+"Preview_Poll_Message" = "Опрос - %@";
+"Preview_Sticker_Message" = "%@ Стикер"; // %@ = эмодзи
+"Preview_Audio_Message" = "Аудио - %@";
+
+
+
+/* Sticker Selection */
+"Installed Stickers" = "Загруженные стикеры";
+"WebM_Unupported_Text" = "Не все анимированные стикеры можно просмотреть.";
+
+// Send sticker button, shown when user in animated sticker selection mode. %@ is an icon of a paperplane.
+"%@ Send" = "%@ Отправить";
+
+/* Voice Recording failed */
+
+"Rec_Err_Title" = "Произошла ошибка во время записи.";
+"Rec_Err_Take_Screenshot_Instructions" = "Пожалуйста, сделайте скриншот сообщения выше и отправьте его %@";
+"Rec_Err_Unknown" = "Произошла неизвестная ошибка.";
+
+/* Telegram Channel Sponsored Posts */
+"Sponsored" = "Спонсор";
+
+
+/* Poll message */
+"Poll_Type_Quiz" = "Викторина";
+"Poll_Type_Poll" = "Опрос";
+"Poll_Anonymous" = "Анонимно";
+
+
+/* watchOS 8.x Watch Face Complications */
+// watchOS 8.x uses an older system to display watch face complications, of which, this section provides the localised texts for it. Not used in watchOS 9.x and later.
+
+"WOS8_Complications_Display_Name" = "Pigeon";
+"VO_WOS8_Label" = "Ярлык приложения Pigeon.";
+
+/* <= watchOS 9.x photo view cancellation */
+"WOS9_Done_Button" = "Готово";
+"WOS9_Grid_Button" = "Сетка";
+"Done" = "Готово";
+
+"Saved Messages" = "Сохраненные сообщения";
+
+/* Translation section */
+"Translations" = "Переводы";
+"Special thanks to:" = "Особая благодарность:";
+
+"This message failed to parse." = "Это сообщение не удалось получить.";
+"View" = "Вид";
+// VO
+"Thumbnail" = "Миниатюра";
+
+// VO
+"Downloading video... Progress %@ percent." = "Загрузка видео... Прогресс %@ процентов.";
+
+"Status_Super_Group_Created" = "\"%@\" создана!";
+"Join Pigeon's Channel!" = "Присоединяйтесь к каналу Pigeon!";
