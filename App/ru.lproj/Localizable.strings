@@ -1,9 +1,9 @@
 /* 
   Localizable.strings
-  Pigeon v1.2
-  Revision 4
+  Pigeon v1.3
+  Revision 1
 
-  Created by Shatokhin Oleksandr, last updated on 4 September 2023.
+  Created by Shatokhin Oleksandr, last updated on 19 November 2023.
  
   Replace the Created by name, if you would like to be credited in the app.
   
@@ -468,68 +468,72 @@
 // MARK: - version 1.3
 
 // save preferences button
-"Save" = "Save";
+"Save" = "Сохранить";
 
-"Message_Bar_Order_Prefs_Error" = "An error occurred while saving your preferences";
+"Message_Bar_Order_Prefs_Error" = "Произошла ошибка при сохранении Ваших настроек.";
 
-"Message_Bar_Order_Prefs_Instructions" = "Hold and drag to change order.";
+"Message_Bar_Order_Prefs_Instructions" = "Удерживайте и перетащите, чтобы изменить порядок.";
 
-"Default_Bar_Send_Photo_Button" = "Photo";
+"Default_Bar_Send_Photo_Button" = "Фото";
 
-"VO_Photo_Sticker" = "Send a photo";
-"VO_Hide_Toggle_Message_Bar_Order" = "Show";
-"VO_Move_Up" = "Move up";
-"VO_Move_Down" = "Move down";
+"VO_Photo_Sticker" = "Отправить фото";
+"VO_Hide_Toggle_Message_Bar_Order" = "Показать";
+"VO_Move_Up" = "Вверх";
+"VO_Move_Down" = "Вниз";
 
 // VO, when reading message's original reply (e.g. Replying to <Vincent> <What's that?>)
-"Replying to %@ %@" = "Replying to %@ %@";
+"Replying to %@ %@" = "Отвечаю %@ %@";
 
-"You have no conversations yet." = "You have no conversations yet.";
+"You have no conversations yet." = "У вас пока нет чатов.";
 
-"Rate or Review! ⭐️" = "Rate or Review! ⭐️";
-"Scan to rate from your iPhone!" = "Scan to rate from your iPhone!";
-
-// VO
-"Previous Page" = "Previous Page";
+"Rate or Review! ⭐️" = "Оцените или напишите отзыв! ⭐️";
+"Scan to rate from your iPhone!" = "Отсканируйте, чтобы оценить со своего iPhone!";
 
 // VO
-"Next Page" = "Next Page";
+"Previous Page" = "Предыдущая страница";
+
+// VO
+"Next Page" = "Следующая страница";
 
 // VO chat title (e.g. Chats page 3)
-"%@ page %d" = "%@ page %d";
+"%@ page %d" = "%@ страница %d";
 
 // VO
-"Back" = "Back";
+"Back" = "Назад";
 
-"Download animation" = "Download animation";
+"Download animation" = "Скачать анимацию";
 
-"Reactions" = "Reactions";
+"Reactions" = "Реакции";
 
 // Message send states, VO
-"Sending" = "Sending";
-"Read" = "Read";
-"Sent" = "Sent";
-"Edited" = "Edited";
+"Sending" = "Отправка";
+"Read" = "Прочитано";
+"Sent" = "Отправлено";
+"Edited" = "Изменено";
 
-"Edit message" = "Edit message";
-"%@ Edit" = "%@ Edit";
+"Edit message" = "Изменить сообщение";
+"%@ Edit" = "%@ Изменить";
 
-"This will permanently delete the selected message." = "This will permanently delete the selected message.";
+"This will permanently delete the selected message." = "Это навсегда удалит выбранное сообщение.";
 
-"Delete for everyone" = "Delete for everyone";
-"Delete for me" = "Delete for me";
-"Are you sure?" = "Are you sure?";
+"Delete for everyone" = "Удалить для всех";
+"Delete for me" = "Удалить для меня";
+"Are you sure?" = "Вы уверены?";
 
-"Configure" = "Configure";
+"Configure" = "Настроить";
 
-"Last edited on:" = "Last edited on:";
-"Location" = "Location";
+"Last edited on:" = "Отредактировано в:";
+"Location" = "Местоположение";
 
 // VO
-"Quoted" = "Quoted";
+"Quoted" = "Цитата";
 
 // VO new Voice Recorder
-"Record" = "Record";
-"Please wait" = "Please wait";
-"Stop recording" = "Stop recording";
-"Send recording" = "Send recording";
+"Record" = "Запись";
+"Please wait" = "Пожалуйста подождите";
+"Stop recording" = "Остановить запись";
+"Send recording" = "Отправить запись";
+
+// VO shortcuts
+"Focus on toolbar" = "Focus on toolbar";
+"Focus on chat list" = "Focus on chat list";
