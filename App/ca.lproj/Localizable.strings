@@ -3,7 +3,7 @@
   Pigeon v1.2
   Revision 4
 
-  Created by Xavier Juan, last updated on 21 August 2023.
+  Created by Xavier Juan, last updated on 20 November 2023.
  
   Replace the Created by name, if you would like to be credited in the app.
   
@@ -454,92 +454,92 @@
 "Translations" = "Traduccions";
 "Special thanks to:" = "Agraïments especials a:";
 
-"This message failed to parse." = "This message failed to parse.";
-"View" = "View";
+"This message failed to parse." = "Aquest missatge no s'ha pogut processar.";
+"View" = "Veure";
 // VO
-"Thumbnail" = "Thumbnail";
+"Thumbnail" = "Miniatura";
 
 // VO
-"Downloading video... Progress %@ percent." = "Downloading video... Progress %@ percent.";
+"Downloading video... Progress %@ percent." = "Descarregant vídeo... Progrés %@ percent.";
 
-"Status_Super_Group_Created" = "\"%@\" was created";
-"Join Pigeon's Channel!" = "Join Pigeon's Channel!";
+"Status_Super_Group_Created" = "S'ha creat \"%@\"";
+"Join Pigeon's Channel!" = "Uneix-te al canal de Pigeon!";
 
 // MARK: - version 1.3
 
 // save preferences button
-"Save" = "Save";
+"Save" = "Desa";
 
-"Message_Bar_Order_Prefs_Error" = "An error occurred while saving your preferences";
+"Message_Bar_Order_Prefs_Error" = "Hi ha hagut un error al desar els ajustos.";
 
-"Message_Bar_Order_Prefs_Instructions" = "Hold and drag to change order.";
+"Message_Bar_Order_Prefs_Instructions" = "Mantingues i arrastra per a canviar l'ordre.";
 
-"Default_Bar_Send_Photo_Button" = "Photo";
+"Default_Bar_Send_Photo_Button" = "Foto";
 
-"VO_Photo_Sticker" = "Send a photo";
-"VO_Hide_Toggle_Message_Bar_Order" = "Show";
-"VO_Move_Up" = "Move up";
-"VO_Move_Down" = "Move down";
+"VO_Photo_Sticker" = "Envía una foto";
+"VO_Hide_Toggle_Message_Bar_Order" = "Mostra";
+"VO_Move_Up" = "Mou amunt";
+"VO_Move_Down" = "Mou avall";
 
 // VO, when reading message's original reply (e.g. Replying to <Vincent> <What's that?>)
-"Replying to %@ %@" = "Replying to %@ %@";
+"Replying to %@ %@" = "Responent a %@ %@";
 
-"You have no conversations yet." = "You have no conversations yet.";
+"You have no conversations yet." = "Encara no hi tens cap conversa.";
 
-"Rate or Review! ⭐️" = "Rate or Review! ⭐️";
-"Scan to rate from your iPhone!" = "Scan to rate from your iPhone!";
-
-// VO
-"Previous Page" = "Previous Page";
+"Rate or Review! ⭐️" = "Puntúa o revisa! ⭐️";
+"Scan to rate from your iPhone!" = "Escaneja per a puntuar des del teu iPhone!";
 
 // VO
-"Next Page" = "Next Page";
+"Previous Page" = "Pàgina anterior";
+
+// VO
+"Next Page" = "Següent pàgina";
 
 // VO chat title (e.g. Chats page 3)
-"%@ page %d" = "%@ page %d";
+"%@ page %d" = "%@ pàgina %d";
 
 // VO
-"Back" = "Back";
+"Back" = "Enrera";
 
-"Download animation" = "Download animation";
+"Download animation" = "Descàrrega animació";
 
-"Reactions" = "Reactions";
+"Reactions" = "Reaccions";
 
 // Message send states, VO
-"Sending" = "Sending";
-"Read" = "Read";
-"Sent" = "Sent";
-"Edited" = "Edited";
+"Sending" = "Enviant";
+"Read" = "Llegit";
+"Sent" = "Enviat";
+"Edited" = "Editat";
 
-"Edit message" = "Edit message";
-"%@ Edit" = "%@ Edit";
+"Edit message" = "Edita missatge";
+"%@ Edit" = "%@ Edita";
 
-"This will permanently delete the selected message." = "This will permanently delete the selected message.";
+"This will permanently delete the selected message." = "S'esborrarà permanentment el missatge sel·leccionat.";
 
-"Delete for everyone" = "Delete for everyone";
-"Delete for me" = "Delete for me";
-"Are you sure?" = "Are you sure?";
+"Delete for everyone" = "Esborra per a tothom";
+"Delete for me" = "Esborra només per a mi";
+"Are you sure?" = "¿Esborrar?";
 
-"Configure" = "Configure";
+"Configure" = "Configura";
 
-"Last edited on:" = "Last edited on:";
-"Location" = "Location";
+"Last edited on:" = "Última edició el:";
+"Location" = "Ubicació";
 
 // VO
-"Quoted" = "Quoted";
+"Quoted" = "Citat";
 
 // VO new Voice Recorder
-"Record" = "Record";
-"Please wait" = "Please wait";
-"Stop recording" = "Stop recording";
-"Send recording" = "Send recording";
+"Record" = "Grava";
+"Please wait" = "Espera sius plau";
+"Stop recording" = "Atura la gravació";
+"Send recording" = "Envía la gravació";
 
 // VO shortcuts
-"Focus on toolbar" = "Focus on toolbar";
-"Focus on chat list" = "Focus on chat list";
+"Focus on toolbar" = "Focus a la barra d'eines";
+"Focus on chat list" = "Focus a la llista de xats";
 
-"duration" = "duration";
+"duration" = "durada";
 
-"Chat %@ has been opened" = "Chat %@ has been opened";
-"View options" = "View options";
+"Chat %@ has been opened" = "S'ha obert el xat %@";
+"View options" = "Veu les opcions";
 

@@ -49,7 +49,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>no items</string>
+			<string>no hay items</string>
 			<key>one</key>
 			<string>%d item</string>
 			<key>other</key>
