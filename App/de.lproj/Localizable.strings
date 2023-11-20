@@ -454,87 +454,91 @@
 "Translations" = "Übersetzungen";
 "Special thanks to:" = "Besonderer Dank an:";
 
-"This message failed to parse." = "This message failed to parse.";
-"View" = "View";
+"This message failed to parse." = "Diese Nachricht konnte nicht analysiert werden.";
+"View" = "Ansehen";
 // VO
-"Thumbnail" = "Thumbnail";
+"Thumbnail" = "Miniaturansicht";
 
 // VO
-"Downloading video... Progress %@ percent." = "Downloading video... Progress %@ percent.";
+"Downloading video... Progress %@ percent." = "Video wird heruntergeladen... Fortschritt %@ Prozent.";
 
-"Status_Super_Group_Created" = "\"%@\" was created";
-"Join Pigeon's Channel!" = "Join Pigeon's Channel!";
+"Status_Super_Group_Created" = "\"%@\" wurde erstelllt";
+"Join Pigeon's Channel!" = "Pigeon's Kanal beitreteten!";
 
 // MARK: - version 1.3
 
 // save preferences button
 "Save" = "Save";
 
-"Message_Bar_Order_Prefs_Error" = "An error occurred while saving your preferences";
+"Message_Bar_Order_Prefs_Error" = "Beim Speichern Ihrer Einstellungen ist ein Fehler aufgetreten";
 
-"Message_Bar_Order_Prefs_Instructions" = "Hold and drag to change order.";
+"Message_Bar_Order_Prefs_Instructions" = "Halten und ziehen Sie, um die Reihenfolge zu ändern.";
 
-"Default_Bar_Send_Photo_Button" = "Photo";
+"Default_Bar_Send_Photo_Button" = "Foto";
 
-"VO_Photo_Sticker" = "Send a photo";
-"VO_Hide_Toggle_Message_Bar_Order" = "Show";
-"VO_Move_Up" = "Move up";
-"VO_Move_Down" = "Move down";
+"VO_Photo_Sticker" = "Sende ein Foto";
+"VO_Hide_Toggle_Message_Bar_Order" = "Anzeigen";
+"VO_Move_Up" = "Hoch";
+"VO_Move_Down" = "Runter";
 
 // VO, when reading message's original reply (e.g. Replying to <Vincent> <What's that?>)
-"Replying to %@ %@" = "Replying to %@ %@";
+"Replying to %@ %@" = "Antworten an %@ %@";
 
-"You have no conversations yet." = "You have no conversations yet.";
+"You have no conversations yet." = "Sie haben noch keine Gespräche.";
 
-"Rate or Review! ⭐️" = "Rate or Review! ⭐️";
-"Scan to rate from your iPhone!" = "Scan to rate from your iPhone!";
-
-// VO
-"Previous Page" = "Previous Page";
+"Rate or Review! ⭐️" = "Bewerten oder Kommentieren ⭐️";
+"Scan to rate from your iPhone!" = "Scannen Sie, um von Ihrem iPhone aus zu bewerten!";
 
 // VO
-"Next Page" = "Next Page";
+"Previous Page" = "Vorherige Seite";
+
+// VO
+"Next Page" = "Nächste Seite";
 
 // VO chat title (e.g. Chats page 3)
-"%@ page %d" = "%@ page %d";
+"%@ page %d" = "%@ Seite %d";
 
 // VO
-"Back" = "Back";
+"Back" = "Zurück";
 
-"Download animation" = "Download animation";
+"Download animation" = "Download Animation";
 
-"Reactions" = "Reactions";
+"Reactions" = "Reaktionen";
 
 // Message send states, VO
-"Sending" = "Sending";
-"Read" = "Read";
-"Sent" = "Sent";
-"Edited" = "Edited";
+"Sending" = "Senden";
+"Read" = "Lesen";
+"Sent" = "Versenden";
+"Edited" = "Bearbeiten";
 
-"Edit message" = "Edit message";
-"%@ Edit" = "%@ Edit";
+"Edit message" = "Nachricht bearbeiten";
+"%@ Edit" = "%@ bearbeitet";
 
-"This will permanently delete the selected message." = "This will permanently delete the selected message.";
+"This will permanently delete the selected message." = "Dies wird die Nachricht dauerhaft löschen.";
 
-"Delete for everyone" = "Delete for everyone";
-"Delete for me" = "Delete for me";
-"Are you sure?" = "Are you sure?";
+"Delete for everyone" = "Für alle löschen";
+"Delete for me" = "Für mich löschen";
+"Are you sure?" = "Bist du sicher?";
 
 "Configure" = "Configure";
 
-"Last edited on:" = "Last edited on:";
+"Last edited on:" = "Zuletzt bearbeitet am:";
 "Location" = "Location";
 
 // VO
-"Quoted" = "Quoted";
+"Quoted" = "Zitiert";
 
 // VO new Voice Recorder
-"Record" = "Record";
-"Please wait" = "Please wait";
-"Stop recording" = "Stop recording";
-"Send recording" = "Send recording";
-
+"Record" = "Aufnahme";
+"Please wait" = "Bitte warten";
+"Stop recording" = "Beende Aufnahme";
+"Send recording" = "Sende Aufnahme";
 
 // VO shortcuts
-"Focus on toolbar" = "Focus on toolbar";
-"Focus on chat list" = "Focus on chat list";
+"Focus on toolbar" = "Fokus auf Symbolleiste";
+"Focus on chat list" = "Fokus auf Chat liste";
+
+"duration" = "duration";
+
+"Chat %@ has been opened" = "Chat %@ has been opened";
+"View options" = "View options";
