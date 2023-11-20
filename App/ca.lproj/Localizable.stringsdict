@@ -41,7 +41,7 @@
 	<key>%d item(s)</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@ítem@</string>
+		<string>%#@item@</string>
 		<key>item</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
