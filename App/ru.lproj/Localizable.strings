@@ -537,3 +537,8 @@
 // VO shortcuts
 "Focus on toolbar" = "Focus on toolbar";
 "Focus on chat list" = "Focus on chat list";
+
+"duration" = "duration";
+
+"Chat %@ has been opened" = "Chat %@ has been opened";
+"View options" = "View options";
