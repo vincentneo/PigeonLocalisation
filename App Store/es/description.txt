@@ -1,0 +1,60 @@
+App Store description. Need not follow exactly, such as with non crucial paragraphs like the first 2.
+
+Max 4000 characters.
+-------------------------------------------------------------
+
+Antes del telégrafo, las palomas gobernaban la industria de la mensajería. Hoy en día, una pequeña paloma vive en tu reloj, llevando tus mensajes a través de Telegram.
+
+¡Esa pequeña paloma no es otra que esta aplicación!
+
+Pigeon es un cliente de mensajería para Telegram, diseñado específicamente para la plataforma Apple Watch. Funciona directamente en tu reloj, sin necesidad de una aplicación complementaria en el iPhone.
+
+ENFOQUE EN LA PRIVACIDAD
+Los mensajes se comunican y reciben a través de la interfaz oficial de Telegram, TDLib, para garantizar el mismo nivel de comunicaciones seguras esperado en la plataforma Telegram. No se recopila ninguna de tus información personal, para que puedas chatear con confianza.
+
+MENSAJES FORMATEADOS
+Pigeon no solo recibe mensajes de texto simple. Los mensajes formateados, como los que tienen negrita, cursiva, subrayado o tachado, se presentan como tu amigo pretendía.
+
+TIPOS DE MENSAJES SOPORTADOS
+Pigeon también te muestra los GIF, stickers, fotos, videos, contactos y notas de voz que tu amigo o canal haya enviado, ¡permitiéndote también enviar* mensajes de texto, GIF, stickers y mensajes de voz a tus amigos!
+
+¡Incluso puedes hacer zoom en las fotos, participar en encuestas y cuestionarios, así como interactuar con bots básicos!
+
+FUENTE DINÁMICA
+La interfaz se ajusta según la configuración de tu Fuente Dinámica, ¡para adaptarse mejor a tus necesidades!
+
+INICIO DE SESIÓN SENCILLO
+Iniciar sesión es tan fácil como 2 o 3 pasos simples.
+1. Utilizando la aplicación oficial de Telegram, escanea el código QR que se muestra en el reloj.
+2. Si has habilitado la verificación en dos pasos, deberás ingresar tu contraseña. De lo contrario, ¡ya estás dentro!
+
+REACCIONES, RESPUESTAS Y ELIMINACIÓN
+¡También puedes enviar* reacciones o responder a mensajes, o incluso eliminarlos, directamente en la aplicación! Mantén presionado cualquier mensaje para ver estas opciones.
+
+VISTAS PREVIAS DE ENLACES WEB
+¿Te envió tu amigo un enlace? Adelante, haz clic en él para abrir una rápida vista previa web y ver de qué se trata.
+
+LISTAS DE CHAT PAGINADAS
+Pigeon pagina la lista de chat, de manera que aunque tengas muchos amigos, no te verás bombardeado con cientos de chats de una vez.
+
+SOPORTE DE CARPETAS
+Si prefieres organizar tus chats en la aplicación oficial de Telegram a través de carpetas, ¡Pigeon puede sincronizarse y filtrarlos según tus preferencias!
+
+COMPLICACIONES
+¡Pigeon también admite complicaciones en la esfera del reloj!
+
+MÁS PARA EL FUTURO
+La aventura de la paloma acaba de comenzar, y no se detendrá aquí. ¡Están planeadas más funciones y soporte para tipos de mensajes en el futuro!
+
+—
+
+*Algunas funciones requieren una suscripción activa.
+Con una suscripción, podrás ir a la siguiente página de la lista de chat, ver mensajes antiguos, enviar mensajes, reacciones y respuestas, futuras actualizaciones de funciones, así como apoyar los esfuerzos de desarrollo para mantener a Pigeon en funcionamiento.
+
+—
+Pigeon no está afiliado, asociado, respaldado o de ninguna manera conectado a Telegram Messenger.
+
+Nota: Para usar sin un iPhone en las cercanías, se necesita un Apple Watch con capacidad celular, con un plan celular activo y conexión.
+
+Política de privacidad: https://pigeonwatch.app/privacy
+Términos (EULA estándar): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
