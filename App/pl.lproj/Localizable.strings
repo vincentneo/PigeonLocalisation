@@ -158,10 +158,10 @@
 "%@ sent a GIF." = "%@ wysłał GIF.";
 
 // Reads out when user highlights on audio message. (Example: "Vincent sent an audio message, of duration, 2 minutes, 30 seconds"). Duration is formatted depending on locale.
-"%@ sent an audio message, of duration, %@" = "%@ wysłał wiadomość audio trwającą, %@";
+"%@ sent an audio message, of duration, %@" = "%@ wiadomość audio, czas trfania: %@";
 
 // Reads out when user highlights on voice message. (Example: "Vincent sent an voice message, of duration, 1 minute, 8 seconds"). Duration is formatted depending on locale.
-"%@ sent a voice message, of duration, %@" = "%@ wysłał wiadomość głosową trwającą, %@";
+"%@ sent a voice message, of duration, %@" = "%@ wiadomość głosowa, czas trfania: %@";
 
 // Subject to change; Reads out when user highlights on sticker message. %@ refers to emoji which the sticker is associated with.
 "%@ sticker" = "%@ naklejka";
@@ -468,77 +468,76 @@
 // MARK: - version 1.3
 
 // save preferences button
-"Save" = "Save";
+"Save" = "Zapisz ustawienia";
 
-"Message_Bar_Order_Prefs_Error" = "An error occurred while saving your preferences";
+"Message_Bar_Order_Prefs_Error" = "Wystąpił błąd podczas zapisywania twoich preferencji";
 
-"Message_Bar_Order_Prefs_Instructions" = "Hold and drag to change order.";
+"Message_Bar_Order_Prefs_Instructions" = "Przytrzymaj i przeciągnij, aby zmienić kolejność.";
 
-"Default_Bar_Send_Photo_Button" = "Photo";
+"Default_Bar_Send_Photo_Button" = "Zdjęcie";
 
-"VO_Photo_Sticker" = "Send a photo";
-"VO_Hide_Toggle_Message_Bar_Order" = "Show";
-"VO_Move_Up" = "Move up";
-"VO_Move_Down" = "Move down";
+"VO_Photo_Sticker" = "Wyślij zdjęcie";
+"VO_Hide_Toggle_Message_Bar_Order" = "Pokaż";
+"VO_Move_Up" = "przenieśw górę";
+"VO_Move_Down" = "Przenieś w dół";
 
 // VO, when reading message's original reply (e.g. Replying to <Vincent> <What's that?>)
-"Replying to %@ %@" = "Replying to %@ %@";
+"Replying to %@ %@" = "Odpowiedź do %@ %@";
 
-"You have no conversations yet." = "You have no conversations yet.";
+"You have no conversations yet." = "Nie ma tutaj jeszcze żadnych konwersacji.";
 
-"Rate or Review! ⭐️" = "Rate or Review! ⭐️";
-"Scan to rate from your iPhone!" = "Scan to rate from your iPhone!";
-
-// VO
-"Previous Page" = "Previous Page";
+"Rate or Review! ⭐️" = "Oceń lub zrecenzuj! ⭐";
+"Scan to rate from your iPhone!" = "Zeskanuj, aby ocenić na swoim ajfonie!";
 
 // VO
-"Next Page" = "Next Page";
+"Previous Page" = "Poprzednia strona";
+
+// VO
+"Next Page" = "Następna strona";
 
 // VO chat title (e.g. Chats page 3)
-"%@ page %d" = "%@ page %d";
+"%@ page %d" = "%@ strona %d";
 
 // VO
-"Back" = "Back";
+"Back" = "Wstecz";
 
-"Download animation" = "Download animation";
+"Download animation" = "Pobierz animacje";
 
-"Reactions" = "Reactions";
+"Reactions" = "Reakcje";
 
 // Message send states, VO
-"Sending" = "Sending";
-"Read" = "Read";
-"Sent" = "Sent";
-"Edited" = "Edited";
+"Sending" = "Wysyłanie";
+"Read" = "Przeczytana";
+"Sent" = "Wysłana";
+"Edited" = "Edytowana";
 
-"Edit message" = "Edit message";
-"%@ Edit" = "%@ Edit";
+"Edit message" = "Edytuj wiadomość";
+"%@ Edit" = "%@ Edytuj";
 
-"This will permanently delete the selected message." = "This will permanently delete the selected message.";
+"This will permanently delete the selected message." = "Uwaga! To usunie trfale wybrane wiadomości..";
 
-"Delete for everyone" = "Delete for everyone";
-"Delete for me" = "Delete for me";
-"Are you sure?" = "Are you sure?";
+"Delete for everyone" = "Usuń u wszystkich";
+"Delete for me" = "Usuń tylko u mnie";
+"Are you sure?" = "Czy na pewno?";
 
-"Configure" = "Configure";
+"Configure" = "Konfiguruj";
 
 "Last edited on:" = "Last edited on:";
-"Location" = "Location";
+"Location" = "Lokalizacja";
 
 // VO
 "Quoted" = "Quoted";
 
 // VO new Voice Recorder
-"Record" = "Record";
-"Please wait" = "Please wait";
-"Stop recording" = "Stop recording";
-"Send recording" = "Send recording";
+"Record" = "Nagraj";
+"Please wait" = "Proszę czekać...";
+"Stop recording" = "Zatrzymaj nagrywanie";
+"Send recording" = "Wyślij";
 
 // VO shortcuts
-"Focus on toolbar" = "Focus on toolbar";
-"Focus on chat list" = "Focus on chat list";
+"Focus on toolbar" = "przejdź na pasek narzędzi";
+"Focus on chat list" = "przejdź do listy konwersacji";
 
-"duration" = "duration";
-
-"Chat %@ has been opened" = "Chat %@ has been opened";
-"View options" = "View options";
+"duration" = "Czas trfania:";
+"Chat %@ has been opened" = "Konwersacja z %@ została otwarta.";
+"View options" = "Pokaż menu wiadomości";
