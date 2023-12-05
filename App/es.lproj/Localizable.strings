@@ -547,7 +547,14 @@
 
 "Send My Location" = "Send My Location";
 "Send This Location" = "Send This Location";
+
+// VO
 "Jump to current location" = "Jump to current location";
+// VO
 "Current location coordinates" = "Current location coordinates";
+// VO
 "Selected coordinates" = "Selected coordinates";
+// VO
 "latitude: %@, longitude: %@" = "latitude: %@, longitude: %@";
+
+"Status_Deleted_Message" = "A message was deleted";
