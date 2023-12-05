@@ -1,9 +1,8 @@
 /* 
   Localizable.strings
-  Pigeon v1.2
-  Revision 4
+  Pigeon v1.3
 
-  Created by Vincent Neo, last updated on 28 August 2023.
+  Created by Vincent Neo, last updated on 6 December 2023.
  
   Replace the Created by name, if you would like to be credited in the app.
   
@@ -543,3 +542,12 @@
 "Chat %@ has been opened" = "Chat %@ has been opened";
 "View options" = "View options";
 
+"Default_Bar_Send_Location_Button" = "Location";
+"VO_Action_Location" = "Select a location to send";
+
+"Send My Location" = "Send My Location";
+"Send This Location" = "Send This Location";
+"Jump to current location" = "Jump to current location";
+"Current location coordinates" = "Current location coordinates";
+"Selected coordinates" = "Selected coordinates";
+"latitude: %@, longitude: %@" = "latitude: %@, longitude: %@";

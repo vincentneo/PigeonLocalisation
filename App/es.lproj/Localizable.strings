@@ -1,7 +1,6 @@
 /* 
   Localizable.strings
-  Pigeon v1.2
-  Revision 4
+  Pigeon v1.3
 
   Created by Xavier Juan, last updated on 20 November 2023.
  
@@ -462,7 +461,7 @@
 // VO
 "Downloading video... Progress %@ percent." = "Descargando vídeo... Progreso %@ porciento.";
 
-"Status_Super_Group_Created" = "\Se ha creado "%@\"";
+"Status_Super_Group_Created" = "\Se ha creado \"%@\"";
 "Join Pigeon's Channel!" = "¡Únete al canal de Pigeon!";
 
 // MARK: - version 1.3
@@ -543,3 +542,12 @@
 "Chat %@ has been opened" = "Se ha abierto el chat %@";
 "View options" = "Ver opciones";
 
+"Default_Bar_Send_Location_Button" = "Location";
+"VO_Action_Location" = "Select a location to send";
+
+"Send My Location" = "Send My Location";
+"Send This Location" = "Send This Location";
+"Jump to current location" = "Jump to current location";
+"Current location coordinates" = "Current location coordinates";
+"Selected coordinates" = "Selected coordinates";
+"latitude: %@, longitude: %@" = "latitude: %@, longitude: %@";

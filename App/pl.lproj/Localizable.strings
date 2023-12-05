@@ -1,7 +1,6 @@
 /* 
   Localizable.strings
-  Pigeon v1.2
-  Revision 4
+  Pigeon v1.3
 
   Created by Mieczysław Bąk and Zvonimir Stanecic, last updated on 7 October 2023.
  
@@ -539,5 +538,16 @@
 "Focus on chat list" = "przejdź do listy konwersacji";
 
 "duration" = "Czas trfania:";
+
 "Chat %@ has been opened" = "Konwersacja z %@ została otwarta.";
 "View options" = "Pokaż menu wiadomości";
+
+"Default_Bar_Send_Location_Button" = "Location";
+"VO_Action_Location" = "Select a location to send";
+
+"Send My Location" = "Send My Location";
+"Send This Location" = "Send This Location";
+"Jump to current location" = "Jump to current location";
+"Current location coordinates" = "Current location coordinates";
+"Selected coordinates" = "Selected coordinates";
+"latitude: %@, longitude: %@" = "latitude: %@, longitude: %@";
