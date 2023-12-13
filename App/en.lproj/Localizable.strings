@@ -557,4 +557,27 @@
 // VO
 "latitude: %@, longitude: %@" = "latitude: %@, longitude: %@";
 
-"Status_Deleted_Message" = "A message was deleted";
+"Status_Deleted_Member_Message" = "A member left";
+
+// watchOS 8-9.x; %@ is a chevron >
+"Open Maps %@" = "Open Maps %@";
+"Archive" = "Archive";
+
+"Ignore_Spoilers_Setting_Title" = "Ignore Spoilers";
+"Location Services disabled" = "Location Services disabled";
+
+"VO_Muted_Chat_Badge" = "Chat Muted";
+
+// VO
+"Mute chat" = "Mute chat";
+// VO
+"Unmute chat" = "Unmute chat";
+
+// Mute duration page's title
+"Mute For" = "Mute For";
+
+// context: mute notifications for chat without a specific duration.
+"Forever" = "Forever";
+
+"Contact_Label_Pigeon_Notes" = "📖 Pigeon Notes";
+"Pigeon_Notes_Description" = "Frequently Asked Questions";
