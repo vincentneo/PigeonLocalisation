@@ -2,7 +2,7 @@
   Localizable.strings
   Pigeon v1.3
 
-  Created by Mieczysław Bąk and Zvonimir Stanecic, last updated on 7 October 2023.
+  Created by Mieczysław Bąk and Zvonimir Stanecic, last updated on 30 December 2023.
  
   Replace the Created by name, if you would like to be credited in the app.
   
@@ -542,42 +542,108 @@
 "Chat %@ has been opened" = "Konwersacja z %@ została otwarta.";
 "View options" = "Pokaż menu wiadomości";
 
-"Default_Bar_Send_Location_Button" = "Location";
-"VO_Action_Location" = "Select a location to send";
+"Default_Bar_Send_Location_Button" = "Lokalizacja";
+"VO_Action_Location" = "Wybierz lokalizację do wysłania.";
 
-"Send My Location" = "Send My Location";
-"Send This Location" = "Send This Location";
+"Send My Location" = "Wyślij moją lokalizację";
+"Send This Location" = "Wyślij tą lokalizację";
 
 // VO
-"Jump to current location" = "Jump to current location";
+"Jump to current location" = "Przejdź do aktualnej lokalizacji";
 // VO
-"Current location coordinates" = "Current location coordinates";
+"Current location coordinates" = "Aktualne współrzędne lokalizacji";
 // VO
-"Selected coordinates" = "Selected coordinates";
+"Selected coordinates" = "Wybrane współrzędne";
 // VO
-"latitude: %@, longitude: %@" = "latitude: %@, longitude: %@";
+"latitude: %@, longitude: %@" = "szerokość: %@,  długość geograficzna: %@";
 
-"Status_Deleted_Member_Message" = "A member left";
+"Status_Deleted_Member_Message" = "Użytkownik opuszcza";
 
 // watchOS 8-9.x; %@ is a chevron >
-"Open Maps %@" = "Open Maps %@";
-"Archive" = "Archive";
+"Open Maps %@" = "otwórz mapy %@";
+"Archive" = "Archiwum";
 
-"Ignore_Spoilers_Setting_Title" = "Ignore Spoilers";
-"Location Services disabled" = "Location Services disabled";
+"Ignore_Spoilers_Setting_Title" = "Ignoruj ​​​​spoilery";
+"Location Services disabled" = "Usługi lokalizacji wyłączone";
 
-"VO_Muted_Chat_Badge" = "Chat Muted";
+"VO_Muted_Chat_Badge" = "Wyciszono";
 
 // VO
-"Mute chat" = "Mute chat";
+"Mute chat" = "Wycisz";
 // VO
-"Unmute chat" = "Unmute chat";
+"Unmute chat" = "Zdejmij wyciszenie";
 
 // Mute duration page's title
-"Mute For" = "Mute For";
+"Mute For" = "Wycisz  na";
 
 // context: mute notifications for chat without a specific duration.
-"Forever" = "Forever";
+"Forever" = "na zawsze";
 
-"Contact_Label_Pigeon_Notes" = "📖 Pigeon Notes";
-"Pigeon_Notes_Description" = "Frequently Asked Questions";
+"Contact_Label_Pigeon_Notes" = "📖 Notatki Pigeon";
+"Pigeon_Notes_Description" = "Często zadawane pytania";
+
+"Would you like to add a caption?" = "Would you like to add a caption?";
+"Caption" = "Caption";
+
+
+"Video Note" = "Video Note";
+"Status_Message_Video_Note" = "Video Message";
+"Toolbar_New_Chat" = "Chat";
+"No contacts found." = "No contacts found.";
+"No messages yet." = "No messages yet.";
+
+// VO
+"Search Contacts" = "Search Contacts";
+
+"Discussion" = "Discussion";
+// VO
+"Leave a Comment" = "Leave a Comment";
+
+// VO
+"%@ folder" = "%@ folder";
+
+// VO
+"%@ folder, selected" = "%@ folder, selected";
+
+// VO
+"%@, selected" = "%@, selected";
+
+// VO; "with this" refers to with an emoji reaction of a message.
+"%d users reacted with this" = "%d users reacted with this";
+
+// "{current page number} of {total number of pages}" or "1.5MB of 20MB"
+"%d of %d" = "%d of %d";
+
+"This document is password protected." = "This document is password protected.";
+"PDF document password field" = "PDF document password field";
+"%@ Invalid password." = "%@ Invalid password.";
+"Tap to view" = "Tap to view";
+
+"Chat Preview" = "Chat Preview";
+"INFO_Chat_Preview_Line_Limit" = "For every chat, Pigeon displays a brief preview of the last sent message. This setting allows you to customise the maximum amount of lines that you could see in the preview. Regular mode shows about 3 lines, while Minimal mode shows about 1 line, subject to Dynamic Type selection.";
+"Line Limit" = "Line Limit";
+// Refers to line limit mode for chat preview
+"Regular" = "Regular";
+"Minimal" = "Minimal";
+
+"GPX files are only supported in watchOS 10.x and above." = "GPX files are only supported in watchOS 10.x and above.";
+
+"Phone number is empty." = "Phone number is empty.";
+"Phone number is invalid." = "Phone number is invalid.";
+"Continue" = "Continue";
+"Phone_Number_Example" = "Example: +1XXXYYYZZZZ, +10123456789";
+"Phone_Number_Description" = "Must be of international phone number format without any leading 0s or spaces.";
+"Phone Number" = "Phone Number";
+"Sign In Methods" = "Sign In Methods";
+
+// %@ is chevron >
+"Swipe to continue %@" = "Swipe to continue %@";
+// %@ is chevron > (Shown if VO is on)
+"Continue %@" = "Continue %@";
+
+"Phone Number" = "Phone Number";
+"Scan QR Code" = "Scan QR Code";
+"(recommended)" = "(recommended)";
+
+"Code" = "Code";
+"Authentication Code" = "Authentication Code";

@@ -56,53 +56,71 @@
 			<string>%d элементы</string>
 		</dict>
 	</dict>
-    <key>%d hour(s)</key>
-    <dict>
-        <key>NSStringLocalizedFormatKey</key>
-        <string>%#@hour@</string>
-        <key>hour</key>
-        <dict>
-            <key>NSStringFormatSpecTypeKey</key>
-            <string>NSStringPluralRuleType</string>
-            <key>NSStringFormatValueTypeKey</key>
-            <string>d</string>
-            <key>one</key>
-            <string>%d hour</string>
-            <key>other</key>
-            <string>%d hours</string>
-        </dict>
-    </dict>
-    <key>%d day(s)</key>
-    <dict>
-        <key>NSStringLocalizedFormatKey</key>
-        <string>%#@day@</string>
-        <key>day</key>
-        <dict>
-            <key>NSStringFormatSpecTypeKey</key>
-            <string>NSStringPluralRuleType</string>
-            <key>NSStringFormatValueTypeKey</key>
-            <string>d</string>
-            <key>one</key>
-            <string>%d day</string>
-            <key>other</key>
-            <string>%d days</string>
-        </dict>
-    </dict>
-    <key>%d week(s)</key>
-    <dict>
-        <key>NSStringLocalizedFormatKey</key>
-        <string>%#@week@</string>
-        <key>week</key>
-        <dict>
-            <key>NSStringFormatSpecTypeKey</key>
-            <string>NSStringPluralRuleType</string>
-            <key>NSStringFormatValueTypeKey</key>
-            <string>d</string>
-            <key>one</key>
-            <string>%d week</string>
-            <key>other</key>
-            <string>%d weeks</string>
-        </dict>
-    </dict>
+	<key>%d hour(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hour@</string>
+		<key>hour</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d час</string>
+			<key>other</key>
+			<string>%d часов</string>
+		</dict>
+	</dict>
+	<key>%d day(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@day@</string>
+		<key>day</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d день</string>
+			<key>other</key>
+			<string>%d дней</string>
+		</dict>
+	</dict>
+	<key>%d week(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@week@</string>
+		<key>week</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d неделя</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>%d Comments</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@comment@</string>
+		<key>comment</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Leave a Comment</string>
+			<key>one</key>
+			<string>%d Comment</string>
+			<key>other</key>
+			<string>%d Comments</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

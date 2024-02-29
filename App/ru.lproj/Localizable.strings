@@ -534,50 +534,116 @@
 "Send recording" = "Отправить запись";
 
 // VO shortcuts
-"Focus on toolbar" = "Focus on toolbar";
-"Focus on chat list" = "Focus on chat list";
+"Focus on toolbar" = "Панель инструментов";
+"Focus on chat list" = "Список чатов";
 
-"duration" = "duration";
+"duration" = "длительность";
 
-"Chat %@ has been opened" = "Chat %@ has been opened";
-"View options" = "View options";
+"Chat %@ has been opened" = "Чат %@ был открыт";
+"View options" = "Опции отображения";
 
-"Default_Bar_Send_Location_Button" = "Location";
-"VO_Action_Location" = "Select a location to send";
+"Default_Bar_Send_Location_Button" = "Геопозиция";
+"VO_Action_Location" = "Выберите локацию для отправки";
 
-"Send My Location" = "Send My Location";
-"Send This Location" = "Send This Location";
+"Send My Location" = "Отправить мою геопозицию";
+"Send This Location" = "Отправить эту геопозицию";
 
 // VO
-"Jump to current location" = "Jump to current location";
+"Jump to current location" = "Перейти к текущему местоположению";
 // VO
-"Current location coordinates" = "Current location coordinates";
+"Current location coordinates" = "Координаты текущего местоположения";
 // VO
-"Selected coordinates" = "Selected coordinates";
+"Selected coordinates" = "Выбрать коодинаты";
 // VO
-"latitude: %@, longitude: %@" = "latitude: %@, longitude: %@";
+"latitude: %@, longitude: %@" = "широта: %@, долгота: %@";
 
-"Status_Deleted_Member_Message" = "A member left";
+"Status_Deleted_Member_Message" = "Участник покинул";
 
 // watchOS 8-9.x; %@ is a chevron >
-"Open Maps %@" = "Open Maps %@";
-"Archive" = "Archive";
+"Open Maps %@" = "Открыть карты %@";
+"Archive" = "Архив";
 
-"Ignore_Spoilers_Setting_Title" = "Ignore Spoilers";
-"Location Services disabled" = "Location Services disabled";
+"Ignore_Spoilers_Setting_Title" = "Игнорировать спойлеры";
+"Location Services disabled" = "Службы геолокации отключены";
 
-"VO_Muted_Chat_Badge" = "Chat Muted";
+"VO_Muted_Chat_Badge" = "Звук чата отключен";
 
 // VO
-"Mute chat" = "Mute chat";
+"Mute chat" = "Выключить звук чата";
 // VO
-"Unmute chat" = "Unmute chat";
+"Unmute chat" = "Включить звук чата";
 
 // Mute duration page's title
-"Mute For" = "Mute For";
+"Mute For" = "Выключить звук на";
 
 // context: mute notifications for chat without a specific duration.
-"Forever" = "Forever";
+"Forever" = "Навсегда";
 
-"Contact_Label_Pigeon_Notes" = "📖 Pigeon Notes";
-"Pigeon_Notes_Description" = "Frequently Asked Questions";
+"Contact_Label_Pigeon_Notes" = "📖 Заметки Pigeon";
+"Pigeon_Notes_Description" = "Часто задаваемые вопросы";
+
+"Would you like to add a caption?" = "Would you like to add a caption?";
+"Caption" = "Caption";
+
+
+"Video Note" = "Video Note";
+"Status_Message_Video_Note" = "Video Message";
+"Toolbar_New_Chat" = "Chat";
+"No contacts found." = "No contacts found.";
+"No messages yet." = "No messages yet.";
+
+// VO
+"Search Contacts" = "Search Contacts";
+
+"Discussion" = "Discussion";
+// VO
+"Leave a Comment" = "Leave a Comment";
+
+// VO
+"%@ folder" = "%@ folder";
+
+// VO
+"%@ folder, selected" = "%@ folder, selected";
+
+// VO
+"%@, selected" = "%@, selected";
+
+// VO; "with this" refers to with an emoji reaction of a message.
+"%d users reacted with this" = "%d users reacted with this";
+
+// "{current page number} of {total number of pages}" or "1.5MB of 20MB"
+"%d of %d" = "%d of %d";
+
+"This document is password protected." = "This document is password protected.";
+"PDF document password field" = "PDF document password field";
+"%@ Invalid password." = "%@ Invalid password.";
+"Tap to view" = "Tap to view";
+
+"Chat Preview" = "Chat Preview";
+"INFO_Chat_Preview_Line_Limit" = "For every chat, Pigeon displays a brief preview of the last sent message. This setting allows you to customise the maximum amount of lines that you could see in the preview. Regular mode shows about 3 lines, while Minimal mode shows about 1 line, subject to Dynamic Type selection.";
+"Line Limit" = "Line Limit";
+// Refers to line limit mode for chat preview
+"Regular" = "Regular";
+"Minimal" = "Minimal";
+
+"GPX files are only supported in watchOS 10.x and above." = "GPX files are only supported in watchOS 10.x and above.";
+
+"Phone number is empty." = "Phone number is empty.";
+"Phone number is invalid." = "Phone number is invalid.";
+"Continue" = "Continue";
+"Phone_Number_Example" = "Example: +1XXXYYYZZZZ, +10123456789";
+"Phone_Number_Description" = "Must be of international phone number format without any leading 0s or spaces.";
+"Phone Number" = "Phone Number";
+"Sign In Methods" = "Sign In Methods";
+
+// %@ is chevron >
+"Swipe to continue %@" = "Swipe to continue %@";
+// %@ is chevron > (Shown if VO is on)
+"Continue %@" = "Continue %@";
+
+"Phone Number" = "Phone Number";
+"Scan QR Code" = "Scan QR Code";
+"(recommended)" = "(recommended)";
+
+"Code" = "Code";
+"Authentication Code" = "Authentication Code";
