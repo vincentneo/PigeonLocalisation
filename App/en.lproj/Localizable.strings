@@ -648,3 +648,16 @@
 "Code" = "Code";
 "Authentication Code" = "Authentication Code";
 "%@ is not supported" = "%@ is not supported";
+
+"Settings_Menu_Input_Options_Label" = "Input Options";
+"Keyboard" = "Keyboard";
+"Option Selected" = "Option Selected";
+"WristBoard must be installed on your Apple Watch for this option to work." = "WristBoard must be installed on your Apple Watch for this option to work.";
+"THIRD_PARTY_KEYBOARD_NOTICE" = "Please note that third-party keyboards are not affiliated with Pigeon, and that these keyboards can access the data that you've typed. You are also subjected to the third-party keyboard developer's terms, privacy policy and practices, which you may wish to review.";
+
+"Show_Typing_Indicators_Setting_Title" = "Show Typing Indicators";
+"Sync" = "Sync";
+"Contacts and Chats" = "Contacts and Chats";
+"Global Search" = "Global Search";
+"No Results Found." = "No Results Found.";
+"Search" = "Search";
