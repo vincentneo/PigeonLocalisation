@@ -2,7 +2,7 @@
   InfoPlist.strings
   Pigeon v1.3
 
-  Created by Dennis, last updated on 18 August 2023.
+  Created by Dennis, last updated on 03 July 2024.
   
 */
 
@@ -10,4 +10,4 @@
 "NSMicrophoneUsageDescription" = "Dies dient der Aufzeichnung von Sprachnachrichten.";
 
 // Provides the reason why Pigeon is asking for location access, the first time the user attempts to send a location message.
-"NSLocationWhenInUseUsageDescription" = "Location is used when you wish to send location messages.";
+"NSLocationWhenInUseUsageDescription" = "Der Standort wird verwendet, wenn Sie Standortnachrichten senden möchten.";

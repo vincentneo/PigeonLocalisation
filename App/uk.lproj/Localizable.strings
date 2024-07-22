@@ -1,6 +1,6 @@
 /* 
   Localizable.strings
-  Pigeon v1.3
+  Pigeon v1.5
 
   Created by Shatokhin Oleksandr, last updated on 19 November 2023.
  
@@ -661,3 +661,58 @@
 "Global Search" = "Global Search";
 "No Results Found." = "No Results Found.";
 "Search" = "Search";
+
+"Type: %@" = "Type: %@";
+"No links in message." = "No links in message.";
+"Open link" = "Open link";
+"Select embedded links" = "Select embedded links";
+
+"Recents" = "Recents";
+"No Recents" = "No Recents";
+"CLEAR" = "CLEAR";
+"Local Time" = "Local Time";
+"User's Time Zone" = "User's Time Zone";
+
+// VO
+"View Pinned Messages" = "View Pinned Messages";
+
+"Pinned Messages" = "Pinned Messages";
+"Verified" = "Verified";
+
+"View" = "View";
+
+"Unmute" = "Unmute";
+"Mute" = "Mute";
+
+// Typing indicators
+"%@ typing..." = "%@ typing...";
+"typing..." = "typing...";
+"recording video" = "recording video";
+"uploading a video" = "uploading a video";
+"recording voice" = "recording voice";
+"uploading voice note" = "uploading voice note";
+"uploading photo" = "uploading photo";
+"uploading document" = "uploading document";
+"choosing a sticker" = "choosing a sticker";
+"choosing a location" = "choosing a location";
+"choosing a contact" = "choosing a contact";
+"playing" = "playing";
+"recording video note" = "recording video note";
+"uploading video note" = "uploading video note";
+"watching animations" = "watching animations";
+
+// Online indicators
+"online" = "online";
+"last seen " = "last seen "; // e.g. 'last seen 2 minutes ago' (where '2 minutes ago' is formatted by system, subject to device locale)
+"last seen recently" = "last seen recently";
+"last seen last week" = "last seen last week";
+"last seen last month" = "last seen last month";
+
+// Chat info titles
+"Username" = "Username";
+"Info" = "Info";
+"Bio" = "Bio";
+"Phone Number" = "Phone Number";
+"Birthdate" = "Birthdate";
+"Location" = "Location";
+"Opening Hours" = "Opening Hours";

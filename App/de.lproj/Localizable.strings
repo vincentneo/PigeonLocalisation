@@ -1,20 +1,20 @@
 /* 
   Localizable.strings
-  Pigeon v1.3
+  Pigeon v1.5
 
-  Created by Dennis, last updated on 18 August 2023.
+  Created by Dennis, last updated on 03 July 2024.
  
   Replace the Created by name, if you would like to be credited in the app.
   
   %@ typically refers to an external value, but may also refer to an icon in certain cases.
-  "KEY" = "VALUE"; VALUE is what that will be displayed in the app.
+  "KEY" = "WERT"; Der Wert ist der Wert, der in der App angezeigt wird.
  
   Keys prefixed with 'VO' are definitely for VoiceOver readouts.
 */
 
 // Next page button that is shown in Pigeon's main page.
 // Pressing this button will show next 10 chats in folder. Not used in watchOS 10 and later.
-"WOS9_NextPage_Button_Label" = "Next";
+"WOS9_NextPage_Button_Label" = "Weiter";
 
 /* Pre-login loading */
 "Logging out..." = "Ausloggen...";
@@ -41,8 +41,8 @@
 "Scan the QR Code %@" = "QR-Code scannen %@";
 "After_Scanning_Instructions" = "Nach dem Scannen kann die Verarbeitung eine Weile dauern, auch wenn die App den QR-Code weiterhin anzeigt. Bitte haben Sie Geduld!";
 
-"QR Code" = "QR -ode";
-"Phone Number login" = "Phone Number login"; // unused.
+"QR Code" = "QR-Code";
+"Phone Number login" = "Login Tel. nummer"; // unbenutzt.
 
 
 
@@ -157,7 +157,7 @@
 "%@ sent a GIF." = "%@ schickte ein GIF.";
 
 // Reads out when user highlights on audio message. (Example: "Vincent sent an audio message, of duration, 2 minutes, 30 seconds"). Duration is formatted depending on locale.
-"%@ sent an audio message, of duration, %@" = "%@ sickt eine Audio Nachricht, mit der Dauer von, %@";
+"%@ sent an audio message, of duration, %@" = "%@ schickt eine Audio Nachricht, mit der Dauer von, %@";
 
 // Reads out when user highlights on voice message. (Example: "Vincent sent an voice message, of duration, 1 minute, 8 seconds"). Duration is formatted depending on locale.
 "%@ sent a voice message, of duration, %@" = "%@ schickt eine Audio Nachricht, mit der Dauer von, %@";
@@ -537,127 +537,182 @@
 "Focus on toolbar" = "Fokus auf Symbolleiste";
 "Focus on chat list" = "Fokus auf Chat liste";
 
-"duration" = "duration";
+"duration" = "dauer";
 
-"Chat %@ has been opened" = "Chat %@ has been opened";
-"View options" = "View options";
+"Chat %@ has been opened" = "Chat %@ wurde geöffnet";
+"View options" = "Zeige Optionen";
 
-"Default_Bar_Send_Location_Button" = "Location";
-"VO_Action_Location" = "Select a location to send";
+"Default_Bar_Send_Location_Button" = "Standort";
+"VO_Action_Location" = "Wähle einen Standort zum senden";
 
-"Send My Location" = "Send My Location";
-"Send This Location" = "Send This Location";
+"Send My Location" = "Standort senden";
+"Send This Location" = "Meinen Standort senden";
 
 // VO
-"Jump to current location" = "Jump to current location";
+"Jump to current location" = "Zum aktuellen Standort springen";
 // VO
-"Current location coordinates" = "Current location coordinates";
+"Current location coordinates" = "Aktuelle Standortkoordinaten";
 // VO
-"Selected coordinates" = "Selected coordinates";
+"Selected coordinates" = "Ausgewählte Koordinaten";
 // VO
-"latitude: %@, longitude: %@" = "latitude: %@, longitude: %@";
+"latitude: %@, longitude: %@" = "Breite: %@, Länge: %@";
 
-"Status_Deleted_Member_Message" = "A member left";
+"Status_Deleted_Member_Message" = "Ein Mitglied ist gegangen";
 
 // watchOS 8-9.x; %@ is a chevron >
-"Open Maps %@" = "Open Maps %@";
-"Archive" = "Archive";
+"Open Maps %@" = "Öffne Maps %@";
+"Archive" = "Archiv";
 
-"Ignore_Spoilers_Setting_Title" = "Ignore Spoilers";
-"Location Services disabled" = "Location Services disabled";
+"Ignore_Spoilers_Setting_Title" = "Spoiler ignorieren";
+"Location Services disabled" = "Ortungsdienste deaktiviert";
 
-"VO_Muted_Chat_Badge" = "Chat Muted";
+"VO_Muted_Chat_Badge" = "Chat stumm";
 
 // VO
-"Mute chat" = "Mute chat";
+"Mute chat" = "Chat stumm schalten";
 // VO
-"Unmute chat" = "Unmute chat";
+"Unmute chat" = "Stummschaltung aufheben";
 
 // Mute duration page's title
-"Mute For" = "Mute For";
+"Mute For" = "Stumm für";
 
 // context: mute notifications for chat without a specific duration.
-"Forever" = "Forever";
+"Forever" = "Immer";
 
-"Contact_Label_Pigeon_Notes" = "📖 Pigeon Notes";
-"Pigeon_Notes_Description" = "Frequently Asked Questions";
+"Contact_Label_Pigeon_Notes" = "📖 Pigeon Notizen";
+"Pigeon_Notes_Description" = "Häufig gestellte Fragen";
 
-"Would you like to add a caption?" = "Would you like to add a caption?";
-"Caption" = "Caption";
+"Would you like to add a caption?" = "Möchten Sie eine Beschriftung hinzufügen?";
+"Caption" = "Beschriftung";
 
 
-"Video Note" = "Video Note";
-"Status_Message_Video_Note" = "Video Message";
+"Video Note" = "Videonotiz";
+"Status_Message_Video_Note" = "Video Nachricht";
 "Toolbar_New_Chat" = "Chat";
-"No contacts found." = "No contacts found.";
-"No messages yet." = "No messages yet.";
+"No contacts found." = "Keine Kontakte gefunden.";
+"No messages yet." = "Noch keine Nachrichten.";
 
 // VO
-"Search Contacts" = "Search Contacts";
+"Search Contacts" = "Suche Kontakte";
 
-"Discussion" = "Discussion";
+"Discussion" = "Diskussion";
 // VO
-"Leave a Comment" = "Leave a Comment";
-
-// VO
-"%@ folder" = "%@ folder";
+"Leave a Comment" = "Hinterlasse einen kommentar";
 
 // VO
-"%@ folder, selected" = "%@ folder, selected";
+"%@ folder" = "%@ Ordner";
 
 // VO
-"%@, selected" = "%@, selected";
+"%@ folder, selected" = "%@ Ordner, ausgewählt";
+
+// VO
+"%@, selected" = "%@, ausgewählt";
 
 // VO; "with this" refers to with an emoji reaction of a message.
-"%d users reacted with this" = "%d users reacted with this";
+"%d users reacted with this" = "%d Benutzer reagierten damit";
 
 // "{current page number} of {total number of pages}" or "1.5MB of 20MB"
 "%d of %d" = "%d of %d";
 
-"This document is password protected." = "This document is password protected.";
-"PDF document password field" = "PDF document password field";
-"%@ Invalid password." = "%@ Invalid password.";
-"Tap to view" = "Tap to view";
+"This document is password protected." = "Dieses Dokument ist passwortgeschützt.";
+"PDF document password field" = "Passwortfeld für PDF-Dokumente";
+"%@ Invalid password." = "%@ falsches Passowort.";
+"Tap to view" = "Zum Ansehen antippen";
 
-"Chat Preview" = "Chat Preview";
-"INFO_Chat_Preview_Line_Limit" = "For every chat, Pigeon displays a brief preview of the last sent message. This setting allows you to customise the maximum amount of lines that you could see in the preview. Regular mode shows about 3 lines, while Minimal mode shows about 1 line, subject to Dynamic Type selection.";
-"Line Limit" = "Line Limit";
+"Chat Preview" = "Chat Vorschau";
+"INFO_Chat_Preview_Line_Limit" = "Bei jedem Chat zeigt Pigeon eine kurze Vorschau der zuletzt gesendeten Nachricht an. Mit dieser Einstellung können Sie die maximale Anzahl an Zeilen anpassen, die Sie in der Vorschau sehen können. Der reguläre Modus zeigt etwa 3 Zeilen an, während der Minimalmodus etwa 1 Zeile anzeigt, abhängig von der Auswahl des dynamischen Typs.";
+"Line Limit" = "Zeilenlimit";
 // Refers to line limit mode for chat preview
-"Regular" = "Regular";
+"Regular" = "Regulär";
 "Minimal" = "Minimal";
 
 "GPX files are only supported in watchOS 10.x and above." = "GPX files are only supported in watchOS 10.x and above.";
 
-"Phone number is empty." = "Phone number is empty.";
-"Phone number is invalid." = "Phone number is invalid.";
+"Phone number is empty." = "Telefonnummer ist leer.";
+"Phone number is invalid." = "Die Telefonnummer ist ungültig.";
 "Continue" = "Continue";
-"Phone_Number_Example" = "Example: +1XXXYYYZZZZ, +10123456789";
-"Phone_Number_Description" = "Must be of international phone number format without any leading 0s or spaces.";
-"Phone Number" = "Phone Number";
-"Sign In Methods" = "Sign In Methods";
+"Phone_Number_Example" = "Example: +49XXXYYYZZZZ, 0123456789";
+"Phone_Number_Description" = "Muss im internationalen Telefonnummernformat ohne führende Nullen oder Leerzeichen vorliegen.";
+"Phone Number" = "Telefonnummer";
+"Sign In Methods" = "Login Methoden";
 
 // %@ is chevron >
-"Swipe to continue %@" = "Swipe to continue %@";
+"Swipe to continue %@" = "Wischen Sie, um fortzufahren %@";
 // %@ is chevron > (Shown if VO is on)
-"Continue %@" = "Continue %@";
+"Continue %@" = "Fortfahren %@";
 
-"Phone Number" = "Phone Number";
-"Scan QR Code" = "Scan QR Code";
-"(recommended)" = "(recommended)";
+"Phone Number" = "Telefonnummer";
+"Scan QR Code" = "Scane QR-Code";
+"(recommended)" = "(empfohlen)";
 
 "Code" = "Code";
-"Authentication Code" = "Authentication Code";
-"%@ is not supported" = "%@ is not supported";
+"Authentication Code" = "Authentikations Code";
+"%@ is not supported" = "%@ wird nicht unterstützt";
 
-"Settings_Menu_Input_Options_Label" = "Input Options";
-"Keyboard" = "Keyboard";
-"Option Selected" = "Option Selected";
-"WristBoard must be installed on your Apple Watch for this option to work." = "WristBoard must be installed on your Apple Watch for this option to work.";
-"THIRD_PARTY_KEYBOARD_NOTICE" = "Please note that third-party keyboards are not affiliated with Pigeon, and that these keyboards can access the data that you've typed. You are also subjected to the third-party keyboard developer's terms, privacy policy and practices, which you may wish to review.";
+"Settings_Menu_Input_Options_Label" = "Eingabeoptionen";
+"Keyboard" = "Tastatur";
+"Option Selected" = "Option ausgewählt";
+"WristBoard must be installed on your Apple Watch for this option to work." = "Damit diese Option funktioniert, muss WristBoard auf Ihrer Apple Watch installiert sein.";
+"THIRD_PARTY_KEYBOARD_NOTICE" = "Bitte beachten Sie, dass Tastaturen von Drittanbietern nicht mit Pigeon verbunden sind und dass diese Tastaturen auf die von Ihnen eingegebenen Daten zugreifen können. Sie unterliegen auch den Geschäftsbedingungen, Datenschutzrichtlinien und -praktiken des Drittanbieters für Tastaturen, die Sie möglicherweise lesen möchten.";
 
-"Show_Typing_Indicators_Setting_Title" = "Show Typing Indicators";
+"Show_Typing_Indicators_Setting_Title" = "Tippindikatoren anzeigen";
 "Sync" = "Sync";
-"Contacts and Chats" = "Contacts and Chats";
-"Global Search" = "Global Search";
-"No Results Found." = "No Results Found.";
-"Search" = "Search";
+"Contacts and Chats" = "Kontakte und Chats";
+"Global Search" = "Globale suche";
+"No Results Found." = "Keine Ergebnisse gefunden.";
+"Search" = "Suchen";
+
+"Type: %@" = "Type: %@";
+"No links in message." = "No links in message.";
+"Open link" = "Open link";
+"Select embedded links" = "Select embedded links";
+
+"Recents" = "Recents";
+"No Recents" = "No Recents";
+"CLEAR" = "CLEAR";
+"Local Time" = "Local Time";
+"User's Time Zone" = "User's Time Zone";
+
+// VO
+"View Pinned Messages" = "View Pinned Messages";
+
+"Pinned Messages" = "Pinned Messages";
+"Verified" = "Verified";
+
+"View" = "View";
+
+"Unmute" = "Unmute";
+"Mute" = "Mute";
+
+// Typing indicators
+"%@ typing..." = "%@ typing...";
+"typing..." = "typing...";
+"recording video" = "recording video";
+"uploading a video" = "uploading a video";
+"recording voice" = "recording voice";
+"uploading voice note" = "uploading voice note";
+"uploading photo" = "uploading photo";
+"uploading document" = "uploading document";
+"choosing a sticker" = "choosing a sticker";
+"choosing a location" = "choosing a location";
+"choosing a contact" = "choosing a contact";
+"playing" = "playing";
+"recording video note" = "recording video note";
+"uploading video note" = "uploading video note";
+"watching animations" = "watching animations";
+
+// Online indicators
+"online" = "online";
+"last seen " = "last seen "; // e.g. 'last seen 2 minutes ago' (where '2 minutes ago' is formatted by system, subject to device locale)
+"last seen recently" = "last seen recently";
+"last seen last week" = "last seen last week";
+"last seen last month" = "last seen last month";
+
+// Chat info titles
+"Username" = "Username";
+"Info" = "Info";
+"Bio" = "Bio";
+"Phone Number" = "Phone Number";
+"Birthdate" = "Birthdate";
+"Location" = "Location";
+"Opening Hours" = "Opening Hours";
