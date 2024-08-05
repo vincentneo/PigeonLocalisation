@@ -716,3 +716,15 @@
 "Birthdate" = "Birthdate";
 "Location" = "Location";
 "Opening Hours" = "Opening Hours";
+
+"%@ Live Location" = "%@ Live Location";
+
+"Telegram Caches" = "Telegram Caches";
+"INFO_Telegram_Caches" = "If enabled, caches will be cleared according to selected conditions, on every clean launch of the app.";
+"Cleaning Interval" = "Cleaning Interval";
+"Never" = "Never";
+"Every launch" = "Every launch";
+"After 12 hours" = "After 12 hours";
+"After 24 hours" = "After 24 hours";
+"After 3 days" = "After 3 days";
+"After 1 week" = "After 1 week";
