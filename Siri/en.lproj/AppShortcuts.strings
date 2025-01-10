@@ -1,0 +1,20 @@
+//
+//  AppShortcuts.strings
+//  Pigeon v1.6
+//
+//  Created by Vincent Neo on 13/12/24.
+//
+
+// siri phrases
+"Send message via ${applicationName}" = "Send message via ${applicationName}";
+"Text using ${applicationName}" = "Text using ${applicationName}";
+"Send a text using ${applicationName}" = "Send a text using ${applicationName}";
+"Message using ${applicationName}" = "Message using ${applicationName}";
+"Chirp using ${applicationName}" = "Chirp using ${applicationName}";
+"Coo using ${applicationName}" = "Coo using ${applicationName}";
+"Shout using ${applicationName}" = "Shout using ${applicationName}";
+"Talk like a ${applicationName}" = "Talk like a ${applicationName}";
+"Write using ${applicationName}" = "Write using ${applicationName}";
+"Write a message using ${applicationName}" = "Write a message using ${applicationName}";
+"Send a Telegram message using ${applicationName}" = "Send a Telegram message using ${applicationName}";
+"Telegram using ${applicationName}" = "Telegram using ${applicationName}";

@@ -2,7 +2,7 @@
   Localizable.strings
   Pigeon v1.5
 
-  Created by Mieczysław Bąk and Zvonimir Stanecic, last updated on 30 December 2023.
+  Created by Mieczysław Bąk and Zvonimir Stanecic, last updated on 30 September 2024.
  
   Replace the Created by name, if you would like to be credited in the app.
   
@@ -582,149 +582,205 @@
 "Contact_Label_Pigeon_Notes" = "📖 Notatki Pigeon";
 "Pigeon_Notes_Description" = "Często zadawane pytania";
 
-"Would you like to add a caption?" = "Would you like to add a caption?";
-"Caption" = "Caption";
+"Would you like to add a caption?" = "Czy chcesz dodać podpis?";
+"Caption" = "Podpis";
 
 
-"Video Note" = "Video Note";
-"Status_Message_Video_Note" = "Video Message";
-"Toolbar_New_Chat" = "Chat";
-"No contacts found." = "No contacts found.";
-"No messages yet." = "No messages yet.";
-
-// VO
-"Search Contacts" = "Search Contacts";
-
-"Discussion" = "Discussion";
-// VO
-"Leave a Comment" = "Leave a Comment";
+"Video Note" = "Notatka wideo";
+"Status_Message_Video_Note" = "Wiadomość wideo";
+"Toolbar_New_Chat" = "Czat";
+"No contacts found." = "Nie znaleziono kontaktów.";
+"No messages yet." = "Brak wiadomości.";
 
 // VO
-"%@ folder" = "%@ folder";
+"Search Contacts" = "Szukaj kontaktów";
+
+"Discussion" = "Dyskusja";
+// VO
+"Leave a Comment" = "Zostaw komentarz";
 
 // VO
-"%@ folder, selected" = "%@ folder, selected";
+"%@ folder" = "Folder %@";
 
 // VO
-"%@, selected" = "%@, selected";
+"%@ folder, selected" = "Folder %@, wybrany";
+
+// VO
+"%@, selected" = "%@, wybrany";
 
 // VO; "with this" refers to with an emoji reaction of a message.
-"%d users reacted with this" = "%d users reacted with this";
+"%d users reacted with this" = "%d użytkowników zareagowało na to";
 
 // "{current page number} of {total number of pages}" or "1.5MB of 20MB"
-"%d of %d" = "%d of %d";
+"%d of %d" = "%d z %d";
 
-"This document is password protected." = "This document is password protected.";
-"PDF document password field" = "PDF document password field";
-"%@ Invalid password." = "%@ Invalid password.";
-"Tap to view" = "Tap to view";
+"This document is password protected." = "Ten dokument jest chroniony hasłem.";
+"PDF document password field" = "Pole hasła dokumentu PDF";
+"%@ Invalid password." = "%@ Nieprawidłowe hasło.";
+"Tap to view" = "Dotknij, aby wyświetlić";
 
-"Chat Preview" = "Chat Preview";
-"INFO_Chat_Preview_Line_Limit" = "For every chat, Pigeon displays a brief preview of the last sent message. This setting allows you to customise the maximum amount of lines that you could see in the preview. Regular mode shows about 3 lines, while Minimal mode shows about 1 line, subject to Dynamic Type selection.";
-"Line Limit" = "Line Limit";
+"Chat Preview" = "Podgląd czatu";
+"INFO_Chat_Preview_Line_Limit" = "Dla każdego czatu Pigeon wyświetla krótki podgląd ostatnio wysłanej wiadomości. To ustawienie pozwala dostosować maksymalną liczbę linii, które możesz zobaczyć w podglądzie. Tryb zwykły pokazuje około 3 linie, podczas gdy tryb minimalny pokazuje około 1 linii, zależnie od wyboru Dynamic Type.";
+"Line Limit" = "Limit linii";
 // Refers to line limit mode for chat preview
-"Regular" = "Regular";
-"Minimal" = "Minimal";
+"Regular" = "Zwykły";
+"Minimal" = "Minimalny";
 
-"GPX files are only supported in watchOS 10.x and above." = "GPX files are only supported in watchOS 10.x and above.";
+"GPX files are only supported in watchOS 10.x and above." = "Pliki GPX są obsługiwane tylko w watchOS 10.x i nowszych.";
 
-"Phone number is empty." = "Phone number is empty.";
-"Phone number is invalid." = "Phone number is invalid.";
-"Continue" = "Continue";
-"Phone_Number_Example" = "Example: +1XXXYYYZZZZ, +10123456789";
-"Phone_Number_Description" = "Must be of international phone number format without any leading 0s or spaces.";
-"Phone Number" = "Phone Number";
-"Sign In Methods" = "Sign In Methods";
+"Phone number is empty." = "Numer telefonu jest pusty.";
+"Phone number is invalid." = "Numer telefonu jest nieprawidłowy.";
+"Continue" = "Kontynuuj";
+"Phone_Number_Example" = "Przykład: +1XXXYYYZZZZ, +10123456789";
+"Phone_Number_Description" = "Musi być w międzynarodowym formacie numeru telefonu bez początkowych zer lub spacji.";
+"Phone Number" = "Numer telefonu";
+"Sign In Methods" = "Metody logowania";
 
 // %@ is chevron >
-"Swipe to continue %@" = "Swipe to continue %@";
+"Swipe to continue %@" = "Przesuń, aby kontynuować %@";
 // %@ is chevron > (Shown if VO is on)
-"Continue %@" = "Continue %@";
+"Continue %@" = "Kontynuuj %@";
 
-"Phone Number" = "Phone Number";
-"Scan QR Code" = "Scan QR Code";
-"(recommended)" = "(recommended)";
+"Phone Number" = "Numer telefonu";
+"Scan QR Code" = "Skanuj kod QR";
+"(recommended)" = "(zalecane)";
 
-"Code" = "Code";
-"Authentication Code" = "Authentication Code";
-"%@ is not supported" = "%@ is not supported";
+"Code" = "Kod";
+"Authentication Code" = "Kod uwierzytelniający";
+"%@ is not supported" = "%@ nie jest obsługiwany";
 
-"Settings_Menu_Input_Options_Label" = "Input Options";
-"Keyboard" = "Keyboard";
-"Option Selected" = "Option Selected";
-"WristBoard must be installed on your Apple Watch for this option to work." = "WristBoard must be installed on your Apple Watch for this option to work.";
-"THIRD_PARTY_KEYBOARD_NOTICE" = "Please note that third-party keyboards are not affiliated with Pigeon, and that these keyboards can access the data that you've typed. You are also subjected to the third-party keyboard developer's terms, privacy policy and practices, which you may wish to review.";
+"Settings_Menu_Input_Options_Label" = "Opcje wprowadzania";
+"Keyboard" = "Klawiatura";
+"Option Selected" = "Wybrano opcję";
+"WristBoard must be installed on your Apple Watch for this option to work." = "Aby ta opcja działała, na Twoim Apple Watch musi być zainstalowany WristBoard.";
+"THIRD_PARTY_KEYBOARD_NOTICE" = "Należy pamiętać, że klawiatury firm trzecich nie są powiązane z Pigeon i mogą uzyskiwać dostęp do danych, które wpisujesz. Podlegasz także warunkom, polityce prywatności i praktykom dewelopera klawiatury, które możesz chcieć przejrzeć.";
 
-"Show_Typing_Indicators_Setting_Title" = "Show Typing Indicators";
-"Sync" = "Sync";
-"Contacts and Chats" = "Contacts and Chats";
-"Global Search" = "Global Search";
-"No Results Found." = "No Results Found.";
-"Search" = "Search";
+"Show_Typing_Indicators_Setting_Title" = "Pokaż wskaźniki pisania";
+"Sync" = "Synchronizuj";
+"Contacts and Chats" = "Kontakty i czaty";
+"Global Search" = "Wyszukiwanie globalne";
+"No Results Found." = "Nie znaleziono wyników.";
+"Search" = "Szukaj";
 
-"Type: %@" = "Type: %@";
-"No links in message." = "No links in message.";
-"Open link" = "Open link";
-"Select embedded links" = "Select embedded links";
+"Type: %@" = "Typ: %@";
+"No links in message." = "Brak linków w wiadomości.";
+"Open link" = "Otwórz link";
+"Select embedded links" = "Wybierz osadzone linki";
 
-"Recents" = "Recents";
-"No Recents" = "No Recents";
-"CLEAR" = "CLEAR";
-"Local Time" = "Local Time";
-"User's Time Zone" = "User's Time Zone";
+"Recents" = "Ostatnie";
+"No Recents" = "Brak ostatnich";
+"CLEAR" = "WYCZYŚĆ";
+"Local Time" = "Czas lokalny";
+"User's Time Zone" = "Strefa czasowa użytkownika";
 
 // VO
-"View Pinned Messages" = "View Pinned Messages";
+"View Pinned Messages" = "Zobacz przypięte wiadomości";
 
-"Pinned Messages" = "Pinned Messages";
-"Verified" = "Verified";
+"Pinned Messages" = "Przypięte wiadomości";
+"Verified" = "Zweryfikowany";
 
-"View" = "View";
+"View" = "Zobacz";
 
-"Unmute" = "Unmute";
-"Mute" = "Mute";
+"Unmute" = "Wyłącz wyciszenie";
+"Mute" = "Wycisz";
 
 // Typing indicators
-"%@ typing..." = "%@ typing...";
-"typing..." = "typing...";
-"recording video" = "recording video";
-"uploading a video" = "uploading a video";
-"recording voice" = "recording voice";
-"uploading voice note" = "uploading voice note";
-"uploading photo" = "uploading photo";
-"uploading document" = "uploading document";
-"choosing a sticker" = "choosing a sticker";
-"choosing a location" = "choosing a location";
-"choosing a contact" = "choosing a contact";
-"playing" = "playing";
-"recording video note" = "recording video note";
-"uploading video note" = "uploading video note";
-"watching animations" = "watching animations";
+"%@ typing..." = "%@ pisze...";
+"typing..." = "pisze...";
+"recording video" = "nagrywa wideo";
+"uploading a video" = "przesyła wideo";
+"recording voice" = "nagrywa głos";
+"uploading voice note" = "przesyła notatkę głosową";
+"uploading photo" = "przesyła zdjęcie";
+"uploading document" = "przesyła dokument";
+"choosing a sticker" = "wybiera naklejkę";
+"choosing a location" = "wybiera lokalizację";
+"choosing a contact" = "wybiera kontakt";
+"playing" = "odtwarza";
+"recording video note" = "nagrywa notatkę wideo";
+"uploading video note" = "przesyła notatkę wideo";
+"watching animations" = "ogląda animacje";
 
 // Online indicators
 "online" = "online";
-"last seen " = "last seen "; // e.g. 'last seen 2 minutes ago' (where '2 minutes ago' is formatted by system, subject to device locale)
-"last seen recently" = "last seen recently";
-"last seen last week" = "last seen last week";
-"last seen last month" = "last seen last month";
+"last seen " = "ostatnio widziany "; // e.g. 'last seen 2 minutes ago' (where '2 minutes ago' is formatted by system, subject to device locale)
+"last seen recently" = "ostatnio widziany niedawno";
+"last seen last week" = "ostatnio widziany w zeszłym tygodniu";
+"last seen last month" = "ostatnio widziany w zeszłym miesiącu";
 
 // Chat info titles
-"Username" = "Username";
-"Info" = "Info";
-"Bio" = "Bio";
-"Phone Number" = "Phone Number";
-"Birthdate" = "Birthdate";
-"Location" = "Location";
-"Opening Hours" = "Opening Hours";
+"Username" = "Nazwa użytkownika";
+"Info" = "Informacje";
+"Bio" = "Biografia";
+"Phone Number" = "Numer telefonu";
+"Birthdate" = "Data urodzenia";
+"Location" = "Lokalizacja";
+"Opening Hours" = "Godziny otwarcia";
 
-"%@ Live Location" = "%@ Live Location";
+"%@ Live Location" = "%@ lokalizacja na żywo";
 
-"Telegram Caches" = "Telegram Caches";
-"INFO_Telegram_Caches" = "If enabled, caches will be cleared according to selected conditions, on every clean launch of the app.";
-"Cleaning Interval" = "Cleaning Interval";
-"Never" = "Never";
-"Every launch" = "Every launch";
-"After 12 hours" = "After 12 hours";
-"After 24 hours" = "After 24 hours";
-"After 3 days" = "After 3 days";
-"After 1 week" = "After 1 week";
+"Telegram Caches" = "Bufory Telegrama";
+"INFO_Telegram_Caches" = "Jeśli włączone, bufory będą czyszczone zgodnie z wybranymi warunkami przy każdym czystym uruchomieniu aplikacji.";
+"Cleaning Interval" = "Interwał czyszczenia";
+"Never" = "Nigdy";
+"Every launch" = "Przy każdym uruchomieniu";
+"After 12 hours" = "Po 12 godzinach";
+"After 24 hours" = "Po 24 godzinach";
+"After 3 days" = "Po 3 dniach";
+"After 1 week" = "Po 1 tygodniu";
+
+// third party keyboard
+"Get WristBoard from App Store" = "Pobierz WristBoard z App Store";
+"Warning" = "Ostrzeżenie";
+
+"Quick Reply" = "Szybka odpowiedź";
+"Settings_Menu_Quick_Replies" = "Szybkie odpowiedzi";
+"Default_Bar_Send_Quick_Replies_Button" = "Szybkie odpowiedzi";
+"VO_Action_Quick_Replies" = "Wybierz i wyślij z zestawu szybkich odpowiedzi";
+"%@ Forward" = "%@ Przekaż";
+"Use the %@ button to add" = "Użyj przycisku %@, aby dodać";
+"Setup Required in Settings" = "Wymagana konfiguracja w ustawieniach";
+"Who do you wish to send this to?" = "Who do you wish to send this to?";
+"Select Recipient..." = "Select Recipient...";
+"Send Message" = "Send Message";
+
+
+// Siri or Shortcuts stuff
+
+// description
+"Send a message to one of your contacts, through Telegram using Pigeon" = "Send a message to one of your contacts, through Telegram using Pigeon";
+
+// shortcut title
+"Send Message" = "Send Message";
+
+// type
+"Chat" = "Chat";
+
+// summary
+"Send a message to someone" = "Send a message to someone";
+
+// parameters
+
+// message content; title
+"Message" = "Message";
+
+// message content; description
+"Contents of your text message" = "Contents of your text message";
+
+// send to; title
+"Send to:" = "Send to:";
+
+// send to; question
+"Who do you want to send this to?" = "Who do you want to send this to?";
+
+// send to; siri question
+"To who?" = "To who?";
+
+// error messages
+"Contact is invalid" = "Contact is invalid";
+"Failed to send message because %@" = "Failed to send message because %@";
+"A subscription is required for Siri and Shortcuts features. Refer to the app for more information." = "A subscription is required for Siri and Shortcuts features. Refer to the app for more information.";
+"Failed to load contacts list." = "Failed to load contacts list.";
+
+// success message
+"Successfully sent \"%@\" to %@." = "Successfully sent \"%@\" to %@.";

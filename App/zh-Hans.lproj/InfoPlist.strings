@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  Pigeon v1.5
+
+  Created by Rechrd Qan, last updated on 30 August 2024.
+  
+*/
+
+// Provides the reason of why the app is asking for microphone access.
+"NSMicrophoneUsageDescription" = "用于录制语音消息。";
+
+// Provides the reason why Pigeon is asking for location access, the first time the user attempts to send a location message.
+"NSLocationWhenInUseUsageDescription" = "用于发送位置消息。";

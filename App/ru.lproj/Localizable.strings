@@ -728,3 +728,59 @@
 "After 24 hours" = "After 24 hours";
 "After 3 days" = "After 3 days";
 "After 1 week" = "After 1 week";
+
+// third party keyboard
+"Get WristBoard from App Store" = "Get WristBoard from App Store";
+"Warning" = "Warning";
+
+"Quick Reply" = "Quick Reply";
+"Settings_Menu_Quick_Replies" = "Quick Replies";
+"Default_Bar_Send_Quick_Replies_Button" = "Quick Replies";
+"VO_Action_Quick_Replies" = "Select and send from your set of quick replies";
+"%@ Forward" = "%@ Forward";
+"Use the %@ button to add" = "Use the %@ button to add";
+"Setup Required in Settings" = "Setup Required in Settings";
+"Who do you wish to send this to?" = "Who do you wish to send this to?";
+"Select Recipient..." = "Select Recipient...";
+"Send Message" = "Send Message";
+
+
+// Siri or Shortcuts stuff
+
+// description
+"Send a message to one of your contacts, through Telegram using Pigeon" = "Send a message to one of your contacts, through Telegram using Pigeon";
+
+// shortcut title
+"Send Message" = "Send Message";
+
+// type
+"Chat" = "Chat";
+
+// summary
+"Send a message to someone" = "Send a message to someone";
+
+// parameters
+
+// message content; title
+"Message" = "Message";
+
+// message content; description
+"Contents of your text message" = "Contents of your text message";
+
+// send to; title
+"Send to:" = "Send to:";
+
+// send to; question
+"Who do you want to send this to?" = "Who do you want to send this to?";
+
+// send to; siri question
+"To who?" = "To who?";
+
+// error messages
+"Contact is invalid" = "Contact is invalid";
+"Failed to send message because %@" = "Failed to send message because %@";
+"A subscription is required for Siri and Shortcuts features. Refer to the app for more information." = "A subscription is required for Siri and Shortcuts features. Refer to the app for more information.";
+"Failed to load contacts list." = "Failed to load contacts list.";
+
+// success message
+"Successfully sent \"%@\" to %@." = "Successfully sent \"%@\" to %@.";

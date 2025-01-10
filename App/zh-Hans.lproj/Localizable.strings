@@ -1,0 +1,786 @@
+/*
+  Localizable.strings
+  Pigeon v1.5
+
+  Created by Rechrd Qan, last updated on 30 August 2024.
+ 
+  Replace the Created by name, if you would like to be credited in the app.
+  
+  %@ typically refers to an external value, but may also refer to an icon in certain cases.
+  "KEY" = "VALUE"; VALUE is what that will be displayed in the app.
+ 
+  Keys prefixed with 'VO' are definitely for VoiceOver readouts.
+*/
+
+// Next page button that is shown in Pigeon's main page.
+// Pressing this button will show next 10 chats in folder. Not used in watchOS 10 and later.
+"WOS9_NextPage_Button_Label" = "下一页";
+
+/* Pre-login loading */
+"Logging out..." = "登出中…";
+"Unknown" = "未知问题";
+"Please wait." = "请稍等";
+"Loading..." = "加载中…";
+
+"Auth_Error_Title" = "出错了";
+"An unexpected authentication state of \"%@\" has been reached. Please relay this to the developer, thank you." = "出现意外状况 \"%@\"，请反馈给开发者。";
+
+"An error occurred while processing the QR code" = "处理二维码时出现问题";
+
+
+/* Login Instructions */
+"Login Instructions" = "如何登录";
+
+// Shown when QR code is not ready yet.
+"Processing QR Code..." = "二维码加载中…";
+
+"In the Telegram app," = "在 Telegram 手机应用中，";
+"Go to the Settings tab" = "转到设置（Settings）";
+"Tap on \"Devices\"" = "进入 \"设备（Devices）\"";
+"Tap on \"Link Desktop Device\"" = "点击 \"扫描二维码（Link Desktop Device）\"";
+"Scan the QR Code %@" = "扫描 Pigeon 提供的二维码 %@";
+"After_Scanning_Instructions" = "扫描完成后，请耐心等待登录成功。无需反复扫码登录。";
+
+"QR Code" = "二维码";
+"Phone Number login" = "手机号登录"; // unused.
+
+
+
+
+/* 2FA */
+"Login" = "登录";
+"Try again" = "重试";
+"Error" = "出现问题";
+
+"Enter Password" = "输入两步验证密码";
+"You have Two-Step Verification enabled for your account, hence we need your password to continue." = "此 Telegram 账户启用了两步验证，请输入密码以继续登录。";
+
+// What's shown on the password field, before the user keys any password in, a hint to the user to what is expected in the text field.
+"2FA_Password_Field_Hint" = "两步验证密码";
+
+// Password hint label. May not be shown if user did not set a Two Step Verification hint.
+"Hint: %@" = "提示: %@";
+
+"The password that you've entered is incorrect." = "密码不正确。";
+"An unknown error has occurred. Please let the developer know!" = "出现未知错误，请联系开发者。";
+
+
+/* Toolbar buttons of main page. */
+
+"Toolbar_WhatsNew" = "新功能";
+"Toolbar_UnlockFeatures" = "解锁所有功能";
+"Toolbar_Folders" = "分组";
+// Toolbar settings's key is "Settings";
+
+// label of the folder that represents all chats.
+"All_Chats_Label" = "全部对话";
+"Chats" = "对话";
+
+
+
+/* Messaging page */
+
+// Delete button label, shown in red, when user long-presses on a message. %@ is an icon of trash bin.
+"Delete" = "删除";
+
+// Reply button label, shown when user long-presses on a message. %@ is an icon.
+"Reply" = "回复";
+
+// Forwarded tag shown on top of message. %@ is an icon.
+"%@ Forwarded" = "%@ 已转发";
+
+"Add a reaction" = "添加反应";
+"Message sent at:" = "消息发送于：";
+"Media" = "媒体";
+
+/* DEFAULT messaging bar (all displayed with image on the left) */
+
+// Send message button that brings keyboard/input method when user taps on it. Prefer to keep this naming short.
+"Default_Bar_Send_Button" = "发送";
+
+"Default_Bar_Send_Audio_Button" = "语音消息";
+"Default_Bar_Send_GIF_Button" = "GIF";
+"Default_Bar_Send_Stickers_Button" = "贴纸";
+
+/* CONDENSED messaging bar */
+"Condensed_Bar_Message_Title" = "消息";
+
+// Turquiose button on left of message field, when VoiceOver reads it.
+"VO_Condensed_More_Options_Button" = "更多设置";
+
+// Used in GIF selection page. %@ is a magnifying glass icon.
+"%@ Search" = "%@ 搜索";
+
+// Button on top of all messages.
+"Load earlier messages" = "加载更早的消息";
+
+// VoiceOver action to switch the focus to the newest message available.
+"VO_Jump_To_Newest" = "跳转到最新消息";
+
+// VoiceOver read out of which chat is loading, as it loads. %@ is the chat's name.
+"Chat %@" = "%@ 说";
+
+
+
+
+/* Message failed to send page */
+
+"Fail_Send_Title" = "发送消息失败";
+
+// %@ refers to the message type. (e.g. A voice message...)
+"A %@ message has failed to send." = "一条 %@ 发送失败";
+
+"Fail_Send_Try_Again_Button" = "重试";
+"Fail_Send_Discard_Button" = "取消发送";
+
+
+
+
+
+
+/* VoiceOver only */
+
+// When the user of sent message is yourself, this is used; (e.g. (You) said: Pigeon is an awesome app!)
+"VO_User_You" = "你";
+// When the sent message is a channel, this is used; (e.g. (Channel) said: Pigeon has a new update.)
+"VO_User_Channel" = "频道";
+// (Rare) When system failed to identify either if message is sent by known user, you or channel, this is used; (e.g. (Someone) said: You won't know who am I.)
+"VO_User_Unknown" = "某人";
+
+// Reads out when user highlights on individual folder buttons, shown on toolbar of home page. (Example: News folder, All folder, Unread folder)
+"%@ folder" = "%@ 分组";
+
+// Reads out when user highlights on a text message. (Example: "Vincent said: Happy Birthday!")
+"%@ said: " = "%@ 说：";
+
+// Reads out when user highlights on a GIF message. (Example: "Vincent said: Happy Birthday!")
+"%@ sent a GIF." = "%@ 发送了一个 GIF。";
+
+// Reads out when user highlights on audio message. (Example: "Vincent sent an audio message, of duration, 2 minutes, 30 seconds"). Duration is formatted depending on locale.
+"%@ sent an audio message, of duration, %@" = "%@ 发送了一条时长为 %@ 的音频消息。";
+
+// Reads out when user highlights on voice message. (Example: "Vincent sent an voice message, of duration, 1 minute, 8 seconds"). Duration is formatted depending on locale.
+"%@ sent a voice message, of duration, %@" = "%@ 发送了一条时长为 %@ 的语音消息。";
+
+// Subject to change; Reads out when user highlights on sticker message. %@ refers to emoji which the sticker is associated with.
+"%@ sticker" = "%@ 贴纸";
+
+// Reads out when chat has a verified badge.
+"VO_Verified_Badge" = "经过认证的徽章";
+
+// Reads out when chat is pinned.
+"VO_Pinned_Chat_Icon" = "置顶的消息";
+
+// Actions
+// Reads out when user highlights on text field of condensed message bar or send button of message bar.
+"VO_Compose_Text_Message" = "输入一条文字消息";
+"VO_Action_Audio" = "录制语音消息";
+"VO_Action_GIF" = "发送一张 GIF";
+"VO_Action_Sticker" = "发送一张贴纸";
+
+// Reads out the chat unread amount. Preferred to be in CAPS. %lld is a number.
+"%lld UNREAD" = "%lld 条未读消息";
+
+// VoiceOver label for contact messages.
+"Contact Name" = "联系人姓名";
+
+
+
+
+
+
+/* Settings page */
+"Settings" = "设置";
+"Acknowledgments" = "致谢";
+"Settings_Menu_General_Label" = "通用";
+"Settings_Menu_Messages_Label" = "消息";
+"Settings_Menu_Messages_Display_Label" = "界面";
+"Settings_Menu_Messages_Behaviours_Label" = "偏好";
+"Settings_Menu_Notifications" = "通知";
+"Settings_Menu_General_Connection_Title" = "连接";
+
+/* Logout */
+"Logout" = "登出";
+"Logout_Confirmation" = "确认吗？";
+"Cancel" = "取消";
+
+/* Settings -> Support page */
+
+"Support" = "支持";
+"Need help?" = "需要帮助吗？";
+
+"Contact_Label_Email" = "📧 发邮件";
+"Contact_Label_Twitter" = "🐦 X/Twitter"; // Keep the bird theme.
+"Contact_Label_Mastodon" = "🦣 Mastodon";
+"Contact_Footer_Instructions" = "点按选项以显示二维码。";
+
+/* Subscription page */
+"Subscriptions" = "订阅";
+
+"Subscription_Title" = "解锁所有功能";
+"Subscription_Subtitle" = "您可以从先试用一段时间开始订阅！";
+// %@ is the period (e.g. 1 week) When it can't be loaded for whatever reasons, Subscription_Subtitle will be used instead.
+"Subscription_Subtitle2" = "订阅并开始为期 %@ 的免费试用";
+
+"Subscription_Free_Trial_Requirement" = "（对于首次订阅）";
+"Subscription_Free_Trial_Not_Charged" = "非强制消费。若在续期日期前一天取消免费优惠订阅，将不会被扣费。";
+
+"Subscription_Period_Month" = "/ 月";
+"Subscription_Period_Year" = "/ 年";
+
+/* unused periods - RevenueCat supports these identifiers so here there are. */
+"Subscription_Period_Err" = "/ 出错了.";
+"Subscription_Period_Lifetime" = ", 一次性订阅";
+"Subscription_Period_6Months" = "/ 6 个月";
+"Subscription_Period_3Months" = "/ 3 个月";
+"Subscription_Period_2Months" = "/ 2 个月";
+"Subscription_Period_Week" = "/ 周";
+
+"Subscription_Year_Savings" = "~40% 的优惠！";
+"Subscription_Restore_Button" = "恢复购买";
+"Subscription_Restore_Completed" = "恢复购买成功";
+"Subscription_Restore_Failed" = "恢复购买失败";
+
+"Subscription_Reason" = "订阅后，您将可以回复他人的消息、查看历史聊天记录等。同时也能够支持开发人员继续开发 Pigeon！";
+
+"Subscription_EULA_Button" = "条款（标准最终用户许可协议，EULA）";
+"Subscription_Privacy_Policy_Button" = "隐私政策";
+
+"Purchase failed" = "购买失败";
+"Purchase has failed due to %@" = "购买失败，因为 %@";
+"Purchase failed due to unknown error." = "购买失败，出现了未知问题。";
+"Restore purchases has failed due to %@" = "恢复购买失败，因为 %@";
+
+"Done" = "确定";
+
+// TBH, forgot how this would be shown, from code seems to be with error display?
+"dismiss" = "解除";
+
+"Period_Year" = "年";
+"Period_Month" = "月";
+"Period_Week" = "周";
+"Period_Day" = "日";
+"Period_Unknown" = "出错了";
+
+
+/* General Category */
+"General" = "通用";
+
+// subcategory title
+"Connection" = "连接";
+
+// toggle title
+"Show status" = "显示连接指示状态";
+
+"INFO_Connection_Status" = "如果启用，将会在 Pigeon 的底部显示“连接中…”或“刷新中…”的连接状态底栏。";
+
+
+
+
+
+
+/* Messages Category */
+"Display" = "界面";
+"Behaviours" = "偏好";
+
+/* Display Category */
+
+// subcategory title
+"Bottom bar" = "底栏";
+"Condensed_Mode_Toggle_Title" = "聚合模式";
+"INFO_Condensed_Mode" = "“聚合模式”会将发送文字消息的功能独立成一个文本输入框，其余选项收纳至操作菜单按钮。就像 Apple Watch 上的 iMessage 那样。";
+
+// subcategory title
+"Base font size" = "基础文字大小";
+"Base_Font_Sample_Title" = "预览";
+
+// Sample text for user to gauge if text sizing is good for them.
+"Base_Font_Size_Sample_Text" = "永字八法。";
+
+"Base_Font_Size_Setting_ContentSize_Title" = "界面尺寸";
+"Base_Font_Size_Setting_DateSize_Title" = "日期尺寸";
+
+"INFO_Base_Font_Size" = "这将设置消息界面的基本字体大小。由于 Pigeon 支持动态调整，因此你 Pigeon 会随着 watchOS 的字号的变动而二次变动。例如 watchOS 的字号设置已经调为最大，你可以在 Pigeon 的设置中以此为基础，调出更大的字号。反之亦然。";
+
+"INFO_Base_Font_Size_Bold" = "可随时参考预览来设定元素大小。";
+
+/* Behaviours Category */
+
+// subcategory title
+"Sounds & Haptics" = "声效与触感反馈";
+"Sounds_Toggle_Switch_Title" = "发送消息时";
+"INFO_SoundHaptics" = "如果启用，可使用声效与触感反馈来分别消息是否成功发送。";
+"INFO_Sample_Title" = "预览：";
+"INFO_Play_Tone_Success" = "成功时";
+"INFO_Play_Tone_Failure" = "失败时";
+
+// subcategory title
+"Audio Playback" = "音频播放偏好";
+"Playback_Toggle_Switch_Title" = "通过系统播放";
+"INFO_Playback" = "如果启用，语音消息将会通过系统播放器播放，而不是 Pigeon 的内置播放器。";
+
+// subcategory title
+"Message loads" = "每页对话数量";
+"INFO_Message_Loads" = "指一次性加载历史对话的数量。存在两个对话的容差。";
+"INFO_Message_Loads2" = "由于运行内存有限，一次性加载的对话越多，Pigeon 越卡顿。";
+
+
+
+
+
+
+/* Notifications Category */
+
+// Notification grouping subcategory title
+"Notification Grouping" = "通知叠放偏好";
+"NotificationGrp_Option_Conversation" = "以组叠放";
+"NotificationGrp_Option_App" = "全部叠放";
+"NotificationGrp_Option_None" = "不叠放";
+
+"INFO_NotificationGrp_Summary" = "决定 Pigeon 的通知以何种形式显示在 watchOS 的通知中心。";
+
+"INFO_NotificationGrp_Option_Conversation" = "以组叠放";
+"INFO_NotificationGrp_Option_Conversation_Summary" = "以每个联系人、群组或频道为一组来叠放通知。启用后，你可以分组查看消息通知，但只能查看最新的通知。";
+
+"INFO_NotificationGrp_Option_App" = "全部叠放";
+"INFO_NotificationGrp_Option_App_Summary" = "叠放所有 Pigeon 的通知。启用后，你可以以推送的时间顺序顺次查看所有通知。";
+
+"INFO_NotificationGrp_Option_None" = "不叠放";
+"INFO_NotificationGrp_Option_None_Summary" = "所有来自 Pigeon 的通知将分散在 watchOS 的通知中心（默认选项）。";
+
+// Profile pictures subcategory title
+"Profile Pictures Cache" = "头像缓存";
+
+// shown in bold red; tapping it will delete all profile pictures that have already been cached.
+"Profile_Cache_Reset_Button" = "清除头像缓存";
+
+"INFO_Profile_Cache1" = "Pigeon 将会缓存私聊与群聊中的个人头像，以便于在通知中显示。";
+"INFO_Profile_Cache2" = "如果 Pigeon 缓存的头像过多，或有人更新了头像，可以尝试清楚头像缓存。";
+"INFO_Profile_Cache3" = "建议在清除头像缓存后重新打开 Pigeon。";
+
+"Clear on launch" = "启动 Pigeon 时清除通知";
+
+"INFO_Auto_Clear" = "在启动 Pigeon 时自动清除 watchOS 通知中心所有来自 Pigeon 的通知。";
+"Auto_Clear_Toggle_Title" = "自动清除通知";
+
+
+
+
+/* Connection States */
+
+"Connection_State_Waiting_For_Network" = "等待网络连接…";
+"VO_Connection_State_Waiting_For_Network" = "正在等待 Apple Watch 连接网络";
+
+// likely unused as Pigeon doesn't have proxy option.
+"Connection_State_Connecting_To_Proxy" = "连接代理中…";
+"VO_Connection_State_Connecting_To_Proxy" = "正在连接代理";
+
+"Connection_State_Connecting" = "连接中…";
+"VO_Connection_State_Connecting" = "正在连接 Telegram 服务";
+
+"Connection_State_Updating" = "刷新中…";
+"VO_Connection_State_Updating" = "正在刷新对话";
+
+"Connection_State_Connected" = "完成";
+"VO_Connection_State_Connected" = "刷新完成";
+
+
+
+
+
+/* Status Messages */
+// Messages that simply tells you when something happened in a chat.
+
+"Status_Message_Pin" = "置顶了一条消息。";
+"Status_Contact_Registered" = "有新成员加入 Telegram。";
+"Status_Change_Photo" = "更新了聊天图片。";
+
+// %@ is the group's name
+"Status_Basic_Group_Created" = "创建了群组 \"%@\" 。";
+"Status_Deleted_Member" = "移除了一位群员。";
+"Status_Add_Member" = "新成员加入。";
+"Status_Unsupported_Known_Type" = "未知提示： %@";
+"Status_Unsupported_Unknown" = "不支持的提示。";
+
+
+/* Message Previews */
+// Shown in chat list, as the last sent message.
+
+"Preview_Contact_Message" = "联系人 %@";
+"Preview_Poll_Message" = "投票 - %@";
+"Preview_Sticker_Message" = "%@ 贴纸"; // %@ = emoji
+"Preview_Audio_Message" = "语音消息 - %@";
+
+
+
+/* Sticker Selection */
+"Installed Stickers" = "贴纸已保存";
+"WebM_Unupported_Text" = "仅能预览部分的视频和贴纸。";
+
+// Send sticker button, shown when user in animated sticker selection mode. %@ is an icon of a paperplane.
+"%@ Send" = "%@ 发送";
+
+/* Voice Recording failed */
+
+"Rec_Err_Title" = "录音时发生错误。";
+"Rec_Err_Take_Screenshot_Instructions" = "请截图上面的消息并发送给 %@";
+"Rec_Err_Unknown" = "发生未知错误。";
+
+/* Telegram Channel Sponsored Posts */
+"Sponsored" = "赞助";
+
+
+/* Poll message */
+"Poll_Type_Quiz" = "询问";
+"Poll_Type_Poll" = "投票";
+"Poll_Anonymous" = "匿名";
+
+
+/* watchOS 8.x Watch Face Complications */
+// watchOS 8.x uses an older system to display watch face complications, of which, this section provides the localised texts for it. Not used in watchOS 9.x and later.
+
+"WOS8_Complications_Display_Name" = "Pigeon";
+"VO_WOS8_Label" = "Pigeon 应用快捷方式";
+
+/* <= watchOS 9.x photo view cancellation */
+"WOS9_Done_Button" = "确定";
+"WOS9_Grid_Button" = "网状";
+"Done" = "确定";
+
+"Saved Messages" = "保存消息";
+
+/* Translation section */
+"Translations" = "翻译";
+"Special thanks to:" = "特别感谢：";
+
+"This message failed to parse." = "信息解析失败。";
+"View" = "浏览";
+// VO
+"Thumbnail" = "短文";
+
+// VO
+"Downloading video... Progress %@ percent." = "下载视频… %@ ";
+
+"Status_Super_Group_Created" = "群组 \"%@\" 已创建。";
+"Join Pigeon's Channel!" = "加入 Pigeon 官方频道！";
+
+// MARK: - version 1.3
+
+// save preferences button
+"Save" = "保存";
+
+"Message_Bar_Order_Prefs_Error" = "保存设置选项时出错";
+
+"Message_Bar_Order_Prefs_Instructions" = "按住并拖动以调整顺序。";
+
+"Default_Bar_Send_Photo_Button" = "图片";
+
+"VO_Photo_Sticker" = "发送图片";
+"VO_Hide_Toggle_Message_Bar_Order" = "显示";
+"VO_Move_Up" = "上移";
+"VO_Move_Down" = "下移";
+
+// VO, when reading message's original reply (e.g. Replying to <Vincent> <What's that?>)
+"Replying to %@ %@" = "回复 %@ 说：%@";
+
+"You have no conversations yet." = "还没有消息哦";
+
+"Rate or Review! ⭐️" = "在 App Store 为 Pigeon 评价吧！ ⭐️";
+"Scan to rate from your iPhone!" = "扫码以通过 iPhone 来提供反馈！";
+
+// VO
+"Previous Page" = "上一页";
+
+// VO
+"Next Page" = "下一页";
+
+// VO chat title (e.g. Chats page 3)
+"%@ page %d" = "%@ 的第 %d 页";
+
+// VO
+"Back" = "返回";
+
+"Download animation" = "下载动画";
+
+"Reactions" = "反应";
+
+// Message send states, VO
+"Sending" = "发送中";
+"Read" = "已读";
+"Sent" = "已送达";
+"Edited" = "已编辑";
+
+"Edit message" = "编辑消息";
+"%@ Edit" = "%@ 编辑";
+
+"This will permanently delete the selected message." = "这将永远删除所选消息。";
+
+"Delete for everyone" = "为所有人删除";
+"Delete for me" = "仅为我删除";
+"Are you sure?" = "确定删除？";
+
+"Configure" = "设定";
+
+"Last edited on:" = "最后编辑于：";
+"Location" = "地点";
+
+// VO
+"Quoted" = "引用";
+
+// VO new Voice Recorder
+"Record" = "语音消息";
+"Please wait" = "请稍等";
+"Stop recording" = "停止录制语音消息";
+"Send recording" = "发送语音消息";
+
+// VO shortcuts
+"Focus on toolbar" = "聚焦在功能栏";
+"Focus on chat list" = "聚焦在对话列表";
+
+"duration" = "持续";
+
+"Chat %@ has been opened" = "进入了与 %@ 的对话";
+"View options" = "显示设置";
+
+"Default_Bar_Send_Location_Button" = "定位消息";
+"VO_Action_Location" = "选择要发送的位置";
+
+"Send My Location" = "发送当前定位";
+"Send This Location" = "发送此位置";
+
+// VO
+"Jump to current location" = "跳转到当前位置";
+// VO
+"Current location coordinates" = "当前定位坐标";
+// VO
+"Selected coordinates" = "选择位置坐标";
+// VO
+"latitude: %@, longitude: %@" = "维度：%@，经度： %@";
+
+"Status_Deleted_Member_Message" = "离开了一个群员";
+
+// watchOS 8-9.x; %@ is a chevron >
+"Open Maps %@" = "打开地图 %@";
+"Archive" = "归档";
+
+"Ignore_Spoilers_Setting_Title" = "忽略剧透";
+"Location Services disabled" = "系统位置服务被禁用";
+
+"VO_Muted_Chat_Badge" = "静音对话的标识";
+
+// VO
+"Mute chat" = "对话静音";
+// VO
+"Unmute chat" = "解除对话静音";
+
+// Mute duration page's title
+"Mute For" = "持续静音";
+
+// context: mute notifications for chat without a specific duration.
+"Forever" = "永远";
+
+"Contact_Label_Pigeon_Notes" = "📖 Pigeon文档";
+"Pigeon_Notes_Description" = "常见问题";
+
+"Would you like to add a caption?" = "需要进一步描述吗？";
+"Caption" = "描述";
+
+
+"Video Note" = "视频";
+"Status_Message_Video_Note" = "视频文件";
+"Toolbar_New_Chat" = "发起对话";
+"No contacts found." = "还没有联系人哦";
+"No messages yet." = "还没有消息哦";
+
+// VO
+"Search Contacts" = "搜索联系人";
+
+"Discussion" = "聊天";
+// VO
+"Leave a Comment" = "留言";
+
+// VO
+"%@ folder" = "%@ 分组";
+
+// VO
+"%@ folder, selected" = "已选择 %@ 分组";
+
+// VO
+"%@, selected" = "已选择 %@";
+
+// VO; "with this" refers to with an emoji reaction of a message.
+"%d users reacted with this" = "%d 添加了反应。";
+
+// "{current page number} of {total number of pages}" or "1.5MB of 20MB"
+"%d of %d" = "%d ，共 %d";
+
+"This document is password protected." = "此文件受密码保护。";
+"PDF document password field" = "填写此 PDF 的密码";
+"%@ Invalid password." = "%@ 密码不正确。";
+"Tap to view" = "请点以预览";
+
+"Chat Preview" = "预览对话";
+"INFO_Chat_Preview_Line_Limit" = "Pigeon 会在主页预览每个对话的最新消息。您可以调整对话预览的行数，默认模式为每个对话 3 行，简短模式为每个对话 1 行。";
+"Line Limit" = "行数限制";
+// Refers to line limit mode for chat preview
+"Regular" = "默认";
+"Minimal" = "简短";
+
+"GPX files are only supported in watchOS 10.x and above." = "GPX 文件仅适用于 watchOS 10+ 。";
+
+"Phone number is empty." = "手机号码为空。";
+"Phone number is invalid." = "手机号码无效。";
+"Continue" = "继续";
+"Phone_Number_Example" = "例如：+86XXXXXXXXXXX，+8611451419198";
+"Phone_Number_Description" = "必须为国际手机号码格式，即以“+”开头而不以“0”开头；区号后面不添加空格而是直接填写手机号码。";
+"Phone Number" = "手机号码";
+"Sign In Methods" = "登录方式";
+
+// %@ is chevron >
+"Swipe to continue %@" = "滑动屏幕以继续 %@";
+// %@ is chevron > (Shown if VO is on)
+"Continue %@" = "继续 %@";
+
+"Phone Number" = "手机号码登录";
+"Scan QR Code" = "扫码登录";
+"(recommended)" = "（推荐）";
+
+"Code" = "码";
+"Authentication Code" = "验证码";
+"%@ is not supported" = "不支持 %@";
+
+"Settings_Menu_Input_Options_Label" = "输入方式";
+"Keyboard" = "watchOS 键盘";
+"Option Selected" = "WristBoard 键盘";
+"WristBoard must be installed on your Apple Watch for this option to work." = "需要先下载“WristBoard”应用才可使用“WristBoard 键盘”选项。此键盘不支持中文输入。";
+"THIRD_PARTY_KEYBOARD_NOTICE" = "请注意，第三方键盘与 Pigeon 无关，并且这些键盘可能访问您输入的数据。您还需遵守第三方键盘开发者的条款、隐私政策及相关操作，建议您谨慎检查和选择这些键盘。";
+
+"Show_Typing_Indicators_Setting_Title" = "显示正在输入的提示符";
+"Sync" = "同步";
+"Contacts and Chats" = "联系人与对话";
+"Global Search" = "全局搜素";
+"No Results Found." = "无结果。";
+"Search" = "搜索";
+
+"Type: %@" = "Type: %@";
+"No links in message." = "消息中无链接。";
+"Open link" = "打开链接";
+"Select embedded links" = "选择嵌入的链接";
+
+"Recents" = "最近内容";
+"No Recents" = "无最近内容";
+"CLEAR" = "清除";
+"Local Time" = "本地时间";
+"User's Time Zone" = "用户的时区";
+
+// VO
+"View Pinned Messages" = "浏览置顶消息";
+
+"Pinned Messages" = "置顶的消息";
+"Verified" = "已验证";
+
+"View" = "浏览";
+
+"Unmute" = "解除静音";
+"Mute" = "静音";
+
+// Typing indicators
+"%@ typing..." = "%@ 正在输入…";
+"typing..." = "正在输入…";
+"recording video" = "正在录制视频";
+"uploading a video" = "正在上传视频";
+"recording voice" = "正在录制语音消息";
+"uploading voice note" = "正在上传语音消息";
+"uploading photo" = "正在上传照片";
+"uploading document" = "正在上传文件";
+"choosing a sticker" = "正在选择贴纸";
+"choosing a location" = "正在选择位置";
+"choosing a contact" = "正在选择联系人名片";
+"playing" = "播放中";
+"recording video note" = "正在录制视频文件";
+"uploading video note" = "正在上传视频文件";
+"watching animations" = "正在播放动画";
+
+// Online indicators
+"online" = "在线";
+"last seen " = "最近上线于 "; // e.g. 'last seen 2 minutes ago' (where '2 minutes ago' is formatted by system, subject to device locale)
+"last seen recently" = "近期";
+"last seen last week" = "一周前";
+"last seen last month" = "一个月前";
+
+// Chat info titles
+"Username" = "用户名";
+"Info" = "资料";
+"Bio" = "简介";
+"Phone Number" = "手机号码";
+"Birthdate" = "生日";
+"Location" = "位置";
+"Opening Hours" = "营业时间";
+
+"%@ Live Location" = "%@ 实时位置";
+
+"Telegram Caches" = "Telegram 本地缓存";
+"INFO_Telegram_Caches" = "如果启用，缓存将会按照设定自动清除。";
+"Cleaning Interval" = "定期清理";
+"Never" = "永不";
+"Every launch" = "每次启动时";
+"After 12 hours" = "每 12 小时";
+"After 24 hours" = "每 24 小时";
+"After 3 days" = "每 3 天";
+"After 1 week" = "每 1 周";
+
+// third party keyboard
+"Get WristBoard from App Store" = "从 App Store 下载 WristBoard";
+"Warning" = "警告";
+
+"Quick Reply" = "回复内容";
+"Settings_Menu_Quick_Replies" = "快速回复";
+"Default_Bar_Send_Quick_Replies_Button" = "快速回复";
+"VO_Action_Quick_Replies" = "从您预先设置的回复中，快速答复";
+"%@ Forward" = "%@ 转发";
+"Use the %@ button to add" = "请使用 %@ 按钮来设定";
+"Setup Required in Settings" = "功能使用前需要设置";
+"Who do you wish to send this to?" = "Who do you wish to send this to?";
+"Select Recipient..." = "Select Recipient...";
+"Send Message" = "Send Message";
+
+
+// Siri or Shortcuts stuff
+
+// description
+"Send a message to one of your contacts, through Telegram using Pigeon" = "Send a message to one of your contacts, through Telegram using Pigeon";
+
+// shortcut title
+"Send Message" = "Send Message";
+
+// type
+"Chat" = "Chat";
+
+// summary
+"Send a message to someone" = "Send a message to someone";
+
+// parameters
+
+// message content; title
+"Message" = "Message";
+
+// message content; description
+"Contents of your text message" = "Contents of your text message";
+
+// send to; title
+"Send to:" = "Send to:";
+
+// send to; question
+"Who do you want to send this to?" = "Who do you want to send this to?";
+
+// send to; siri question
+"To who?" = "To who?";
+
+// error messages
+"Contact is invalid" = "Contact is invalid";
+"Failed to send message because %@" = "Failed to send message because %@";
+"A subscription is required for Siri and Shortcuts features. Refer to the app for more information." = "A subscription is required for Siri and Shortcuts features. Refer to the app for more information.";
+"Failed to load contacts list." = "Failed to load contacts list.";
+
+// success message
+"Successfully sent \"%@\" to %@." = "Successfully sent \"%@\" to %@.";
