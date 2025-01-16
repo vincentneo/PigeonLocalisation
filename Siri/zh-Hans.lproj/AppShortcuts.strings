@@ -1,0 +1,21 @@
+//
+//  AppShortcuts.strings
+//  Pigeon v1.6
+//
+//  Created by Rechrd Qan, last updated on 13 January 2025.
+//
+
+// siri phrases
+"Send message via ${applicationName}" = "用 ${applicationName} 发消息";
+"Text using ${applicationName}" = "用 ${applicationName} 发送文本";
+"Send a text using ${applicationName}" = "用 ${applicationName} 发送文本消息";
+"Message using ${applicationName}" = "通过 ${applicationName} 发消息";
+"Chirp using ${applicationName}" = "用 ${applicationName} 发信息";
+"Coo using ${applicationName}" = "通过 ${applicationName} 发信息";
+"Shout using ${applicationName}" = "嗨，${applicationName}";
+"Talk like a ${applicationName}" = "${applicationName} 发消息";
+"Write using ${applicationName}" = "${applicationName} 发信息";
+"Write a message using ${applicationName}" = "你好，${applicationName}";
+"Send a Telegram message using ${applicationName}" = "用 ${applicationName} 发送 Telegram 消息";
+"Telegram using ${applicationName}" = "用 ${applicationName} 发 Telegram";
+ 

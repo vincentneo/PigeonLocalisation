@@ -784,3 +784,14 @@
 
 // success message
 "Successfully sent \"%@\" to %@." = "Successfully sent \"%@\" to %@.";
+
+// Tenor Trending GIFs
+"Trending" = "Trending";
+
+// Tenor attribution image (VO)
+"VO_powered_by_tenor" = "Powered by Tenor";
+
+// Tenor more options button (ellipsis)
+"VO_more_options" = "Options";
+
+"Category" = "Category";

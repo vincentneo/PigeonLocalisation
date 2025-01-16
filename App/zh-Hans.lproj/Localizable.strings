@@ -1,8 +1,8 @@
 /*
   Localizable.strings
-  Pigeon v1.5
+  Pigeon v1.6
 
-  Created by Rechrd Qan, last updated on 30 August 2024.
+  Created by Rechrd Qan, last updated on 13 January 2025.
  
   Replace the Created by name, if you would like to be credited in the app.
   
@@ -41,7 +41,7 @@
 "Scan the QR Code %@" = "扫描 Pigeon 提供的二维码 %@";
 "After_Scanning_Instructions" = "扫描完成后，请耐心等待登录成功。无需反复扫码登录。";
 
-"QR Code" = "二维码";
+"QR Code" = "扫码登录";
 "Phone Number login" = "手机号登录"; // unused.
 
 
@@ -740,47 +740,58 @@
 "%@ Forward" = "%@ 转发";
 "Use the %@ button to add" = "请使用 %@ 按钮来设定";
 "Setup Required in Settings" = "功能使用前需要设置";
-"Who do you wish to send this to?" = "Who do you wish to send this to?";
-"Select Recipient..." = "Select Recipient...";
-"Send Message" = "Send Message";
+"Who do you wish to send this to?" = "需要发送给谁？";
+"Select Recipient..." = "选择联系人";
+"Send Message" = "发送消息";
 
 
 // Siri or Shortcuts stuff
 
 // description
-"Send a message to one of your contacts, through Telegram using Pigeon" = "Send a message to one of your contacts, through Telegram using Pigeon";
+"Send a message to one of your contacts, through Telegram using Pigeon" = "使用 Pigeon 向你的 Telegram 联系人发送消息。";
 
 // shortcut title
-"Send Message" = "Send Message";
+"Send Message" = "发送消息";
 
 // type
-"Chat" = "Chat";
+"Chat" = "聊天";
 
 // summary
-"Send a message to someone" = "Send a message to someone";
+"Send a message to someone" = "向某人发送消息";
 
 // parameters
 
 // message content; title
-"Message" = "Message";
+"Message" = "新消息";
 
 // message content; description
-"Contents of your text message" = "Contents of your text message";
+"Contents of your text message" = "发送的内容";
 
 // send to; title
-"Send to:" = "Send to:";
+"Send to:" = "发送至：";
 
 // send to; question
-"Who do you want to send this to?" = "Who do you want to send this to?";
+"Who do you want to send this to?" = "你想要发送给谁？";
 
 // send to; siri question
-"To who?" = "To who?";
+"To who?" = "给谁？";
 
 // error messages
-"Contact is invalid" = "Contact is invalid";
-"Failed to send message because %@" = "Failed to send message because %@";
-"A subscription is required for Siri and Shortcuts features. Refer to the app for more information." = "A subscription is required for Siri and Shortcuts features. Refer to the app for more information.";
-"Failed to load contacts list." = "Failed to load contacts list.";
+"Contact is invalid" = "联系人无效";
+"Failed to send message because %@" = "消息发送失败，因为%@";
+"A subscription is required for Siri and Shortcuts features. Refer to the app for more information." = "需要订阅解锁 Pigeon 的所有功能，才可以使用 Siri 配合快捷指令来快捷发送消息。前往 Pigeon 以了解更多信息。";
+"Failed to load contacts list." = "加载联系人列表失败。";
 
 // success message
-"Successfully sent \"%@\" to %@." = "Successfully sent \"%@\" to %@.";
+"Successfully sent \"%@\" to %@." = "成功发送 \"%@\" 给 %@.";
+
+// Tenor Trending GIFs
+"Trending" = "热门";
+
+// Tenor attribution image (VO)
+"VO_powered_by_tenor" = "由 Tenor 提供支持";
+
+// Tenor more options button (ellipsis)
+"VO_more_options" = "更多设置";
+
+"Category" = "类别";

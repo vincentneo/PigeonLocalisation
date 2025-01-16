@@ -11,3 +11,12 @@
 
 // Provides the reason why Pigeon is asking for location access, the first time the user attempts to send a location message.
 "NSLocationWhenInUseUsageDescription" = "Potrzebujemy tego uprawnienia, aby było możliwe wysyłanie i udostępnianie twojej bieżącej lokalizacji..";
+
+// Siri permission prompt
+"NSSiriUsageDescription" = "Pigeon can provide a way to send messages directly via Siri.";
+
+// Alternative App Name 1
+"Pigeon" = "Pigeon";
+
+// Alternative App Name Pronunciation Hint 1
+"Pi Jn" = "Pi Jn";
