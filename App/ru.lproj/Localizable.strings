@@ -795,3 +795,6 @@
 "VO_more_options" = "Options";
 
 "Category" = "Category";
+
+// Used in first login screen
+"Welcome to " = "Welcome to ";

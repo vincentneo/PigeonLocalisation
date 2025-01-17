@@ -795,3 +795,6 @@
 "VO_more_options" = "更多设置";
 
 "Category" = "类别";
+
+// Used in first login screen
+"Welcome to " = "欢迎来到：";
