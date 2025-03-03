@@ -15,8 +15,10 @@
 // Siri permission prompt
 "NSSiriUsageDescription" = "Pigeon can provide a way to send messages directly via Siri.";
 
+// *** AI Translated, Verification Preferred.
 // Alternative App Name 1
-"Pigeon" = "Pigeon";
+"Pigeon" = "Голуб";
 
+// *** AI Translated, Verification Preferred.
 // Alternative App Name Pronunciation Hint 1
-"Pi Jn" = "Pi Jn";
+"Pi Jn" = "GOH loob";

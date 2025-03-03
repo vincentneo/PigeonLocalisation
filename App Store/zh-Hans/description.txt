@@ -1,0 +1,62 @@
+App Store description. Need not follow exactly, such as with non crucial paragraphs like the first 2.
+
+Max 4000 characters.
+-------------------------------------------------------------
+
+古人常用飞鸽传书，书信中寄托着对亲人平安的祝愿，和对久别故乡的思念。如今，一只可爱的鸽子来到了Apple Watch，并可以通过Telegram与他人沟通交流。
+
+看到了这只可爱的小鸽子了吗？ 没错，它就是Pigeon啦！
+
+Pigeon是一个适用于Apple Watch的第三方Telegram客户端，它可以脱离iPhone的连接独立使用^。
+
+关于隐私保护
+消息将通过Telegram提供的官方客户端接口TDLib（Telegram Database library）进行通信收发，以确保您的个人隐私同Telegram平台所提倡的那般保护地安全无虞。
+
+多格式文本消息支持
+Pigeon不仅可以显示纯文本消息，他人发送带有粗体、斜体、下划线和删除线的文本，均可在Pigeon呈现。
+
+强大的对话支持
+Pigeon支持接收他人或频道发送的文字消息、GIF动图、 表情包贴纸、图片、视频、联系人名片和语音消息等。您也可以向他人发送文字消息、GIF动图、表情包贴纸和语音消息*。
+
+您还可以放大显示图片，参与投票和与机器人进行简单的交互。
+
+自定元素大小显示
+您可以根据自己所需调整界面元素大小，以更易于您使用。
+
+轻松登入你的账户
+只需几步，即可登入您自己的Telegram账户。 
+1. 打开官方Telegram客户端，扫描Pigeon客户端上的二维码以授权登入。
+2. 若您的账户启用了两步验证，您还需要输入两步验证密码。
+
+对消息执行更多操作
+在对话里，您还可以长按气泡以执行更多操作，例如对消息作出反应、回复消息、从对话中删除（撤回）消息。
+
+快速浏览网页
+有人给您发送了网页链接？点击链接以直接在应用内快速浏览。
+
+针对对话列表优化
+Pigeon专为Apple Watch将对话列表重新进行排版设计和性能优化了。即使有成千上万的消息席卷而来，也能在性能有限的Apple Watch上轻松处理列表、和易于阅览对话列表。
+
+同步对话分组文件夹
+您在其他Telegram整理的对话分组文件夹，在Pigeon上同样可以访问！
+
+表盘复杂功能支持
+Pigeon也支持Apple Watch表盘的复杂功能哦！可可爱爱的鸽子可以住进您的表盘无时无刻陪伴着您～
+
+更多惊喜正在路上
+感彼云外鸽，群飞千翩翩。鸽子的传达讯息的使命不会就此停下，Pigeon也会用心不断更新，提供更多便于交流的功能和支持更多消息类型～
+
+—
+
+*某些功能需要订阅。
+通过订阅，您可以查看对话列表的下一页、对话中的更多历史消息、发送消息、对他人的消息作出反应、回复消息。支持Pigeon开发更多新内容，让Pigeon一直为您服务～
+
+—
+Pigeon与Telegram Messenger无任何联系，且未经过任何Telegram平台官方认可、合作、支持或以任何方式与Telegram Message相关联。
+
+^注：若要在脱离iPhone的情况下在Apple Watch使用Pigeon，请确保您的Apple Watch连接至无线局域网，或在移动蜂窝数据版本的Apple Watch上开通esim服务，并开通有效的流量套餐。
+
+部分地区可能无法访问Telegram服务。
+
+隐私政策：https://pigeonwatch.app/privacy
+条款（标准EULA协议）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/

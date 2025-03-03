@@ -745,45 +745,45 @@
 "Send Message" = "Send Message";
 
 
-// Siri or Shortcuts stuff
+// Siri or Shortcuts stuff (AI translated - 28/02/25)
 
 // description
-"Send a message to one of your contacts, through Telegram using Pigeon" = "Send a message to one of your contacts, through Telegram using Pigeon";
+"Send a message to one of your contacts, through Telegram using Pigeon" = "Надішліть повідомлення одному зі своїх контактів через Telegram, використовуючи Pigeon";
 
 // shortcut title
-"Send Message" = "Send Message";
+"Send Message" = "Надіслати повідомлення";
 
 // type
-"Chat" = "Chat";
+"Chat" = "Чат";
 
 // summary
-"Send a message to someone" = "Send a message to someone";
+"Send a message to someone" = "Надіслати комусь повідомлення";
 
 // parameters
 
 // message content; title
-"Message" = "Message";
+"Message" = "Повідомлення";
 
 // message content; description
-"Contents of your text message" = "Contents of your text message";
+"Contents of your text message" = "Зміст вашого текстового повідомлення";
 
 // send to; title
-"Send to:" = "Send to:";
+"Send to:" = "Надіслати кому:";
 
 // send to; question
-"Who do you want to send this to?" = "Who do you want to send this to?";
+"Who do you want to send this to?" = "Кому ви хочете це надіслати?";
 
 // send to; siri question
-"To who?" = "To who?";
+"To who?" = "Кому?";
 
 // error messages
-"Contact is invalid" = "Contact is invalid";
-"Failed to send message because %@" = "Failed to send message because %@";
-"A subscription is required for Siri and Shortcuts features. Refer to the app for more information." = "A subscription is required for Siri and Shortcuts features. Refer to the app for more information.";
-"Failed to load contacts list." = "Failed to load contacts list.";
+"Contact is invalid" = "Контакт недійсний";
+"Failed to send message because %@" = "Не вдалося надіслати повідомлення, тому що %@";
+"A subscription is required for Siri and Shortcuts features. Refer to the app for more information." = "Для використання функцій Siri і ярликів потрібна підписка. Докладніше в додатку.";
+"Failed to load contacts list." = "Не вдалося завантажити список контактів.";
 
 // success message
-"Successfully sent \"%@\" to %@." = "Successfully sent \"%@\" to %@.";
+"Successfully sent \"%@\" to %@." = "Повідомлення \"%@\" успішно надіслано %@.";
 
 // Tenor Trending GIFs
 "Trending" = "Trending";
@@ -798,3 +798,5 @@
 
 // Used in first login screen
 "Welcome to " = "Welcome to ";
+
+"Clear when read" = "Clear when read";

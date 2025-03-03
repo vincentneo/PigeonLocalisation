@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings (Widget)
+  Pigeon v1.6.2
+
+  Translated using ChatGPT 4o, on 28 February 2025
+  
+  Widget and Complication can mean the same thing in this context; Basically, its the clickable app shortcuts that can be accessed from the Watch Face.
+*/
+
+"WIDGET_COMMON_DESC" = "Skrót komplikacji dla łatwego dostępu do aplikacji.";
+"WIDGET_NAME_Chat_Bubble_Shortcut" = "Gołąb w 💬";
+"WIDGET_NAME_Face_Shortcut" = "Twarz gołębia";
+/* VoiceOver labels */
+"VO_Label" = "Skrót do aplikacji Pigeon.";
+"VO_Error_Label" = "Nie udało się załadować komplikacji Pigeon.";
+

@@ -745,45 +745,45 @@
 "Send Message" = "Send Message";
 
 
-// Siri or Shortcuts stuff
+// Siri or Shortcuts stuff (AI translated - 28/02/25)
 
 // description
-"Send a message to one of your contacts, through Telegram using Pigeon" = "Send a message to one of your contacts, through Telegram using Pigeon";
+"Send a message to one of your contacts, through Telegram using Pigeon" = "Wyślij wiadomość do jednego ze swoich kontaktów przez Telegram, używając Pigeon";
 
 // shortcut title
-"Send Message" = "Send Message";
+"Send Message" = "Wyślij wiadomość";
 
 // type
-"Chat" = "Chat";
+"Chat" = "Czat";
 
 // summary
-"Send a message to someone" = "Send a message to someone";
+"Send a message to someone" = "Wyślij wiadomość do kogoś";
 
 // parameters
 
 // message content; title
-"Message" = "Message";
+"Message" = "Wiadomość";
 
 // message content; description
-"Contents of your text message" = "Contents of your text message";
+"Contents of your text message" = "Treść twojej wiadomości tekstowej";
 
 // send to; title
-"Send to:" = "Send to:";
+"Send to:" = "Wyślij do:";
 
 // send to; question
-"Who do you want to send this to?" = "Who do you want to send this to?";
+"Who do you want to send this to?" = "Do kogo chcesz to wysłać?";
 
 // send to; siri question
-"To who?" = "To who?";
+"To who?" = "Do kogo?";
 
 // error messages
-"Contact is invalid" = "Contact is invalid";
-"Failed to send message because %@" = "Failed to send message because %@";
-"A subscription is required for Siri and Shortcuts features. Refer to the app for more information." = "A subscription is required for Siri and Shortcuts features. Refer to the app for more information.";
-"Failed to load contacts list." = "Failed to load contacts list.";
+"Contact is invalid" = "Kontakt jest nieprawidłowy";
+"Failed to send message because %@" = "Nie udało się wysłać wiadomości, ponieważ %@";
+"A subscription is required for Siri and Shortcuts features. Refer to the app for more information." = "Aby korzystać z funkcji Siri i Skrótów, wymagany jest abonament. Sprawdź aplikację, aby uzyskać więcej informacji.";
+"Failed to load contacts list." = "Nie udało się załadować listy kontaktów.";
 
 // success message
-"Successfully sent \"%@\" to %@." = "Successfully sent \"%@\" to %@.";
+"Successfully sent \"%@\" to %@." = "Pomyślnie wysłano \"%@\" do %@.";  
 
 // Tenor Trending GIFs
 "Trending" = "Trending";
@@ -798,3 +798,5 @@
 
 // Used in first login screen
 "Welcome to " = "Welcome to ";
+
+"Clear when read" = "Clear when read";

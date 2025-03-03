@@ -1,0 +1,20 @@
+//
+//  AppShortcuts.strings
+//  Pigeon v1.6.2
+//
+//  Translated using ChatGPT 4o, on 28/02/2025.
+//
+
+// siri phrases
+"Send message via ${applicationName}" = "Wyślij wiadomość przez ${applicationName}";
+"Text using ${applicationName}" = "Napisz wiadomość za pomocą ${applicationName}";
+"Send a text using ${applicationName}" = "Wyślij wiadomość za pomocą ${applicationName}";
+"Message using ${applicationName}" = "Wiadomość za pomocą ${applicationName}";
+"Chirp using ${applicationName}" = "Ćwierkaj za pomocą ${applicationName}";
+"Coo using ${applicationName}" = "Gruchaj za pomocą ${applicationName}";
+"Shout using ${applicationName}" = "Krzycz za pomocą ${applicationName}";
+"Talk like a ${applicationName}" = "Mów jak ${applicationName}";
+"Write using ${applicationName}" = "Pisz za pomocą ${applicationName}";
+"Write a message using ${applicationName}" = "Napisz wiadomość za pomocą ${applicationName}";
+"Send a Telegram message using ${applicationName}" = "Wyślij wiadomość na Telegramie za pomocą ${applicationName}";
+"Telegram using ${applicationName}" = "Telegram za pomocą ${applicationName}";

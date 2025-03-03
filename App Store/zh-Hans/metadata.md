@@ -9,11 +9,11 @@ Keep the Pigeon naming, but localise the 'Client for' part, if deemed necessary.
 
 Max 30 characters.
 ```
-Pigeon for Telegram
+Pigeon - 第三方 Telegram 客户端
 ```
 
 ### Subtitle
 Max 30 characters.
 ```
-Telegram Chats on your Watch
+有了这信鸽，手表也能和亲属好友聊天！
 ```
