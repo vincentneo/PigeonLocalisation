@@ -785,7 +785,6 @@
 // success message
 "Successfully sent \"%@\" to %@." = "Se envió correctamente \"%@\" a %@.";
 
-
 // Tenor Trending GIFs
 "Trending" = "Trending";
 
@@ -801,3 +800,35 @@
 "Welcome to " = "Welcome to ";
 
 "Clear when read" = "Clear when read";
+
+// new border glow option for connection status
+"Border Glow" = "Border Glow";
+"Info Text" = "Info Text";
+
+/* QR page from Toolbar_QR */
+"Toolbar_QR" = "QR";
+"QR Code" = "QR Code";
+"User Details" = "User Details";
+
+"System Keyboard" = "System Keyboard";
+"WristBoard" = "WristBoard";
+
+// new notification re registration settings
+"Re-Register" = "Re-Register";
+"Re-register Notifications" = "Re-register Notifications";
+"INFO_ReRegister_Notifications1" = "Use this button to re-register notifications with Telegram's servers, if you are having problems receiving notifications recently.";
+"INFO_ReRegister_Notifications2" = "Note: You should not over use this button. Use only when necessary.";
+"INFO_ReRegister_Notifications3" = "It may take up to a minute for the latest status to be refreshed. DO NOT SPAM this button!";
+
+"Recent Registration" = "Recent Registration";
+"Recent Registration Error" = "Recent Registration Error";
+
+"Open Links Using..." = "Open Links Using...";
+"Default Browser" = "Default Browser";
+"Darock Browser" = "Darock Browser";
+
+"THIRD_PARTY_BROWSER_DISCLAIMER" = "Important Note: Third-party browsers such as \"Darock Browser\" are not affiliated with Pigeon. When enabled, links selected will be passed to these browsers. You should review their terms and conditions, privacy policy and data handling practices, before deciding whether to use it or not. You will also need to seperately download such browsers from the App Store.";
+
+"Unread Indicator" = "Unread Indicator";
+"Text Only" = "Text Only";
+"Highlighted" = "Highlighted";

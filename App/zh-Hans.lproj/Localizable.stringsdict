@@ -13,13 +13,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>没有照片</string>
+			<string>无照片</string>
 			<key>one</key>
-			<string>一张照片</string>
+			<string>1 照片</string>
 			<key>two</key>
-			<string>两张照片</string>
+			<string>2 照片</string>
 			<key>other</key>
-			<string>%d张照片</string>
+			<string>%d 照片</string>
 		</dict>
 	</dict>
 	<key>%d video(s)</key>
@@ -33,11 +33,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>没有视频</string>
+			<string>无视频</string>
 			<key>one</key>
-			<string>一个视频</string>
+			<string>1 视频</string>
 			<key>other</key>
-			<string>%d个视频</string>
+			<string>%d 视频</string>
 		</dict>
 	</dict>
 	<key>%d item(s)</key>
@@ -51,11 +51,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>no items</string>
+			<string>无项目</string>
 			<key>one</key>
-			<string>%d item</string>
+			<string>%d 项目</string>
 			<key>other</key>
-			<string>%d items</string>
+			<string>%d 项目</string>
 		</dict>
 	</dict>
 	<key>%d hour(s)</key>
@@ -69,9 +69,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>一小时</string>
+			<string>1 小时</string>
 			<key>two</key>
-			<string>两小时</string>
+			<string>2 小时</string>
 			<key>other</key>
 			<string>%d 小时</string>
 		</dict>
@@ -87,9 +87,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>一天</string>
+			<string>1 天</string>
 			<key>two</key>
-			<string>两天</string>
+			<string>2 天</string>
 			<key>other</key>
 			<string>%d 天</string>
 		</dict>
@@ -105,11 +105,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>一週</string>
+			<string>1 周</string>
 			<key>two</key>
-			<string>两週</string>
+			<string>2 周</string>
 			<key>other</key>
-			<string>%d 週</string>
+			<string>%d 周</string>
 		</dict>
 	</dict>
 	<key>%d Comments</key>
@@ -125,9 +125,9 @@
 			<key>zero</key>
 			<string>0 留言</string>
 			<key>one</key>
-			<string>一条留言</string>
+			<string>1 留言</string>
 			<key>other</key>
-			<string>%d 条留言</string>
+			<string>%d 留言</string>
 		</dict>
 	</dict>
 	<key>%d subscriber(s)</key>
@@ -141,7 +141,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>个用户</string>
+			<string>%d 订阅者</string>
 		</dict>
 	</dict>
 	<key>%d member(s)</key>
@@ -155,7 +155,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>other</key>
-			<string>个用户</string>
+			<string>% 成员</string>
 		</dict>
 	</dict>
 </dict>
