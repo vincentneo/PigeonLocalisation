@@ -191,7 +191,7 @@
 
 /* Settings page */
 "Settings" = "Settings";
-"Acknowledgments" = "Acknowledgments";
+"Acknowledgments" = "Acknowledgements";
 "Settings_Menu_General_Label" = "General";
 "Settings_Menu_Messages_Label" = "Messages";
 "Settings_Menu_Messages_Display_Label" = "Display";
@@ -289,7 +289,7 @@
 // subcategory title
 "Bottom bar" = "Bottom Bar";
 "Condensed_Mode_Toggle_Title" = "Condensed";
-"INFO_Condensed_Mode" = "Condensed mode will hide all options other than texting behind a button, similar to the Apple's Messages app.";
+"INFO_Condensed_Mode" = "Condensed mode will hide all options other than texting behind a button, similar to Apple's Messages app.";
 
 // subcategory title
 "Base font size" = "Base font size";
@@ -310,7 +310,7 @@
 // subcategory title
 "Sounds & Haptics" = "Sounds & Haptics";
 "Sounds_Toggle_Switch_Title" = "Message send";
-"INFO_SoundHaptics" = "If enabled, sounds and haptics will be used to subtly inform you, whether if a message has successfully been sent out or not.";
+"INFO_SoundHaptics" = "If enabled, sounds and haptics will be used to subtly inform you whether a message has successfully been sent or not.";
 "INFO_Sample_Title" = "Sample:";
 "INFO_Play_Tone_Success" = "Play success tone";
 "INFO_Play_Tone_Failure" = "Play failure tone";
@@ -318,7 +318,7 @@
 // subcategory title
 "Audio Playback" = "Audio Playback";
 "Playback_Toggle_Switch_Title" = "System player";
-"INFO_Playback" = "If enabled, voice note messages will use the system default player to playback, rather than Pigeon's inline player.";
+"INFO_Playback" = "If enabled, voice-note messages will use the system default player for playback rather than Pigeon's inline player.";
 
 // subcategory title
 "Message loads" = "Message loads";
@@ -338,16 +338,16 @@
 "NotificationGrp_Option_App" = "By App";
 "NotificationGrp_Option_None" = "No grouping";
 
-"INFO_NotificationGrp_Summary" = "Applies to how notifications are displayed on the Notification Center.";
+"INFO_NotificationGrp_Summary" = "Applies to how notifications are displayed on the Notification Centre.";
 
 "INFO_NotificationGrp_Option_Conversation" = "Group by Conversation";
 "INFO_NotificationGrp_Option_Conversation_Summary" = "Notifications are grouped by each chat, group or channel. When selected, only the latest notification of the group stack can be viewed.";
 
 "INFO_NotificationGrp_Option_App" = "Group by App";
-"INFO_NotificationGrp_Option_App_Summary" = "All Pigeon notifications are grouped together as a stack, regardless of chat, group or channel. When selected, all notifications can be viewed individually. Profile displays will not be displayed due to system limitations.";
+"INFO_NotificationGrp_Option_App_Summary" = "All Pigeon notifications are grouped together as a stack, regardless of chat, group or channel. When selected, all notifications can be viewed individually. Profile displays will not be shown due to system limitations.";
 
 "INFO_NotificationGrp_Option_None" = "No Grouping";
-"INFO_NotificationGrp_Option_None_Summary" = "All Pigeon notifications will appear discretely on the Notification Center. (default)";
+"INFO_NotificationGrp_Option_None_Summary" = "All Pigeon notifications will appear discretely on the Notification Centre. (default)";
 
 // Profile pictures subcategory title
 "Profile Pictures Cache" = "Profile Pictures Cache";
@@ -355,13 +355,13 @@
 // shown in bold red; tapping it will delete all profile pictures that have already been cached.
 "Profile_Cache_Reset_Button" = "Reset";
 
-"INFO_Profile_Cache1" = "Profile pictures of your chats and groups are cached whenever you launch Pigeon. It is used for displaying alongside the notifications.";
-"INFO_Profile_Cache2" = "In rare cases, where Pigeon could be storing too much, or outdated profile pictures, you may use the reset button to clear out the caches.";
+"INFO_Profile_Cache1" = "Profile pictures of your chats and groups are cached whenever you launch Pigeon. They are used for displaying alongside the notifications.";
+"INFO_Profile_Cache2" = "In rare cases, where Pigeon could be storing too much, or outdated profile pictures, you may use the reset button to clear the caches.";
 "INFO_Profile_Cache3" = "It is recommended that you restart Pigeon after pressing it.";
 
 "Clear on launch" = "Clear on launch";
 
-"INFO_Auto_Clear" = "Automatically clear all Pigeon notifications on the Notification Center, whenever you launch the app.";
+"INFO_Auto_Clear" = "Automatically clear all Pigeon notifications on the Notification Centre whenever you launch the app.";
 "Auto_Clear_Toggle_Title" = "Auto clear";
 
 
@@ -621,7 +621,7 @@
 "Tap to view" = "Tap to view";
 
 "Chat Preview" = "Chat Preview";
-"INFO_Chat_Preview_Line_Limit" = "For every chat, Pigeon displays a brief preview of the last sent message. This setting allows you to customise the maximum amount of lines that you could see in the preview. Regular mode shows about 3 lines, while Minimal mode shows about 1 line, subject to Dynamic Type selection.";
+"INFO_Chat_Preview_Line_Limit" = "For every chat, Pigeon displays a brief preview of the last sent message. This setting allows you to customise the maximum number of lines you can see in the preview. Regular mode shows about 3 lines, while Minimal mode shows about 1 line, subject to Dynamic Type selection.";
 "Line Limit" = "Line Limit";
 // Refers to line limit mode for chat preview
 "Regular" = "Regular";
@@ -632,8 +632,8 @@
 "Phone number is empty." = "Phone number is empty.";
 "Phone number is invalid." = "Phone number is invalid.";
 "Continue" = "Continue";
-"Phone_Number_Example" = "Example: +1XXXYYYZZZZ, +10123456789";
-"Phone_Number_Description" = "Must be of international phone number format without any leading 0s or spaces.";
+"Phone_Number_Example" = "Example: +44xxxxyyyyyy, +447911123456";
+"Phone_Number_Description" = "Must be an international phone number format without any leading 0s or spaces.";
 "Phone Number" = "Phone Number";
 "Sign In Methods" = "Sign In Methods";
 
@@ -654,7 +654,7 @@
 "Keyboard" = "Keyboard";
 "Option Selected" = "Option Selected";
 "WristBoard must be installed on your Apple Watch for this option to work." = "WristBoard must be installed on your Apple Watch for this option to work.";
-"THIRD_PARTY_KEYBOARD_NOTICE" = "Please note that third-party keyboards are not affiliated with Pigeon, and that these keyboards can access the data that you've typed. You are also subjected to the third-party keyboard developer's terms, privacy policy and practices, which you may wish to review.";
+"THIRD_PARTY_KEYBOARD_NOTICE" = "Please note that third-party keyboards are not affiliated with Pigeon, and that these keyboards can access the data that you've typed. You are also subject to the third-party keyboard developer's terms, privacy policy and practices, which you may wish to review.";
 
 "Show_Typing_Indicators_Setting_Title" = "Show Typing Indicators";
 "Sync" = "Sync";
@@ -721,7 +721,7 @@
 "%@ Live Location" = "%@ Live Location";
 
 "Telegram Caches" = "Telegram Caches";
-"INFO_Telegram_Caches" = "If enabled, caches will be cleared according to selected conditions, on every clean launch of the app.";
+"INFO_Telegram_Caches" = "If enabled, caches will be cleared according to selected conditions on every clean launch of the app.";
 "Cleaning Interval" = "Cleaning Interval";
 "Never" = "Never";
 "Every launch" = "Every launch";
@@ -817,8 +817,8 @@
 // new notification re registration settings
 "Re-Register" = "Re-Register";
 "Re-register Notifications" = "Re-register Notifications";
-"INFO_ReRegister_Notifications1" = "Use this button to re-register notifications with Telegram's servers, if you are having problems receiving notifications recently.";
-"INFO_ReRegister_Notifications2" = "Note: You should not over use this button. Use only when necessary.";
+"INFO_ReRegister_Notifications1" = "Use this button to re-register notifications with Telegram's servers if you have recently had problems receiving notifications.";
+"INFO_ReRegister_Notifications2" = "Note: You should not overuse this button. Use only when necessary.";
 "INFO_ReRegister_Notifications3" = "It may take up to a minute for the latest status to be refreshed. DO NOT SPAM this button!";
 
 "Recent Registration" = "Recent Registration";
@@ -828,7 +828,7 @@
 "Default Browser" = "Default Browser";
 "Darock Browser" = "Darock Browser";
 
-"THIRD_PARTY_BROWSER_DISCLAIMER" = "Important Note: Third-party browsers such as \"Darock Browser\" are not affiliated with Pigeon. When enabled, links selected will be passed to these browsers. You should review their terms and conditions, privacy policy and data handling practices, before deciding whether to use it or not. You will also need to separately download such browsers from the App Store.";
+"THIRD_PARTY_BROWSER_DISCLAIMER" = "Important Note: Third-party browsers such as \"Darock Browser\" are not affiliated with Pigeon. When enabled, links selected will be passed to these browsers. You should review their terms and conditions, privacy policy and data-handling practices before deciding whether to use them. You will also need to separately download such browsers from the App Store.";
 
 "Unread Indicator" = "Unread Indicator";
 "Text Only" = "Text Only";

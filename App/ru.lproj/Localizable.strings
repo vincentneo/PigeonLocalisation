@@ -1,8 +1,8 @@
 /* 
   Localizable.strings
-  Pigeon v1.5
+  Pigeon v1.7
 
-  Created by Shatokhin Oleksandr, last updated on 19 November 2023.
+  Created by Shatokhin Oleksandr, last updated on 30 May 2025.
  
   Replace the Created by name, if you would like to be credited in the app.
   
@@ -224,6 +224,7 @@
 
 "Subscription_Free_Trial_Requirement" = "(для новых подписок)";
 "Subscription_Free_Trial_Not_Charged" = "Если вы отмените подписку в течение бесплатного пробного периода, плата не будет снята.";
+"Subscription_Free_Trial_Duration" = "бесплатно в течение первой недели!";
 
 "Subscription_Period_Month" = "/ месяц";
 "Subscription_Period_Year" = "/ год";
@@ -232,8 +233,8 @@
 "Subscription_Period_Err" = "/ Ошибка.";
 "Subscription_Period_Lifetime" = ", Навсегда!";
 "Subscription_Period_6Months" = "/ 6 месяцев";
-"Subscription_Period_3Months" = "/ 3 месяцев";
-"Subscription_Period_2Months" = "/ 2 месяцев";
+"Subscription_Period_3Months" = "/ 3 месяца";
+"Subscription_Period_2Months" = "/ 2 месяца";
 "Subscription_Period_Week" = "/ неделя";
 
 "Subscription_Year_Savings" = "~40% экономия!";
@@ -583,166 +584,166 @@
 "Pigeon_Notes_Description" = "Часто задаваемые вопросы";
 
 "Would you like to add a caption?" = "Would you like to add a caption?";
-"Caption" = "Caption";
+"Caption" = "Подпись";
 
 
-"Video Note" = "Video Note";
-"Status_Message_Video_Note" = "Video Message";
-"Toolbar_New_Chat" = "Chat";
-"No contacts found." = "No contacts found.";
-"No messages yet." = "No messages yet.";
-
-// VO
-"Search Contacts" = "Search Contacts";
-
-"Discussion" = "Discussion";
-// VO
-"Leave a Comment" = "Leave a Comment";
+"Video Note" = "Видеосообщение";
+"Status_Message_Video_Note" = "Видеосообщение";
+"Toolbar_New_Chat" = "Чат";
+"No contacts found." = "Контакты не найдены.";
+"No messages yet." = "Сообщений пока нет.";
 
 // VO
-"%@ folder" = "%@ folder";
+"Search Contacts" = "Поиск контактов";
+
+"Discussion" = "Обсуждение";
+// VO
+"Leave a Comment" = "Оставить комментарий";
 
 // VO
-"%@ folder, selected" = "%@ folder, selected";
+"%@ folder" = "папка %@";
 
 // VO
-"%@, selected" = "%@, selected";
+"%@ folder, selected" = "Папка %@, выбрана";
+
+// VO
+"%@, selected" = "%@, выбрано";
 
 // VO; "with this" refers to with an emoji reaction of a message.
-"%d users reacted with this" = "%d users reacted with this";
+"%d users reacted with this" = "%d пользователей отреагировали";
 
 // "{current page number} of {total number of pages}" or "1.5MB of 20MB"
-"%d of %d" = "%d of %d";
+"%d of %d" = "%d из %d";
 
-"This document is password protected." = "This document is password protected.";
-"PDF document password field" = "PDF document password field";
-"%@ Invalid password." = "%@ Invalid password.";
-"Tap to view" = "Tap to view";
+"This document is password protected." = "Этот документ защищён паролем.";
+"PDF document password field" = "Поле пароля PDF-документа";
+"%@ Invalid password." = "%@ Неверный пароль.";
+"Tap to view" = "Нажмите для просмотра";
 
-"Chat Preview" = "Chat Preview";
-"INFO_Chat_Preview_Line_Limit" = "For every chat, Pigeon displays a brief preview of the last sent message. This setting allows you to customise the maximum amount of lines that you could see in the preview. Regular mode shows about 3 lines, while Minimal mode shows about 1 line, subject to Dynamic Type selection.";
-"Line Limit" = "Line Limit";
+"Chat Preview" = "Просмотр чата";
+"INFO_Chat_Preview_Line_Limit" = "Для каждого чата Pigeon отображает последние сообщения. Минимальный режим показывает около 1 строки, в зависимости от выбранного размера шрифта.";
+"Line Limit" = "Ограничение строк";
 // Refers to line limit mode for chat preview
-"Regular" = "Regular";
-"Minimal" = "Minimal";
+"Regular" = "Стандарт";
+"Minimal" = "Минимум";
 
-"GPX files are only supported in watchOS 10.x and above." = "GPX files are only supported in watchOS 10.x and above.";
+"GPX files are only supported in watchOS 10.x and above." = "Файлы GPX поддерживаются только в watchOS 10.x и новее.";
 
-"Phone number is empty." = "Phone number is empty.";
-"Phone number is invalid." = "Phone number is invalid.";
-"Continue" = "Continue";
+"Phone number is empty." = "Номер телефона пуст.";
+"Phone number is invalid." = "Номер телефона неверный.";
+"Continue" = "Продолжить";
 "Phone_Number_Example" = "Example: +1XXXYYYZZZZ, +10123456789";
-"Phone_Number_Description" = "Must be of international phone number format without any leading 0s or spaces.";
-"Phone Number" = "Phone Number";
-"Sign In Methods" = "Sign In Methods";
+"Phone_Number_Description" = "Введите номер в международном формате без 0 и пробелов.";
+"Phone Number" = "Номер телефона";
+"Sign In Methods" = "Способы входа";
 
 // %@ is chevron >
-"Swipe to continue %@" = "Swipe to continue %@";
+"Swipe to continue %@" = "Проведите, чтобы продолжить %@";
 // %@ is chevron > (Shown if VO is on)
-"Continue %@" = "Continue %@";
+"Continue %@" = "Продолжить %@";
 
-"Phone Number" = "Phone Number";
-"Scan QR Code" = "Scan QR Code";
-"(recommended)" = "(recommended)";
+"Phone Number" = "Номер телефона";
+"Scan QR Code" = "Сканировать QR-код";
+"(recommended)" = "(рекомендуется)";
 
-"Code" = "Code";
-"Authentication Code" = "Authentication Code";
-"%@ is not supported" = "%@ is not supported";
+"Code" = "Код";
+"Authentication Code" = "Код подтверждения";
+"%@ is not supported" = "%@ не поддерживается";
 
-"Settings_Menu_Input_Options_Label" = "Input Options";
-"Keyboard" = "Keyboard";
-"Option Selected" = "Option Selected";
-"WristBoard must be installed on your Apple Watch for this option to work." = "WristBoard must be installed on your Apple Watch for this option to work.";
-"THIRD_PARTY_KEYBOARD_NOTICE" = "Please note that third-party keyboards are not affiliated with Pigeon, and that these keyboards can access the data that you've typed. You are also subjected to the third-party keyboard developer's terms, privacy policy and practices, which you may wish to review.";
+"Settings_Menu_Input_Options_Label" = "Параметры ввода";
+"Keyboard" = "Клавиатура";
+"Option Selected" = "Опция выбрана";
+"WristBoard must be installed on your Apple Watch for this option to work." = "Для работы этой опции на Apple Watch необходимо установить WristBoard.";
+"THIRD_PARTY_KEYBOARD_NOTICE" = "Обратите внимание, что сторонние клавиатуры, такие как WristBoard, выпускаются независимыми разработчиками и имеют собственные условия использования и политику конфиденциальности, с которыми вам следует ознакомиться.";
 
-"Show_Typing_Indicators_Setting_Title" = "Show Typing Indicators";
-"Sync" = "Sync";
-"Contacts and Chats" = "Contacts and Chats";
-"Global Search" = "Global Search";
-"No Results Found." = "No Results Found.";
-"Search" = "Search";
+"Show_Typing_Indicators_Setting_Title" = "Показывать индикатор набора";
+"Sync" = "Синхронизация";
+"Contacts and Chats" = "Контакты и чаты";
+"Global Search" = "Глобальный поиск";
+"No Results Found." = "Ничего не найдено.";
+"Search" = "Поиск";
 
-"Type: %@" = "Type: %@";
-"No links in message." = "No links in message.";
-"Open link" = "Open link";
-"Select embedded links" = "Select embedded links";
+"Type: %@" = "Тип: %@";
+"No links in message." = "В сообщении нет ссылок.";
+"Open link" = "Открыть ссылку";
+"Select embedded links" = "Выбрать вложенные ссылки";
 
-"Recents" = "Recents";
-"No Recents" = "No Recents";
-"CLEAR" = "CLEAR";
-"Local Time" = "Local Time";
-"User's Time Zone" = "User's Time Zone";
+"Recents" = "Недавние";
+"No Recents" = "Нет недавних";
+"CLEAR" = "ОЧИСТИТЬ";
+"Local Time" = "Местное время";
+"User's Time Zone" = "Часовой пояс пользователя";
 
 // VO
-"View Pinned Messages" = "View Pinned Messages";
+"View Pinned Messages" = "Просмотреть закреплённые сообщения";
 
-"Pinned Messages" = "Pinned Messages";
-"Verified" = "Verified";
+"Pinned Messages" = "Закреплённые сообщения";
+"Verified" = "Подтвержденный";
 
-"View" = "View";
+"View" = "Просмотреть";
 
-"Unmute" = "Unmute";
-"Mute" = "Mute";
+"Unmute" = "Вкл.";
+"Mute" = "Выкл.";
 
 // Typing indicators
-"%@ typing..." = "%@ typing...";
-"typing..." = "typing...";
-"recording video" = "recording video";
-"uploading a video" = "uploading a video";
-"recording voice" = "recording voice";
-"uploading voice note" = "uploading voice note";
-"uploading photo" = "uploading photo";
-"uploading document" = "uploading document";
-"choosing a sticker" = "choosing a sticker";
-"choosing a location" = "choosing a location";
-"choosing a contact" = "choosing a contact";
-"playing" = "playing";
-"recording video note" = "recording video note";
-"uploading video note" = "uploading video note";
-"watching animations" = "watching animations";
+"%@ typing..." = "%@ печатает...";
+"typing..." = "печатает...";
+"recording video" = "записывает видео";
+"uploading a video" = "загружает видео";
+"recording voice" = "записывает голосовое сообщение";
+"uploading voice note" = "загружает голосовое сообщение";
+"uploading photo" = "загружает фото";
+"uploading document" = "загружает документ";
+"choosing a sticker" = "выбирает стикер";
+"choosing a location" = "выбирает геолокацию";
+"choosing a contact" = "выбирает контакт";
+"playing" = "проигрывает";
+"recording video note" = "записывает видеосообщение";
+"uploading video note" = "загружает видеосообщение";
+"watching animations" = "смотрит гифки";
 
 // Online indicators
-"online" = "online";
-"last seen " = "last seen "; // e.g. 'last seen 2 minutes ago' (where '2 minutes ago' is formatted by system, subject to device locale)
-"last seen recently" = "last seen recently";
-"last seen last week" = "last seen last week";
-"last seen last month" = "last seen last month";
+"online" = "онлайн";
+"last seen " = "был(а) в сети "; // e.g. 'last seen 2 minutes ago' (where '2 minutes ago' is formatted by system, subject to device locale)
+"last seen recently" = "был(а) в сети недавно";
+"last seen last week" = "был(а) в сети на прошлой неделе";
+"last seen last month" = "был(а) в сети в прошлом месяце";
 
 // Chat info titles
-"Username" = "Username";
-"Info" = "Info";
-"Bio" = "Bio";
-"Phone Number" = "Phone Number";
-"Birthdate" = "Birthdate";
-"Location" = "Location";
-"Opening Hours" = "Opening Hours";
+"Username" = "Имя пользователя";
+"Info" = "Информация";
+"Bio" = "О себе";
+"Phone Number" = "Номер телефона";
+"Birthdate" = "Дата рождения";
+"Location" = "Местоположение";
+"Opening Hours" = "Часы работы";
 
-"%@ Live Location" = "%@ Live Location";
+"%@ Live Location" = "Местоположение %@ в реальном времени";
 
-"Telegram Caches" = "Telegram Caches";
-"INFO_Telegram_Caches" = "If enabled, caches will be cleared according to selected conditions, on every clean launch of the app.";
-"Cleaning Interval" = "Cleaning Interval";
-"Never" = "Never";
-"Every launch" = "Every launch";
-"After 12 hours" = "After 12 hours";
-"After 24 hours" = "After 24 hours";
-"After 3 days" = "After 3 days";
-"After 1 week" = "After 1 week";
+"Telegram Caches" = "Кэш Telegram";
+"INFO_Telegram_Caches" = "Если включено, кэш будет очищаться в соответствии с выбранными условиями при каждом чистом запуске приложения.";
+"Cleaning Interval" = "Интервал очистки";
+"Never" = "Никогда";
+"Every launch" = "Каждый запуск";
+"After 12 hours" = "Через 12 часов";
+"After 24 hours" = "Через 24 часа";
+"After 3 days" = "Через 3 дня";
+"After 1 week" = "Через 1 неделю";
 
 // third party keyboard
-"Get WristBoard from App Store" = "Get WristBoard from App Store";
-"Warning" = "Warning";
+"Get WristBoard from App Store" = "Скачать WristBoard в App Store";
+"Warning" = "Предупреждение";
 
-"Quick Reply" = "Quick Reply";
-"Settings_Menu_Quick_Replies" = "Quick Replies";
-"Default_Bar_Send_Quick_Replies_Button" = "Quick Replies";
-"VO_Action_Quick_Replies" = "Select and send from your set of quick replies";
-"%@ Forward" = "%@ Forward";
-"Use the %@ button to add" = "Use the %@ button to add";
-"Setup Required in Settings" = "Setup Required in Settings";
-"Who do you wish to send this to?" = "Who do you wish to send this to?";
-"Select Recipient..." = "Select Recipient...";
-"Send Message" = "Send Message";
+"Quick Reply" = "Быстрый ответ";
+"Settings_Menu_Quick_Replies" = "Быстрые ответы";
+"Default_Bar_Send_Quick_Replies_Button" = "Ответы";
+"VO_Action_Quick_Replies" = "Выберите и отправьте один из ваших быстрых ответов";
+"%@ Forward" = "%@ Переслать";
+"Use the %@ button to add" = "Нажмите %@, чтобы добавить";
+"Setup Required in Settings" = "Необходимо включить в Настройках";
+"Who do you wish to send this to?" = "Кому вы хотите это отправить?";
+"Select Recipient..." = "Выбрать получателя...";
+"Send Message" = "Отправить сообщение";
 
 
 // Siri or Shortcuts stuff (AI translated - 28/02/25)
@@ -786,49 +787,86 @@
 "Successfully sent \"%@\" to %@." = "Сообщение \"%@\" успешно отправлено %@.";
 
 // Tenor Trending GIFs
-"Trending" = "Trending";
+"Trending" = "В тренде";
 
 // Tenor attribution image (VO)
 "VO_powered_by_tenor" = "Powered by Tenor";
 
 // Tenor more options button (ellipsis)
-"VO_more_options" = "Options";
+"VO_more_options" = "Опции";
 
-"Category" = "Category";
+"Category" = "Категория";
 
 // Used in first login screen
-"Welcome to " = "Welcome to ";
+"Welcome to " = "Добро пожаловать в ";
 
-"Clear when read" = "Clear when read";
+"Clear when read" = "Очищать после прочтения";
 
 // new border glow option for connection status
-"Border Glow" = "Border Glow";
-"Info Text" = "Info Text";
+"Border Glow" = "Светящаяся рамка";
+"Info Text" = "Текст";
 
 /* QR page from Toolbar_QR */
 "Toolbar_QR" = "QR";
-"QR Code" = "QR Code";
-"User Details" = "User Details";
+"QR Code" = "QR-код";
+"User Details" = "Информация о пользовател";
 
-"System Keyboard" = "System Keyboard";
+"System Keyboard" = "Системная клавиатура";
 "WristBoard" = "WristBoard";
 
 // new notification re registration settings
-"Re-Register" = "Re-Register";
-"Re-register Notifications" = "Re-register Notifications";
-"INFO_ReRegister_Notifications1" = "Use this button to re-register notifications with Telegram's servers, if you are having problems receiving notifications recently.";
-"INFO_ReRegister_Notifications2" = "Note: You should not over use this button. Use only when necessary.";
-"INFO_ReRegister_Notifications3" = "It may take up to a minute for the latest status to be refreshed. DO NOT SPAM this button!";
+"Re-Register" = "Перерегистрировать";
+"Re-register Notifications" = "Перерегистрировать уведомления";
+"INFO_ReRegister_Notifications1" = "Используйте эту кнопку, чтобы повторно зарегистрировать уведомления на серверах Telegram, если у вас возникли проблемы с их получением.";
+"INFO_ReRegister_Notifications2" = "Примечание: не злоупотребляйте этой кнопкой. Используйте её только при необходимости.";
+"INFO_ReRegister_Notifications3" = "Обновление статуса может занять до минуты. НЕ НАЖИМАЙТЕ НА КНОПКУ МНОГО РАЗ!";
 
-"Recent Registration" = "Recent Registration";
-"Recent Registration Error" = "Recent Registration Error";
+"Recent Registration" = "Недавняя регистрация";
+"Recent Registration Error" = "Ошибка недавней регистрации";
 
-"Open Links Using..." = "Open Links Using...";
-"Default Browser" = "Default Browser";
+"Open Links Using..." = "Открывать ссылки через...";
+"Default Browser" = "Браузер по умолчанию";
 "Darock Browser" = "Darock Browser";
 
-"THIRD_PARTY_BROWSER_DISCLAIMER" = "Important Note: Third-party browsers such as \"Darock Browser\" are not affiliated with Pigeon. When enabled, links selected will be passed to these browsers. You should review their terms and conditions, privacy policy and data handling practices, before deciding whether to use it or not. You will also need to seperately download such browsers from the App Store.";
+"THIRD_PARTY_BROWSER_DISCLAIMER" = "Важное примечание: Сторонние браузеры, такие как \"Darock Browser\", не связаны с Pigeon. При включении этой функции выбранные ссылки будут передаваться в эти браузеры. Перед тем, как принять решение об использовании, вам следует ознакомиться с их условиями использования, политикой конфиденциальности и практикой обработки данных. Вам также необходимо будет отдельно загрузить эти браузеры из App Store.";
 
-"Unread Indicator" = "Unread Indicator";
-"Text Only" = "Text Only";
-"Highlighted" = "Highlighted";
+"Unread Indicator" = "Индикатор непрочитанных";
+"Text Only" = "Только текст";
+"Highlighted" = "Выделено";
+
+"Pigeon+" = "Pigeon+";
+"Here's what you are missing out right now" = "Here's what you are missing out right now";
+"Select the options below if you wish to change your subscription plan." = "Select the options below if you wish to change your subscription plan.";
+
+"Ability to send Telegram text messages directly using Pigeon!" = "Ability to send Telegram text messages directly using Pigeon!";
+"Set commonly used phrases with the Quick Replies feature." = "Set commonly used phrases with the Quick Replies feature.";
+"Send GIFs and stickers to your friends!" = "Send GIFs and stickers to your friends!";
+"View older chats and messages! Without Pigeon+, you can only view your top 10 chats." = "View older chats and messages! Without Pigeon+, you can only view your top 10 chats.";
+"Send voice messages directly with the watch's microphone." = "Send voice messages directly with the watch's microphone.";
+"View image attachments, rich text and reply directly from notifications." = "View image attachments, rich text and reply directly from notifications.";
+"Tons of other features, including document viewing, forward, and more, while supporting indie app development, when you subscribe to Pigeon+!" = "Tons of other features, including document viewing, forward, and more, while supporting indie app development, when you subscribe to Pigeon+!";
+
+"Your Reply" = "Your Reply";
+
+
+/* Information for users that are hit with SCA verification flow when attempting to subscribe to Pigeon */
+
+"Additional Steps Required" = "Additional Steps Required";
+"The App Store may require additional information in order to complete the purchase of this subscription." = "The App Store may require additional information in order to complete the purchase of this subscription.";
+"This is to fulfil Strong Customer Authentication (SCA) requirements, which is required in certain regions including but not limited to the United Kingdom and European Union." = "This is to fulfil Strong Customer Authentication (SCA) requirements, which is required in certain regions including but not limited to the United Kingdom and European Union.";
+"For more information, please refer to https://developer.apple.com/support/sca/" = "For more information, please refer to https://developer.apple.com/support/sca/";
+"Here are some steps on how you can resolve this" = "Here are some steps on how you can resolve this";
+"(You will need your paired iPhone for this)" = "(You will need your paired iPhone for this)";
+"From your iPhone, go to the \"Apple Watch\" app and scroll down until you find the \"App Store\" option. Tap on it, and follow the instructions outlined there." = "From your iPhone, go to the \"Apple Watch\" app and scroll down until you find the \"App Store\" option. Tap on it, and follow the instructions outlined there.";
+
+"Unsupported Link Type" = "Unsupported Link Type";
+"Sorry, this type of Telegram link you've tried to access isn’t supported in Pigeon yet — we’re working on it!" = "Sorry, this type of Telegram link you've tried to access isn’t supported in Pigeon yet — we’re working on it!";
+
+"image previews" = "image previews";
+"video thumbnails" = "video thumbnails";
+"animated stickers" = "animated stickers";
+// where %@ refers to any of the 3 options above
+"Unlock %@ in your notifications with Pigeon+!" = "Unlock %@ in your notifications with Pigeon+!";
+
+"%@ Voice Message" = "%@ Voice Message";
+"Playback speed" = "Playback speed";

@@ -1,0 +1,872 @@
+/*
+  Localizable.strings
+  Pigeon v1.7
+
+  Created by ChatGPT o3 on 7 June 2025, based on Rechrd Qan's zh-Hans translations.
+ 
+  Replace the Created by name, if you would like to be credited in the app.
+  
+  %@ typically refers to an external value, but may also refer to an icon in certain cases.
+  "KEY" = "VALUE"; VALUE is what that will be displayed in the app.
+ 
+  Keys prefixed with 'VO' are definitely for VoiceOver readouts.
+*/
+
+// Next page button that is shown in Pigeon's main page.
+// Pressing this button will show next 10 chats in folder. Not used in watchOS 10 and later.
+"WOS9_NextPage_Button_Label" = "下一頁";
+
+/* Pre-login loading */
+"Logging out..." = "登出中…";
+"Unknown" = "未知問題";
+"Please wait." = "請稍候";
+"Loading..." = "載入中…";
+
+"Auth_Error_Title" = "出現錯誤";
+"An unexpected authentication state of \"%@\" has been reached. Please relay this to the developer, thank you." = "驗證狀態「%@」異常，請回報給開發者，謝謝！";
+
+"An error occurred while processing the QR code" = "處理 QR 碼時發生錯誤";
+
+
+/* Login Instructions */
+"Login Instructions" = "登入說明";
+
+// Shown when QR code is not ready yet.
+"Processing QR Code..." = "QR 碼處理中…";
+
+"In the Telegram app," = "在 Telegram 手機 App 中，";
+"Go to the Settings tab" = "前往「設定」分頁";
+"Tap on \"Devices\"" = "點選「Devices」";
+"Tap on \"Link Desktop Device\"" = "點選「Link Desktop Device」";
+"Scan the QR Code %@" = "掃描 Pigeon 顯示的 QR 碼 %@";
+"After_Scanning_Instructions" = "掃描完成後請稍候，無須重複掃描。";
+
+"QR Code login" = "掃碼登入";
+"Phone Number login" = "手機號碼登入";
+
+
+
+
+/* 2FA */
+"Login" = "登入";
+"Try again" = "重試";
+"Error" = "錯誤";
+
+"Enter Password" = "輸入兩步驗證密碼";
+"You have Two-Step Verification enabled for your account, hence we need your password to continue." = "此帳號已啟用兩步驗證，請輸入密碼以繼續。";
+
+// What's shown on the password field, before the user keys any password in, a hint to the user to what is expected in the text field.
+"2FA_Password_Field_Hint" = "兩步驗證密碼";
+
+// Password hint label. May not be shown if user did not set a Two Step Verification hint.
+"Hint: %@" = "提示：%@";
+
+"The password that you've entered is incorrect." = "密碼錯誤。";
+"An unknown error has occurred. Please let the developer know!" = "發生未知錯誤，請通知開發者！";
+
+
+/* Toolbar buttons of main page. */
+
+"Toolbar_WhatsNew" = "新功能";
+"Toolbar_UnlockFeatures" = "解鎖所有功能";
+"Toolbar_Folders" = "分類";
+// Toolbar settings's key is "Settings";
+
+// label of the folder that represents all chats.
+"All_Chats_Label" = "所有聊天";
+"Chats" = "聊天";
+
+
+
+/* Messaging page */
+
+// Delete button label, shown in red, when user long-presses on a message. %@ is an icon of trash bin.
+"Delete" = "刪除";
+
+// Reply button label, shown when user long-presses on a message. %@ is an icon.
+"Reply" = "回覆";
+
+// Forwarded tag shown on top of message. %@ is an icon.
+"%@ Forwarded" = "%@ 已轉傳";
+
+"Add a reaction" = "加入反應";
+"Message sent at:" = "訊息發送於：";
+"Media" = "媒體";
+
+/* DEFAULT messaging bar (all displayed with image on the left) */
+
+// Send message button that brings keyboard/input method when user taps on it. Prefer to keep this naming short.
+"Default_Bar_Send_Button" = "傳送";
+
+"Default_Bar_Send_Audio_Button" = "語音訊息";
+"Default_Bar_Send_GIF_Button" = "GIF";
+"Default_Bar_Send_Stickers_Button" = "貼圖";
+
+/* CONDENSED messaging bar */
+"Condensed_Bar_Message_Title" = "訊息";
+
+// Turquiose button on left of message field, when VoiceOver reads it.
+"VO_Condensed_More_Options_Button" = "更多選項";
+
+// Used in GIF selection page. %@ is a magnifying glass icon.
+"%@ Search" = "%@ 搜尋";
+
+// Button on top of all messages.
+"Load earlier messages" = "載入更早的訊息";
+
+// VoiceOver action to switch the focus to the newest message available.
+"VO_Jump_To_Newest" = "跳至最新訊息";
+
+// VoiceOver read out of which chat is loading, as it loads. %@ is the chat's name.
+"Chat %@" = "%@ 說";
+
+
+
+
+/* Message failed to send page */
+
+"Fail_Send_Title" = "訊息傳送失敗";
+
+// %@ refers to the message type. (e.g. A voice message...)
+"A %@ message has failed to send." = "一則 %@ 傳送失敗";
+
+"Fail_Send_Try_Again_Button" = "重試";
+"Fail_Send_Discard_Button" = "放棄傳送";
+
+
+
+
+
+
+/* VoiceOver only */
+
+// When the user of sent message is yourself, this is used; (e.g. (You) said: Pigeon is an awesome app!)
+"VO_User_You" = "你";
+// When the sent message is a channel, this is used; (e.g. (Channel) said: Pigeon has a new update.)
+"VO_User_Channel" = "頻道";
+// (Rare) When system failed to identify either if message is sent by known user, you or channel, this is used; (e.g. (Someone) said: You won't know who am I.)
+"VO_User_Unknown" = "某人";
+
+// Reads out when user highlights on individual folder buttons, shown on toolbar of home page. (Example: News folder, All folder, Unread folder)
+"%@ folder" = "%@ 分類";
+
+// Reads out when user highlights on a text message. (Example: "Vincent said: Happy Birthday!")
+"%@ said: " = "%@ 說：";
+
+// Reads out when user highlights on a GIF message. (Example: "Vincent said: Happy Birthday!")
+"%@ sent a GIF." = "%@ 發出一個 GIF。";
+
+// Reads out when user highlights on audio message. (Example: "Vincent sent an audio message, of duration, 2 minutes, 30 seconds"). Duration is formatted depending on locale.
+"%@ sent an audio message, of duration, %@" = "%@ 發出一則長度 %@ 的音訊訊息。";
+
+// Reads out when user highlights on voice message. (Example: "Vincent sent an voice message, of duration, 1 minute, 8 seconds"). Duration is formatted depending on locale.
+"%@ sent a voice message, of duration, %@" = "%@ 發出一則長度 %@ 的語音訊息。";
+
+// Subject to change; Reads out when user highlights on sticker message. %@ refers to emoji which the sticker is associated with.
+"%@ sticker" = "%@ 貼圖";
+
+// Reads out when chat has a verified badge.
+"VO_Verified_Badge" = "已驗證徽章";
+
+// Reads out when chat is pinned.
+"VO_Pinned_Chat_Icon" = "置頂聊天";
+
+// Actions
+// Reads out when user highlights on text field of condensed message bar or send button of message bar.
+"VO_Compose_Text_Message" = "輸入文字訊息";
+"VO_Action_Audio" = "錄製語音訊息";
+"VO_Action_GIF" = "傳送 GIF";
+"VO_Action_Sticker" = "傳送貼圖";
+
+// Reads out the chat unread amount. Preferred to be in CAPS. %lld is a number.
+"%lld UNREAD" = "%lld 則未讀";
+
+// VoiceOver label for contact messages.
+"Contact Name" = "聯絡人姓名";
+
+
+
+
+
+
+/* Settings page */
+"Settings" = "設定";
+"Acknowledgments" = "致謝";
+"Settings_Menu_General_Label" = "一般";
+"Settings_Menu_Messages_Label" = "訊息";
+"Settings_Menu_Messages_Display_Label" = "介面";
+"Settings_Menu_Messages_Behaviours_Label" = "偏好";
+"Settings_Menu_Notifications" = "通知";
+"Settings_Menu_General_Connection_Title" = "連線";
+
+/* Logout */
+"Logout" = "登出";
+"Logout_Confirmation" = "確定要登出？";
+"Cancel" = "取消";
+
+/* Settings -> Support page */
+
+"Support" = "支援";
+"Need help?" = "Pigeon 支援";
+
+"Contact_Label_Email" = "📧 發送 Email";
+"Contact_Label_Twitter" = "🐦 X／Twitter"; // Keep the bird theme.
+"Contact_Label_Mastodon" = "🦣 Mastodon";
+"Contact_Footer_Instructions" = "點一下以顯示跳轉 QR 碼。";
+
+/* Subscription page */
+"Subscriptions" = "訂閱";
+
+"Subscription_Title" = "解鎖所有功能";
+"Subscription_Subtitle" = "您可先享有免費試用！";
+// %@ is the period (e.g. 1 week) When it can't be loaded for whatever reasons, Subscription_Subtitle will be used instead.
+"Subscription_Subtitle2" = "訂閱並開始 %@ 的免費試用";
+
+"Subscription_Free_Trial_Requirement" = "（首次訂閱適用）";
+"Subscription_Free_Trial_Not_Charged" = "不會立即收費；可於續期前一天取消，否則自動續訂。";
+"Subscription_Free_Trial_Duration" = "首週免費！";
+
+"Subscription_Period_Month" = "／月";
+"Subscription_Period_Year" = "／年";
+
+/* unused periods - RevenueCat supports these identifiers so here there are. */
+"Subscription_Period_Err" = "／錯誤";
+"Subscription_Period_Lifetime" = "／一次性訂閱";
+"Subscription_Period_6Months" = "／6 個月";
+"Subscription_Period_3Months" = "／3 個月";
+"Subscription_Period_2Months" = "／2 個月";
+"Subscription_Period_Week" = "／週";
+
+"Subscription_Year_Savings" = "省下約 40%！";
+"Subscription_Restore_Button" = "恢復購買";
+"Subscription_Restore_Completed" = "已恢復購買";
+"Subscription_Restore_Failed" = "恢復購買失敗";
+
+"Subscription_Reason" = "訂閱後可回覆訊息、查看完整聊天紀錄，並支持 Pigeon 的持續開發！";
+
+"Subscription_EULA_Button" = "使用條款（EULA）";
+"Subscription_Privacy_Policy_Button" = "隱私政策";
+
+"Purchase failed" = "購買失敗";
+"Purchase has failed due to %@" = "購買失敗：%@";
+"Purchase failed due to unknown error." = "購買失敗（未知錯誤）";
+"Restore purchases has failed due to %@" = "恢復購買失敗：%@";
+
+"Done" = "完成";
+
+// TBH, forgot how this would be shown, from code seems to be with error display?
+"dismiss" = "關閉";
+
+"Period_Year" = "年";
+"Period_Month" = "月";
+"Period_Week" = "週";
+"Period_Day" = "日";
+"Period_Unknown" = "未知";
+
+
+/* General Category */
+"General" = "一般";
+
+// subcategory title
+"Connection" = "連線狀態";
+
+// toggle title
+"Show status" = "顯示連線狀態";
+
+"INFO_Connection_Status" = "啟用後，在底部顯示「連線中…」或「更新中…」提示。";
+
+
+
+
+
+
+/* Messages Category */
+"Display" = "介面";
+"Behaviours" = "偏好";
+
+/* Display Category */
+
+// subcategory title
+"Bottom bar" = "訊息功能列";
+"Condensed_Mode_Toggle_Title" = "精簡模式";
+"INFO_Condensed_Mode" = "精簡模式將文字輸入框獨立，其他選項收合至選單，類似 iMessage。";
+
+// subcategory title
+"Base font size" = "基本字體大小";
+"Base_Font_Sample_Title" = "預覽";
+
+// Sample text for user to gauge if text sizing is good for them.
+"Base_Font_Size_Sample_Text" = "永字八法。";
+
+"Base_Font_Size_Setting_ContentSize_Title" = "訊息字體大小";
+"Base_Font_Size_Setting_DateSize_Title" = "日期字體大小";
+
+"INFO_Base_Font_Size" = "調整訊息內容的基本字體大小，可搭配 watchOS 動態字體。";
+
+"INFO_Base_Font_Size_Bold" = "請參考預覽調整至合適大小。";
+
+/* Behaviours Category */
+
+// subcategory title
+"Sounds & Haptics" = "聲音與觸覺";
+"Sounds_Toggle_Switch_Title" = "傳送時";
+"INFO_SoundHaptics" = "啟用後，透過聲音／觸覺提示訊息傳送成功與否。";
+"INFO_Sample_Title" = "預覽：";
+"INFO_Play_Tone_Success" = "成功時";
+"INFO_Play_Tone_Failure" = "失敗時";
+
+// subcategory title
+"Audio Playback" = "音訊播放";
+"Playback_Toggle_Switch_Title" = "使用系統播放器";
+"INFO_Playback" = "啟用後，語音訊息以系統播放器播放，而非內建播放器。";
+
+// subcategory title
+"Message loads" = "每次載入訊息數";
+"INFO_Message_Loads" = "單次載入的歷史訊息數量（可能略有差異）。";
+"INFO_Message_Loads2" = "載入過多可能因記憶體限制導致卡頓。";
+
+
+
+
+
+
+/* Notifications Category */
+
+// Notification grouping subcategory title
+"Notification Grouping" = "通知分組方式";
+"NotificationGrp_Option_Conversation" = "依對話";
+"NotificationGrp_Option_App" = "全部";
+"NotificationGrp_Option_None" = "不分組";
+
+"INFO_NotificationGrp_Summary" = "決定 Pigeon 通知在 watchOS 中的呈現樣式。";
+
+"INFO_NotificationGrp_Option_Conversation" = "依對話";
+"INFO_NotificationGrp_Option_Conversation_Summary" = "同一人／群／頻道通知堆疊，只顯示每組最新通知。";
+
+"INFO_NotificationGrp_Option_App" = "全部";
+"INFO_NotificationGrp_Option_App_Summary" = "所有 Pigeon 通知堆疊，可依時間順序瀏覽。";
+
+"INFO_NotificationGrp_Option_None" = "不分組";
+"INFO_NotificationGrp_Option_None_Summary" = "通知將分散顯示（預設）。";
+
+// Profile pictures subcategory title
+"Profile Pictures Cache" = "頭像快取";
+
+// shown in bold red; tapping it will delete all profile pictures that have already been cached.
+"Profile_Cache_Reset_Button" = "清除頭像快取";
+
+"INFO_Profile_Cache1" = "Pigeon 會快取頭像以供通知顯示。";
+"INFO_Profile_Cache2" = "若快取過多或頭像已更新，可嘗試清除。";
+"INFO_Profile_Cache3" = "清除後建議重新開啟 Pigeon。";
+
+"Clear on launch" = "啟動時清除";
+
+"INFO_Auto_Clear" = "啟動 Pigeon 時，自動清除通知中心內所有 Pigeon 通知。";
+"Auto_Clear_Toggle_Title" = "自動清除通知";
+
+
+
+
+/* Connection States */
+
+"Connection_State_Waiting_For_Network" = "等待網路連線…";
+"VO_Connection_State_Waiting_For_Network" = "正在等待 Apple Watch 網路連線";
+
+// likely unused as Pigeon doesn't have proxy option.
+"Connection_State_Connecting_To_Proxy" = "連線代理中…";
+"VO_Connection_State_Connecting_To_Proxy" = "正在連線至代理";
+
+"Connection_State_Connecting" = "連線中…";
+"VO_Connection_State_Connecting" = "正在連線至 Telegram 服務";
+
+"Connection_State_Updating" = "更新中…";
+"VO_Connection_State_Updating" = "正在更新聊天";
+
+"Connection_State_Connected" = "完成";
+"VO_Connection_State_Connected" = "更新完成";
+
+
+
+
+
+/* Status Messages */
+// Messages that simply tells you when something happened in a chat.
+
+"Status_Message_Pin" = "已置頂一則訊息。";
+"Status_Contact_Registered" = "有使用者加入 Telegram。";
+"Status_Change_Photo" = "更新聊天圖片。";
+
+// %@ is the group's name
+"Status_Basic_Group_Created" = "已建立群組「%@」。";
+"Status_Deleted_Member" = "已移除一位成員。";
+"Status_Add_Member" = "有新成員加入。";
+"Status_Unsupported_Known_Type" = "未知提示：%@";
+"Status_Unsupported_Unknown" = "不支援的提示。";
+
+
+/* Message Previews */
+// Shown in chat list, as the last sent message.
+
+"Preview_Contact_Message" = "聯絡人 %@";
+"Preview_Poll_Message" = "投票 - %@";
+"Preview_Sticker_Message" = "%@ 貼圖";
+"Preview_Audio_Message" = "語音訊息 - %@";
+
+
+
+/* Sticker Selection */
+"Installed Stickers" = "已安裝貼圖";
+"WebM_Unupported_Text" = "僅能預覽部分影片與貼圖。";
+
+// Send sticker button, shown when user in animated sticker selection mode. %@ is an icon of a paperplane.
+"%@ Send" = "%@ 傳送";
+
+/* Voice Recording failed */
+
+"Rec_Err_Title" = "錄音錯誤";
+"Rec_Err_Take_Screenshot_Instructions" = "請截圖此訊息並傳送給 %@";
+"Rec_Err_Unknown" = "未知錯誤。";
+
+/* Telegram Channel Sponsored Posts */
+"Sponsored" = "贊助";
+
+
+/* Poll message */
+"Poll_Type_Quiz" = "小測";
+"Poll_Type_Poll" = "投票";
+"Poll_Anonymous" = "匿名";
+
+
+/* watchOS 8.x Watch Face Complications */
+// watchOS 8.x uses an older system to display watch face complications, of which, this section provides the localised texts for it. Not used in watchOS 9.x and later.
+
+"WOS8_Complications_Display_Name" = "Pigeon";
+"VO_WOS8_Label" = "Pigeon App 捷徑";
+
+/* <= watchOS 9.x photo view cancellation */
+"WOS9_Done_Button" = "完成";
+"WOS9_Grid_Button" = "網格";
+"Done" = "完成";
+
+"Saved Messages" = "已儲存訊息";
+
+/* Translation section */
+"Translations" = "翻譯";
+"Special thanks to:" = "特別感謝：";
+
+"This message failed to parse." = "訊息解析失敗。";
+"View" = "檢視";
+// VO
+"Thumbnail" = "縮圖";
+
+// VO
+"Downloading video... Progress %@ percent." = "影片下載中… %@%%";
+
+"Status_Super_Group_Created" = "已建立超級群組「%@」。";
+"Join Pigeon's Channel!" = "加入 Pigeon 官方頻道！";
+
+// MARK: - version 1.3
+
+// save preferences button
+"Save" = "儲存";
+
+"Message_Bar_Order_Prefs_Error" = "儲存設定時發生錯誤";
+
+"Message_Bar_Order_Prefs_Instructions" = "長按並拖曳以調整順序。";
+
+"Default_Bar_Send_Photo_Button" = "照片";
+
+"VO_Photo_Sticker" = "傳送照片";
+"VO_Hide_Toggle_Message_Bar_Order" = "顯示";
+"VO_Move_Up" = "上移";
+"VO_Move_Down" = "下移";
+
+// VO, when reading message's original reply (e.g. Replying to <Vincent> <What's that?>)
+"Replying to %@ %@" = "回覆 %@：%@";
+
+"You have no conversations yet." = "尚無聊天";
+
+"Rate or Review! ⭐️" = "為 Pigeon 評分";
+"Scan to rate from your iPhone!" = "用 iPhone 掃碼評分";
+
+// VO
+"Previous Page" = "上一頁";
+
+// VO
+"Next Page" = "下一頁";
+
+// VO chat title (e.g. Chats page 3)
+"%@ page %d" = "%@ 第 %d 頁";
+
+// VO
+"Back" = "返回";
+
+"Download animation" = "下載動畫";
+
+"Reactions" = "反應";
+
+// Message send states, VO
+"Sending" = "傳送中";
+"Read" = "已讀";
+"Sent" = "已送達";
+"Edited" = "已編輯";
+
+"Edit message" = "編輯訊息";
+"%@ Edit" = "%@ 編輯";
+
+"This will permanently delete the selected message." = "選取的訊息將永久刪除。";
+
+"Delete for everyone" = "為所有人刪除";
+"Delete for me" = "僅為我刪除";
+"Are you sure?" = "確定刪除？";
+
+"Configure" = "設定";
+
+"Last edited on:" = "最後編輯於：";
+"Location" = "位置";
+
+// VO
+"Quoted" = "引用";
+
+// VO new Voice Recorder
+"Record" = "錄音";
+"Please wait" = "請稍候";
+"Stop recording" = "停止錄音";
+"Send recording" = "傳送錄音";
+
+// VO shortcuts
+"Focus on toolbar" = "聚焦功能列";
+"Focus on chat list" = "聚焦聊天列表";
+
+"duration" = "時長";
+
+"Chat %@ has been opened" = "已開啟與 %@ 的聊天";
+"View options" = "檢視選項";
+
+"Default_Bar_Send_Location_Button" = "位置";
+"VO_Action_Location" = "傳送位置";
+
+"Send My Location" = "傳送目前位置";
+"Send This Location" = "傳送此位置";
+
+// VO
+"Jump to current location" = "跳至目前位置";
+// VO
+"Current location coordinates" = "目前座標";
+// VO
+"Selected coordinates" = "選取座標";
+// VO
+"latitude: %@, longitude: %@" = "緯度：%@，經度：%@";
+
+"Status_Deleted_Member_Message" = "一位成員離開";
+
+// watchOS 8-9.x; %@ is a chevron >
+"Open Maps %@" = "在地圖開啟 %@";
+"Archive" = "封存";
+
+"Ignore_Spoilers_Setting_Title" = "忽略劇透文字";
+"Location Services disabled" = "已停用定位服務";
+
+"VO_Muted_Chat_Badge" = "已靜音聊天";
+
+// VO
+"Mute chat" = "靜音聊天";
+// VO
+"Unmute chat" = "取消靜音";
+
+// Mute duration page's title
+"Mute For" = "靜音時長";
+
+// context: mute notifications for chat without a specific duration.
+"Forever" = "永久";
+
+"Contact_Label_Pigeon_Notes" = "📖 Pigeon 文件";
+"Pigeon_Notes_Description" = "常見問題";
+
+"Would you like to add a caption?" = "要加入描述嗎？";
+"Caption" = "描述";
+
+
+"Video Note" = "影片";
+"Status_Message_Video_Note" = "影片檔案";
+"Toolbar_New_Chat" = "新增聊天";
+"No contacts found." = "沒有聯絡人";
+"No messages yet." = "尚無訊息";
+
+// VO
+"Search Contacts" = "搜尋聯絡人";
+
+"Discussion" = "討論";
+// VO
+"Leave a Comment" = "留言";
+
+// VO
+"%@ folder" = "%@ 分類";
+
+// VO
+"%@ folder, selected" = "已選擇 %@ 分類";
+
+// VO
+"%@, selected" = "已選擇 %@";
+
+// VO; "with this" refers to with an emoji reaction of a message.
+"%d users reacted with this" = "%d 人加入反應";
+
+// "{current page number} of {total number of pages}" or "1.5MB of 20MB"
+"%d of %d" = "%d／%d";
+
+"This document is password protected." = "此文件已受密碼保護。";
+"PDF document password field" = "輸入 PDF 密碼";
+"%@ Invalid password." = "%@ 密碼錯誤。";
+"Tap to view" = "點按以檢視";
+
+"Chat Preview" = "聊天預覽";
+"INFO_Chat_Preview_Line_Limit" = "首頁可預覽最新訊息，您可調整行數。";
+"Line Limit" = "行數限制";
+// Refers to line limit mode for chat preview
+"Regular" = "三行";
+"Minimal" = "一行";
+
+"GPX files are only supported in watchOS 10.x and above." = "GPX 檔案僅支援 watchOS 10 以上版本。";
+
+"Phone number is empty." = "手機號碼為空。";
+"Phone number is invalid." = "手機號碼無效。";
+"Continue" = "繼續";
+"Phone_Number_Example" = "例如：+886XXXXXXXXX，+886912345678";
+"Phone_Number_Description" = "必須為國際格式，以「+」開頭且不以 0 開頭；區碼後直接輸入號碼。";
+"Phone Number" = "手機號碼";
+"Sign In Methods" = "登入方式";
+
+// %@ is chevron >
+"Swipe to continue %@" = "滑動以繼續 %@";
+// %@ is chevron > (Shown if VO is on)
+"Continue %@" = "繼續 %@";
+
+"Phone Number" = "手機號碼登入";
+"Scan QR Code" = "掃碼登入";
+"(recommended)" = "（推薦）";
+
+"Code" = "驗證碼";
+"Authentication Code" = "驗證碼";
+"%@ is not supported" = "不支援 %@";
+
+"Settings_Menu_Input_Options_Label" = "鍵盤管理";
+"Keyboard" = "鍵盤";
+"Option Selected" = "已選擇";
+"WristBoard must be installed on your Apple Watch for this option to work." = "需先安裝「WristBoard」App 才能使用；此鍵盤不支援中文輸入。";
+"THIRD_PARTY_KEYBOARD_NOTICE" = "注意：第三方鍵盤與 Pigeon 無隸屬關係，可能存取您輸入的資料，請詳閱其條款與隱私政策。";
+
+"Show_Typing_Indicators_Setting_Title" = "顯示對方輸入狀態";
+"Sync" = "同步";
+"Contacts and Chats" = "聯絡人與聊天";
+"Global Search" = "全域搜尋";
+"No Results Found." = "沒有結果。";
+"Search" = "搜尋";
+
+"Type: %@" = "類型：%@";
+"No links in message." = "訊息中無連結。";
+"Open link" = "開啟連結";
+"Select embedded links" = "選擇內嵌連結";
+
+"Recents" = "最近";
+"No Recents" = "無最近紀錄";
+"CLEAR" = "清除";
+"Local Time" = "當地時間";
+"User's Time Zone" = "使用者時區";
+
+// VO
+"View Pinned Messages" = "查看置頂訊息";
+
+"Pinned Messages" = "置頂訊息";
+"Verified" = "已驗證";
+
+"View" = "檢視";
+
+"Unmute" = "取消靜音";
+"Mute" = "靜音";
+
+// Typing indicators
+"%@ typing..." = "%@ 正在輸入…";
+"typing..." = "正在輸入…";
+"recording video" = "錄製影片中";
+"uploading a video" = "上傳影片中";
+"recording voice" = "錄製語音訊息中";
+"uploading voice note" = "上傳語音訊息中";
+"uploading photo" = "上傳照片中";
+"uploading document" = "上傳文件中";
+"choosing a sticker" = "選擇貼圖中";
+"choosing a location" = "選擇位置中";
+"choosing a contact" = "選擇聯絡人名片中";
+"playing" = "播放中";
+"recording video note" = "錄製影片檔中";
+"uploading video note" = "上傳影片檔中";
+"watching animations" = "觀看動畫中";
+
+// Online indicators
+"online" = "在線";
+"last seen " = "最後上線於 "; // e.g. 'last seen 2 minutes ago' (where '2 minutes ago' is formatted by system, subject to device locale)
+"last seen recently" = "最近上線";
+"last seen last week" = "一週前上線";
+"last seen last month" = "一個月前上線";
+
+// Chat info titles
+"Username" = "使用者名稱";
+"Info" = "資訊";
+"Bio" = "簡介";
+"Phone Number" = "電話號碼";
+"Birthdate" = "生日";
+"Location" = "位置";
+"Opening Hours" = "營業時間";
+
+"%@ Live Location" = "%@ 即時位置";
+
+"Telegram Caches" = "自動清除快取";
+"INFO_Telegram_Caches" = "啟用後，將按照設定時間自動清除快取。";
+"Cleaning Interval" = "清理週期";
+"Never" = "永不";
+"Every launch" = "每次啟動";
+"After 12 hours" = "每 12 小時";
+"After 24 hours" = "每 24 小時";
+"After 3 days" = "每 3 天";
+"After 1 week" = "每 1 週";
+
+// third party keyboard
+"Get WristBoard from App Store" = "前往 App Store 下載 WristBoard";
+"Warning" = "警告";
+
+"Quick Reply" = "快速回覆";
+"Settings_Menu_Quick_Replies" = "快速回覆";
+"Default_Bar_Send_Quick_Replies_Button" = "快速回覆";
+"VO_Action_Quick_Replies" = "使用預設回覆快速答覆";
+"%@ Forward" = "%@ 轉傳";
+"Use the %@ button to add" = "點擊 %@ 以新增";
+"Setup Required in Settings" = "請先在設定中新增快速回覆";
+"Who do you wish to send this to?" = "要傳送給誰？";
+"Select Recipient..." = "選擇收件人";
+"Send Message" = "傳送訊息";
+
+
+// Siri or Shortcuts stuff
+
+// description
+"Send a message to one of your contacts, through Telegram using Pigeon" = "使用 Pigeon 透過 Telegram 傳送訊息給聯絡人。";
+
+// shortcut title
+"Send Message" = "傳送訊息";
+
+// type
+"Chat" = "聊天";
+
+// summary
+"Send a message to someone" = "向某人傳送訊息";
+
+// parameters
+
+// message content; title
+"Message" = "訊息";
+
+// message content; description
+"Contents of your text message" = "文字訊息內容";
+
+// send to; title
+"Send to:" = "傳送至：";
+
+// send to; question
+"Who do you want to send this to?" = "您想傳送給誰？";
+
+// send to; siri question
+"To who?" = "給誰？";
+
+// error messages
+"Contact is invalid" = "聯絡人無效";
+"Failed to send message because %@" = "傳送失敗，原因：%@";
+"A subscription is required for Siri and Shortcuts features. Refer to the app for more information." = "需訂閱 Pigeon+ 才能使用 Siri 與捷徑功能，詳情請見 App。";
+"Failed to load contacts list." = "載入聯絡人清單失敗。";
+
+// success message
+"Successfully sent \"%@\" to %@." = "已成功將「%@」傳送給 %@。";
+
+// Tenor Trending GIFs
+"Trending" = "熱門";
+
+// Tenor attribution image (VO)
+"VO_powered_by_tenor" = "由 Tenor 提供";
+
+// Tenor more options button (ellipsis)
+"VO_more_options" = "更多選項";
+
+"Category" = "類別";
+
+// Used in first login screen
+"Welcome to " = "歡迎使用 ";
+
+"Clear when read" = "閱讀後清除";
+
+// new border glow option for connection status
+"Border Glow" = "邊框光暈";
+"Info Text" = "資訊文字";
+
+/* QR page from Toolbar_QR */
+"Toolbar_QR" = "名片";
+"QR Code" = "QR 碼";
+"User Details" = "使用者資料";
+
+"System Keyboard" = "系統鍵盤";
+"WristBoard" = "WristBoard 鍵盤";
+
+// new notification re registration settings
+"Re-Register" = "重新註冊";
+"Re-register Notifications" = "重新註冊通知";
+"INFO_ReRegister_Notifications1" = "若近期收不到通知，請點此重新註冊至 Telegram 伺服器。";
+"INFO_ReRegister_Notifications2" = "請勿頻繁操作，僅於必要時使用。";
+"INFO_ReRegister_Notifications3" = "狀態更新可能需 1 分鐘，請勿連續點擊！";
+
+"Recent Registration" = "最近註冊";
+"Recent Registration Error" = "最近註冊錯誤";
+
+"Open Links Using..." = "以以下方式開啟連結…";
+"Default Browser" = "預設瀏覽器";
+"Darock Browser" = "Darock Browser";
+
+"THIRD_PARTY_BROWSER_DISCLAIMER" = "重要：第三方瀏覽器（如 Darock Browser）與 Pigeon 無隸屬關係，啟用後連結將交由其開啟，請詳閱其條款與隱私政策並自行評估。";
+
+"Unread Indicator" = "未讀標示";
+"Text Only" = "僅文字";
+"Highlighted" = "醒目顯示";
+
+"Pigeon+" = "Pigeon+";
+"Here's what you are missing out right now" = "您目前錯過的功能";
+"Select the options below if you wish to change your subscription plan." = "若需變更方案，請選擇下列選項。";
+
+"Ability to send Telegram text messages directly using Pigeon!" = "直接使用 Pigeon 傳送文字訊息！";
+"Set commonly used phrases with the Quick Replies feature." = "使用「快速回覆」設定常用語句。";
+"Send GIFs and stickers to your friends!" = "傳送 GIF 與貼圖給好友！";
+"View older chats and messages! Without Pigeon+, you can only view your top 10 chats." = "瀏覽更舊的聊天與訊息；未訂閱僅能查看最近 10 個聊天。";
+"Send voice messages directly with the watch's microphone." = "透過手錶麥克風直接傳送語音訊息。";
+"View image attachments, rich text and reply directly from notifications." = "在通知中查看圖片、豐富文字並直接回覆。";
+"Tons of other features, including document viewing, forward, and more, while supporting indie app development, when you subscribe to Pigeon+!" = "訂閱 Pigeon+ 亦可解鎖文件瀏覽、轉傳等眾多功能，同時支持獨立開發！";
+
+"Your Reply" = "您的回覆";
+
+
+/* Information for users that are hit with SCA verification flow when attempting to subscribe to Pigeon */
+
+"Additional Steps Required" = "需要額外步驟";
+"The App Store may require additional information in order to complete the purchase of this subscription." = "完成訂閱前，App Store 可能需要額外資訊。";
+"This is to fulfil Strong Customer Authentication (SCA) requirements, which is required in certain regions including but not limited to the United Kingdom and European Union." = "此為符合強化客戶驗證（SCA）規定，適用於英國、歐盟等地區。";
+"For more information, please refer to https://developer.apple.com/support/sca/" = "詳情請參考 https://developer.apple.com/support/sca/";
+"Here are some steps on how you can resolve this" = "您可依下列步驟解決：";
+"(You will need your paired iPhone for this)" = "（需配對的 iPhone）";
+"From your iPhone, go to the \"Apple Watch\" app and scroll down until you find the \"App Store\" option. Tap on it, and follow the instructions outlined there." = "在 iPhone 的「Apple Watch」App 中找到「App Store」並遵循指示操作。";
+
+"Unsupported Link Type" = "Unsupported Link Type";
+"Sorry, this type of Telegram link you've tried to access isn’t supported in Pigeon yet — we’re working on it!" = "Sorry, this type of Telegram link you've tried to access isn’t supported in Pigeon yet — we’re working on it!";
+
+"image previews" = "image previews";
+"video thumbnails" = "video thumbnails";
+"animated stickers" = "animated stickers";
+// where %@ refers to any of the 3 options above
+"Unlock %@ in your notifications with Pigeon+!" = "Unlock %@ in your notifications with Pigeon+!";
+
+"%@ Voice Message" = "%@ Voice Message";
+"Playback speed" = "Playback speed";

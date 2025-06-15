@@ -13,11 +13,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>немає фото</string>
+			<string>無照片</string>
 			<key>one</key>
-			<string>%d фото</string>
+			<string>1 張照片</string>
+			<key>two</key>
+			<string>2 張照片</string>
 			<key>other</key>
-			<string>%d фото</string>
+			<string>%d 張照片</string>
 		</dict>
 	</dict>
 	<key>%d video(s)</key>
@@ -31,11 +33,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>немає відео</string>
+			<string>無影片</string>
 			<key>one</key>
-			<string>%d відео</string>
+			<string>1 部影片</string>
 			<key>other</key>
-			<string>%d відео</string>
+			<string>%d 部影片</string>
 		</dict>
 	</dict>
 	<key>%d item(s)</key>
@@ -49,11 +51,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>немає елементів</string>
+			<string>無項目</string>
 			<key>one</key>
-			<string>%d елемент</string>
+			<string>%d 項目</string>
 			<key>other</key>
-			<string>%d елементи</string>
+			<string>%d 項目</string>
 		</dict>
 	</dict>
 	<key>%d hour(s)</key>
@@ -67,9 +69,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%d година</string>
+			<string>1 小時</string>
+			<key>two</key>
+			<string>2 小時</string>
 			<key>other</key>
-			<string>%d годин</string>
+			<string>%d 小時</string>
 		</dict>
 	</dict>
 	<key>%d day(s)</key>
@@ -83,9 +87,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%d день</string>
+			<string>1 天</string>
+			<key>two</key>
+			<string>2 天</string>
 			<key>other</key>
-			<string>%d днів</string>
+			<string>%d 天</string>
 		</dict>
 	</dict>
 	<key>%d week(s)</key>
@@ -99,9 +105,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%d тиждень</string>
+			<string>1 週</string>
+			<key>two</key>
+			<string>2 週</string>
 			<key>other</key>
-			<string>%d тижнів</string>
+			<string>%d 週</string>
 		</dict>
 	</dict>
 	<key>%d Comments</key>
@@ -115,11 +123,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>Leave a Comment</string>
+			<string>0 則留言</string>
 			<key>one</key>
-			<string>%d Comment</string>
+			<string>1 則留言</string>
 			<key>other</key>
-			<string>%d Comments</string>
+			<string>%d 則留言</string>
 		</dict>
 	</dict>
 	<key>%d subscriber(s)</key>
@@ -132,12 +140,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
-			<key>zero</key>
-			<string> підписників</string>
-			<key>one</key>
-			<string> підписник</string>
 			<key>other</key>
-			<string> підписників</string>
+			<string>%d 訂閱者</string>
 		</dict>
 	</dict>
 	<key>%d member(s)</key>
@@ -150,12 +154,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
-			<key>zero</key>
-			<string> учасників</string>
-			<key>one</key>
-			<string> учасник</string>
 			<key>other</key>
-			<string> учасників</string>
+			<string>% 成員</string>
 		</dict>
 	</dict>
 </dict>

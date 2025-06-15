@@ -1,0 +1,22 @@
+/* 
+  InfoPlist.strings
+  Pigeon v1.7
+
+  Created by ChatGPT o3 on 7 June 2025, based on Rechrd Qan's zh-Hans translations.
+  
+*/
+
+// Provides the reason of why the app is asking for microphone access.
+"NSMicrophoneUsageDescription" = "用於錄製語音訊息。";
+
+// Provides the reason why Pigeon is asking for location access, the first time the user attempts to send a location message.
+"NSLocationWhenInUseUsageDescription" = "用於傳送位置訊息。";
+
+// Siri permission prompt
+"NSSiriUsageDescription" = "Pigeon 可以讓你使用 Siri 傳送訊息。";
+
+// Alternative App Name 1
+"Pigeon" = "鴿子";
+
+// Alternative App Name Pronunciation Hint 1
+"Pi Jn" = "鴿子";

@@ -224,6 +224,7 @@
 
 "Subscription_Free_Trial_Requirement" = "（对于首次订阅）";
 "Subscription_Free_Trial_Not_Charged" = "非强制消费。你可以在每个续期日期前至少一天取消订阅。方案将自动续期，直到取消为止。";
+"Subscription_Free_Trial_Duration" = "第一周免费！";
 
 "Subscription_Period_Month" = "/ 月";
 "Subscription_Period_Year" = "/ 年";
@@ -631,7 +632,7 @@
 "Phone number is empty." = "手机号码为空。";
 "Phone number is invalid." = "手机号码无效。";
 "Continue" = "继续";
-"Phone_Number_Example" = "例如：+86XXXXXXXXXXX，+8611451419198";
+"Phone_Number_Example" = "例如：+86XXXXXXXXXXX，+8613012345678";
 "Phone_Number_Description" = "必须为国际手机号码格式，即以“+”开头而不以“0”开头；区号后面不添加空格而是直接填写手机号码。";
 "Phone Number" = "手机号码";
 "Sign In Methods" = "登录方式";
@@ -832,3 +833,40 @@
 "Unread Indicator" = "Unread Indicator";
 "Text Only" = "Text Only";
 "Highlighted" = "Highlighted";
+
+"Pigeon+" = "Pigeon+";
+"Here's what you are missing out right now" = "Here's what you are missing out right now";
+"Select the options below if you wish to change your subscription plan." = "Select the options below if you wish to change your subscription plan.";
+
+"Ability to send Telegram text messages directly using Pigeon!" = "Ability to send Telegram text messages directly using Pigeon!";
+"Set commonly used phrases with the Quick Replies feature." = "Set commonly used phrases with the Quick Replies feature.";
+"Send GIFs and stickers to your friends!" = "Send GIFs and stickers to your friends!";
+"View older chats and messages! Without Pigeon+, you can only view your top 10 chats." = "View older chats and messages! Without Pigeon+, you can only view your top 10 chats.";
+"Send voice messages directly with the watch's microphone." = "Send voice messages directly with the watch's microphone.";
+"View image attachments, rich text and reply directly from notifications." = "View image attachments, rich text and reply directly from notifications.";
+"Tons of other features, including document viewing, forward, and more, while supporting indie app development, when you subscribe to Pigeon+!" = "Tons of other features, including document viewing, forward, and more, while supporting indie app development, when you subscribe to Pigeon+!";
+
+"Your Reply" = "Your Reply";
+
+
+/* Information for users that are hit with SCA verification flow when attempting to subscribe to Pigeon */
+
+"Additional Steps Required" = "Additional Steps Required";
+"The App Store may require additional information in order to complete the purchase of this subscription." = "The App Store may require additional information in order to complete the purchase of this subscription.";
+"This is to fulfil Strong Customer Authentication (SCA) requirements, which is required in certain regions including but not limited to the United Kingdom and European Union." = "This is to fulfil Strong Customer Authentication (SCA) requirements, which is required in certain regions including but not limited to the United Kingdom and European Union.";
+"For more information, please refer to https://developer.apple.com/support/sca/" = "For more information, please refer to https://developer.apple.com/support/sca/";
+"Here are some steps on how you can resolve this" = "Here are some steps on how you can resolve this";
+"(You will need your paired iPhone for this)" = "(You will need your paired iPhone for this)";
+"From your iPhone, go to the \"Apple Watch\" app and scroll down until you find the \"App Store\" option. Tap on it, and follow the instructions outlined there." = "From your iPhone, go to the \"Apple Watch\" app and scroll down until you find the \"App Store\" option. Tap on it, and follow the instructions outlined there.";
+
+"Unsupported Link Type" = "Unsupported Link Type";
+"Sorry, this type of Telegram link you've tried to access isn’t supported in Pigeon yet — we’re working on it!" = "Sorry, this type of Telegram link you've tried to access isn’t supported in Pigeon yet — we’re working on it!";
+
+"image previews" = "image previews";
+"video thumbnails" = "video thumbnails";
+"animated stickers" = "animated stickers";
+// where %@ refers to any of the 3 options above
+"Unlock %@ in your notifications with Pigeon+!" = "Unlock %@ in your notifications with Pigeon+!";
+
+"%@ Voice Message" = "%@ Voice Message";
+"Playback speed" = "Playback speed";

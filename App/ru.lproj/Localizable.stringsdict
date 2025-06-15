@@ -115,11 +115,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>Leave a Comment</string>
+			<string>Оставить комментарий</string>
 			<key>one</key>
-			<string>%d Comment</string>
+			<string>%d Комментарий</string>
 			<key>other</key>
-			<string>%d Comments</string>
+			<string>%d Комментариев</string>
 		</dict>
 	</dict>
 	<key>%d subscriber(s)</key>
@@ -133,11 +133,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string> subscribers</string>
+			<string> подписчиков</string>
 			<key>one</key>
-			<string> subscriber</string>
+			<string> подписчик</string>
 			<key>other</key>
-			<string> subscribers</string>
+			<string> подписчиков</string>
 		</dict>
 	</dict>
 	<key>%d member(s)</key>
@@ -151,11 +151,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string> members</string>
+			<string> участников</string>
 			<key>one</key>
-			<string> member</string>
+			<string> участник</string>
 			<key>other</key>
-			<string> members</string>
+			<string> участников</string>
 		</dict>
 	</dict>
 </dict>
