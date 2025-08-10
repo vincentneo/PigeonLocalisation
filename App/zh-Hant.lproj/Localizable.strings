@@ -870,3 +870,46 @@
 
 "%@ Voice Message" = "%@ Voice Message";
 "Playback speed" = "Playback speed";
+
+"Status_Message_Chat_Change_Title" = "This chat has been renamed to \"%@\"";
+
+// used when no associated caption text is found
+"Blank_Message_VoiceNote" = "Voice Message";
+"Blank_Message_Photo" = "Photo";
+"Blank_Message_GIF" = "GIF";
+"Blank_Message_Video" = "Video";
+"Blank_Message_Document" = "Document: \"%@\"";
+
+"Open Last Used Folder" = "Open Last Used Folder";
+"INFO_Last_Used_Folder" = "Enable this to automatically open the last used folder when Pigeon starts.";
+"On Launch" = "On Launch";
+
+"Chat List Display" = "Chat List Display";
+"Infinite Scroll" = "Infinite Scroll";
+"INFO_Infinite_Scroll" = "Enable this to scroll through the entire chat list without pagination. Please note that this feature requires an active Pigeon+ subscription.";
+
+"Parental Controls" = "Parental Controls";
+"Allowed Actions" = "Allowed Actions";
+"OK" = "OK";
+"You are not allowed to access web links due to current restrictions." = "You are not allowed to access web links due to current restrictions.";
+"Error Occurred, Try Again" = "Error Occurred, Try Again";
+"Incorrect Passcode" = "Incorrect Passcode";
+"Enter Passcode" = "Enter Passcode";
+"Current Passcode" = "Current Passcode";
+"New Passcode" = "New Passcode";
+"Verify Passcode" = "Verify Passcode";
+"Change Passcode" = "Change Passcode";
+"Not Match" = "Not Match";
+"Send Texts" = "Send Texts";
+"Send Quick Replies" = "Send Quick Replies";
+"Send Voice Messages" = "Send Voice Messages";
+"Send GIFs" = "Send GIFs";
+"Send Stickers" = "Send Stickers";
+"Send Photos" = "Send Photos";
+"Send Locations" = "Send Locations";
+"React to Messages" = "React to Messages";
+"View Web Links" = "View Web Links";
+
+"Key Features" = "Key Features";
+"Get all the tools to connect, share and chat without limits." = "Get all the tools to connect, share and chat without limits.";
+"Processing..." = "Processing...";
