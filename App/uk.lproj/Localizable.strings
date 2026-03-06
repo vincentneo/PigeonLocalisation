@@ -790,7 +790,7 @@
 "Trending" = "У тренді";
 
 // Tenor attribution image (VO)
-"VO_powered_by_tenor" = "Powered by Tenor";
+"VO_powered_by_tenor" = "Powered by Klipy";
 
 // Tenor more options button (ellipsis)
 "VO_more_options" = "Опції";
@@ -913,3 +913,18 @@
 "Key Features" = "Key Features";
 "Get all the tools to connect, share and chat without limits." = "Get all the tools to connect, share and chat without limits.";
 "Processing..." = "Processing...";
+
+"Enhanced Notifications" = "Enhanced Notifications";
+"INFO_ENHANCED_NOTIFICATIONS" = "This toggle is mainly for VoiceOver users only, as there is currently a watchOS bug that may cause the VoiceOver focus to skip over the enhanced notification contents.\nDo note that you will have to restart Pigeon for this setting to take effect.";
+"Enhanced Mode" = "Enhanced Mode";
+
+"FlickType" = "FlickType";
+"FlickType must be installed on your Apple Watch for this option to work." = "FlickType must be installed on your Apple Watch for this option to work.";
+"Get FlickType from App Store" = "Get FlickType from App Store";
+
+"Double Tap" = "Double Tap";
+"System Defaults" = "System Defaults";
+"Open Profile" = "Open Profile";
+"Compose Message Action" = "Compose Message Action";
+"Default behaviour will still apply when preferred option is not available." = "Default behaviour will still apply when preferred option is not available.";
+"Double tapping while viewing an image will zoom in or out." = "Double tapping while viewing an image will zoom in or out.";

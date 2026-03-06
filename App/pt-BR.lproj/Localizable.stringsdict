@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%d photo(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@photo@</string>
+		<key>photo</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>nenhuma foto</string>
+			<key>one</key>
+			<string>%d foto</string>
+			<key>other</key>
+			<string>%d fotos</string>
+		</dict>
+	</dict>
+
+	<key>%d video(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@video@</string>
+		<key>video</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>nenhum vídeo</string>
+			<key>one</key>
+			<string>%d vídeo</string>
+			<key>other</key>
+			<string>%d vídeos</string>
+		</dict>
+	</dict>
+
+	<key>%d item(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@item@</string>
+		<key>item</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>nenhum item</string>
+			<key>one</key>
+			<string>%d item</string>
+			<key>other</key>
+			<string>%d itens</string>
+		</dict>
+	</dict>
+
+	<key>%d hour(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hour@</string>
+		<key>hour</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d hora</string>
+			<key>other</key>
+			<string>%d horas</string>
+		</dict>
+	</dict>
+
+	<key>%d day(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@day@</string>
+		<key>day</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d dia</string>
+			<key>other</key>
+			<string>%d dias</string>
+		</dict>
+	</dict>
+
+	<key>%d week(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@week@</string>
+		<key>week</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d semana</string>
+			<key>other</key>
+			<string>%d semanas</string>
+		</dict>
+	</dict>
+
+	<key>%d Comments</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@comment@</string>
+		<key>comment</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Nenhum comentário</string>
+			<key>one</key>
+			<string>%d comentário</string>
+			<key>other</key>
+			<string>%d comentários</string>
+		</dict>
+	</dict>
+
+	<key>%d subscriber(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@subscriber@</string>
+		<key>subscriber</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string> inscritos</string>
+			<key>one</key>
+			<string> inscrito</string>
+			<key>other</key>
+			<string> inscritos</string>
+		</dict>
+	</dict>
+
+	<key>%d member(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@member@</string>
+		<key>member</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string> membros</string>
+			<key>one</key>
+			<string> membro</string>
+			<key>other</key>
+			<string> membros</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

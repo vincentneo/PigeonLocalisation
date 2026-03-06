@@ -1,0 +1,26 @@
+/* 
+  InfoPlist.strings
+  Pigeon v1.6
+
+  Traduzido por Marcio Alexandre
+  
+*/
+
+/// Fornece o motivo pelo qual o app solicita acesso ao microfone.
+"NSMicrophoneUsageDescription" = "Isso é usado para a gravação de mensagens de voz.";
+
+
+/// Fornece o motivo pelo qual o Pigeon solicita acesso à localização na primeira vez que o usuário tenta enviar uma mensagem de localização.
+"NSLocationWhenInUseUsageDescription" = "A localização é usada quando você deseja enviar sua localização nas mensagens.";
+
+
+/// Aviso de permissão da Siri
+"NSSiriUsageDescription" = "O Pigeon permite enviar mensagens diretamente usando a Siri.";
+
+
+/// Nome alternativo do app 1
+"Pigeon" = "Pigeon";
+
+
+/// Dica de pronúncia do nome alternativo do app 1
+"Pi Jn" = "Pi Ge On";
